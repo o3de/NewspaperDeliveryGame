@@ -1,16 +1,16 @@
 {
-    "project_name": "Paper_Kid",
-    "product_name": "Paper_Kid",
+    "project_name": "Newspaper_Delivery_Game",
+    "product_name": "Newspaper_Delivery_Game",
     "project_id": "{4A7C157B-A820-441E-A9BA-5D51113BD9E5}",
-    "origin": "https://github.com/o3de/o3de-paperkid",
+    "origin": "https://github.com/o3de/o3de-NewspaperDeliveryGame",
     "license": "For terms please see the LICENSE*.TXT file at the root of this distribution.",
-    "display_name": "Paper_Kid",
-    "summary": "A short description of Paper_Kid.",
+    "display_name": "Newspaper_Delivery_Game",
+    "summary": "A short description of Newspaper_Delivery_Game.",
     "canonical_tags": [
         "Project"
     ],
     "user_tags": [
-        "Paper_Kid"
+        "Newspaper_Delivery_Game"
     ],
     "icon_path": "preview.png",
     "engine": "o3de",
