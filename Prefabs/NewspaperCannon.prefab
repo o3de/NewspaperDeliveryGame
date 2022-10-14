@@ -1,0 +1,197 @@
+{
+    "ContainerEntity": {
+        "Id": "ContainerEntity",
+        "Name": "NewspaperCannon",
+        "Components": {
+            "Component_[10841315563538486759]": {
+                "$type": "EditorPrefabComponent",
+                "Id": 10841315563538486759
+            },
+            "Component_[14500483717510356751]": {
+                "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                "Id": 14500483717510356751,
+                "Parent Entity": ""
+            },
+            "Component_[14827275526721680618]": {
+                "$type": "EditorEntitySortComponent",
+                "Id": 14827275526721680618,
+                "Child Entity Order": [
+                    "Entity_[167152557455788]"
+                ]
+            },
+            "Component_[14860116195986736451]": {
+                "$type": "EditorDisabledCompositionComponent",
+                "Id": 14860116195986736451
+            },
+            "Component_[2663662972128935038]": {
+                "$type": "EditorOnlyEntityComponent",
+                "Id": 2663662972128935038
+            },
+            "Component_[3770201368805154552]": {
+                "$type": "EditorEntityIconComponent",
+                "Id": 3770201368805154552
+            },
+            "Component_[5984196796202455467]": {
+                "$type": "EditorInspectorComponent",
+                "Id": 5984196796202455467
+            },
+            "Component_[6947952273131701346]": {
+                "$type": "EditorPendingCompositionComponent",
+                "Id": 6947952273131701346
+            },
+            "Component_[9117229236194035300]": {
+                "$type": "EditorVisibilityComponent",
+                "Id": 9117229236194035300
+            },
+            "Component_[9360413308909683791]": {
+                "$type": "EditorLockComponent",
+                "Id": 9360413308909683791
+            }
+        }
+    },
+    "Entities": {
+        "Entity_[167152557455788]": {
+            "Id": "Entity_[167152557455788]",
+            "Name": "NewspaperCannon",
+            "Components": {
+                "Component_[10369947977714867134]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 10369947977714867134
+                },
+                "Component_[11558799179583470746]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 11558799179583470746,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 5310944473052588842
+                        },
+                        {
+                            "ComponentId": 8210181552998592478,
+                            "SortIndex": 1
+                        },
+                        {
+                            "ComponentId": 15039675392614337927,
+                            "SortIndex": 2
+                        }
+                    ]
+                },
+                "Component_[12204797664441009530]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 12204797664441009530
+                },
+                "Component_[16572877302280109751]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 16572877302280109751
+                },
+                "Component_[17136029106662358145]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 17136029106662358145
+                },
+                "Component_[17449622285791429837]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 17449622285791429837
+                },
+                "Component_[4313046780127706025]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 4313046780127706025
+                },
+                "Component_[5187577204114890171]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 5187577204114890171
+                },
+                "Component_[5310944473052588842]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 5310944473052588842,
+                    "Parent Entity": "ContainerEntity"
+                },
+                "Component_[8210181552998592478]": {
+                    "$type": "EditorScriptCanvasComponent",
+                    "Id": 8210181552998592478,
+                    "configuration": {
+                        "sourceHandle": {
+                            "id": "{B3112C68-94FC-5439-A5A6-B83DE868A163}",
+                            "path": "scriptcanvas/NewspaperCannon.scriptcanvas"
+                        },
+                        "sourceName": "NewspaperCannon.scriptcanvas",
+                        "propertyOverrides": {
+                            "source": {
+                                "id": "{B3112C68-94FC-5439-A5A6-B83DE868A163}",
+                                "path": "scriptcanvas/NewspaperCannon.scriptcanvas"
+                            },
+                            "variables": [
+                                {
+                                    "Datum": {
+                                        "scriptCanvasType": {
+                                            "m_type": 3
+                                        },
+                                        "isNullPointer": false,
+                                        "$type": "double",
+                                        "value": 20.0
+                                    },
+                                    "VariableId": {
+                                        "m_id": "{03DD4919-9BAA-4AA5-B3A4-9921EBB63106}"
+                                    },
+                                    "VariableName": "HorizontalSpeed",
+                                    "InitialValueSource": 1
+                                },
+                                {
+                                    "Datum": {
+                                        "scriptCanvasType": {
+                                            "m_type": 3
+                                        },
+                                        "isNullPointer": false,
+                                        "$type": "double",
+                                        "value": 0.1
+                                    },
+                                    "VariableId": {
+                                        "m_id": "{B147BE3C-7313-4BBA-A5DC-3D8CBF85C6DF}"
+                                    },
+                                    "VariableName": "VerticalSpeed",
+                                    "InitialValueSource": 1
+                                }
+                            ],
+                            "overrides": [
+                                {
+                                    "Datum": {
+                                        "scriptCanvasType": {
+                                            "m_type": 3
+                                        },
+                                        "isNullPointer": false,
+                                        "$type": "double",
+                                        "value": 16.0
+                                    },
+                                    "InputControlVisibility": {
+                                        "Value": 850104567
+                                    },
+                                    "VariableId": {
+                                        "m_id": "{03DD4919-9BAA-4AA5-B3A4-9921EBB63106}"
+                                    },
+                                    "VariableName": "HorizontalSpeed",
+                                    "InitialValueSource": 1
+                                },
+                                {
+                                    "Datum": {
+                                        "scriptCanvasType": {
+                                            "m_type": 3
+                                        },
+                                        "isNullPointer": false,
+                                        "$type": "double",
+                                        "value": 0.2
+                                    },
+                                    "InputControlVisibility": {
+                                        "Value": 850104567
+                                    },
+                                    "VariableId": {
+                                        "m_id": "{B147BE3C-7313-4BBA-A5DC-3D8CBF85C6DF}"
+                                    },
+                                    "VariableName": "VerticalSpeed",
+                                    "InitialValueSource": 1
+                                }
+                            ]
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

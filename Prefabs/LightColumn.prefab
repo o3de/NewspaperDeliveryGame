@@ -1,0 +1,345 @@
+{
+    "ContainerEntity": {
+        "Id": "ContainerEntity",
+        "Name": "LightColumn",
+        "Components": {
+            "Component_[1145091912959378651]": {
+                "$type": "EditorEntitySortComponent",
+                "Id": 1145091912959378651,
+                "Child Entity Order": [
+                    "Entity_[46087529957961]"
+                ]
+            },
+            "Component_[12883487644574635586]": {
+                "$type": "EditorPendingCompositionComponent",
+                "Id": 12883487644574635586
+            },
+            "Component_[15038691249853716106]": {
+                "$type": "EditorOnlyEntityComponent",
+                "Id": 15038691249853716106
+            },
+            "Component_[16553332900213385293]": {
+                "$type": "EditorEntityIconComponent",
+                "Id": 16553332900213385293
+            },
+            "Component_[16960030412949074192]": {
+                "$type": "EditorInspectorComponent",
+                "Id": 16960030412949074192
+            },
+            "Component_[17171537345687986228]": {
+                "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                "Id": 17171537345687986228,
+                "Parent Entity": ""
+            },
+            "Component_[17831028321583064058]": {
+                "$type": "EditorVisibilityComponent",
+                "Id": 17831028321583064058
+            },
+            "Component_[2537685094822574577]": {
+                "$type": "EditorPrefabComponent",
+                "Id": 2537685094822574577
+            },
+            "Component_[3079722202378920979]": {
+                "$type": "EditorDisabledCompositionComponent",
+                "Id": 3079722202378920979
+            },
+            "Component_[9189873055880351682]": {
+                "$type": "EditorLockComponent",
+                "Id": 9189873055880351682
+            }
+        }
+    },
+    "Entities": {
+        "Entity_[46087529957961]": {
+            "Id": "Entity_[46087529957961]",
+            "Name": "LightColumn",
+            "Components": {
+                "Component_[12876709178830998178]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 12876709178830998178
+                },
+                "Component_[13360899357558608629]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 13360899357558608629,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": {
+                                "{}": {
+                                    "MaterialAsset": {
+                                        "assetId": {
+                                            "guid": "{BD19EB7A-9EF4-5258-81CD-7AB8BD6AC83E}"
+                                        },
+                                        "assetHint": "assets/props/lightcircle/lightcircle.azmaterial"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "Component_[15065924391390263919]": {
+                    "$type": "EditorNonUniformScaleComponent",
+                    "Id": 15065924391390263919,
+                    "NonUniformScale": [
+                        1.0,
+                        1.0,
+                        2.0
+                    ]
+                },
+                "Component_[16498834739849145867]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 16498834739849145867
+                },
+                "Component_[2137748061550612368]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 2137748061550612368
+                },
+                "Component_[2976492978254802040]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 2976492978254802040
+                },
+                "Component_[3280302569410006847]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 3280302569410006847
+                },
+                "Component_[3671332313000975067]": {
+                    "$type": "EditorScriptCanvasComponent",
+                    "Id": 3671332313000975067,
+                    "configuration": {
+                        "sourceHandle": {
+                            "id": "{F4C82104-504D-52D0-A333-93915D955D8E}",
+                            "path": "scriptcanvas/TargetGlow.scriptcanvas"
+                        },
+                        "sourceName": "TargetGlow.scriptcanvas",
+                        "propertyOverrides": {
+                            "source": {
+                                "id": "{F4C82104-504D-52D0-A333-93915D955D8E}",
+                                "path": "scriptcanvas/TargetGlow.scriptcanvas"
+                            },
+                            "variables": [
+                                {
+                                    "Datum": {
+                                        "scriptCanvasType": {
+                                            "m_type": 4,
+                                            "m_azType": "{24A1B3FF-51E3-5699-9ED7-49D835DE1DED}"
+                                        },
+                                        "isNullPointer": false,
+                                        "$type": "AZStd::vector<Color, allocator>"
+                                    },
+                                    "VariableId": {
+                                        "m_id": "{8C54E3CD-F7BF-4FBC-870C-4F10D90F80EF}"
+                                    },
+                                    "VariableName": "Colors",
+                                    "InitialValueSource": 1
+                                },
+                                {
+                                    "Datum": {
+                                        "scriptCanvasType": {
+                                            "m_type": 3
+                                        },
+                                        "isNullPointer": false,
+                                        "$type": "double",
+                                        "value": 1.0
+                                    },
+                                    "VariableId": {
+                                        "m_id": "{FDC94A17-A5D5-4650-A181-389B698CCD76}"
+                                    },
+                                    "VariableName": "ColorDuration",
+                                    "InitialValueSource": 1
+                                },
+                                {
+                                    "Datum": {
+                                        "scriptCanvasType": {
+                                            "m_type": 3
+                                        },
+                                        "isNullPointer": false,
+                                        "$type": "double",
+                                        "value": 0.0
+                                    },
+                                    "VariableId": {
+                                        "m_id": "{FDC94A17-A5D5-4650-A181-389B698CCD76}"
+                                    },
+                                    "VariableName": "ColorDuration",
+                                    "InitialValueSource": 1
+                                },
+                                {
+                                    "Datum": {
+                                        "scriptCanvasType": {
+                                            "m_type": 3
+                                        },
+                                        "isNullPointer": false,
+                                        "$type": "double",
+                                        "value": 0.0
+                                    },
+                                    "VariableId": {
+                                        "m_id": "{FDC94A17-A5D5-4650-A181-389B698CCD76}"
+                                    },
+                                    "VariableName": "ColorDuration",
+                                    "InitialValueSource": 1
+                                }
+                            ],
+                            "overrides": [
+                                {
+                                    "Datum": {
+                                        "scriptCanvasType": {
+                                            "m_type": 4,
+                                            "m_azType": "{24A1B3FF-51E3-5699-9ED7-49D835DE1DED}"
+                                        },
+                                        "isNullPointer": false,
+                                        "$type": "AZStd::vector<Color, allocator>",
+                                        "value": [
+                                            [
+                                                1.0,
+                                                0.0,
+                                                0.0,
+                                                1.0
+                                            ],
+                                            [
+                                                0.0,
+                                                1.0,
+                                                0.0,
+                                                1.0
+                                            ],
+                                            [
+                                                1.0,
+                                                0.0,
+                                                1.0,
+                                                1.0
+                                            ],
+                                            [
+                                                1.0,
+                                                1.0,
+                                                0.0,
+                                                1.0
+                                            ],
+                                            [
+                                                0.0,
+                                                0.0,
+                                                1.0,
+                                                1.0
+                                            ]
+                                        ]
+                                    },
+                                    "InputControlVisibility": {
+                                        "Value": 850104567
+                                    },
+                                    "VariableId": {
+                                        "m_id": "{8C54E3CD-F7BF-4FBC-870C-4F10D90F80EF}"
+                                    },
+                                    "VariableName": "Colors",
+                                    "InitialValueSource": 1
+                                },
+                                {
+                                    "Datum": {
+                                        "scriptCanvasType": {
+                                            "m_type": 3
+                                        },
+                                        "isNullPointer": false,
+                                        "$type": "double",
+                                        "value": 1.0
+                                    },
+                                    "InputControlVisibility": {
+                                        "Value": 850104567
+                                    },
+                                    "VariableId": {
+                                        "m_id": "{FDC94A17-A5D5-4650-A181-389B698CCD76}"
+                                    },
+                                    "VariableName": "ColorDuration",
+                                    "InitialValueSource": 1
+                                },
+                                {
+                                    "Datum": {
+                                        "scriptCanvasType": {
+                                            "m_type": 3
+                                        },
+                                        "isNullPointer": false,
+                                        "$type": "double",
+                                        "value": 0.0
+                                    },
+                                    "InputControlVisibility": {
+                                        "Value": 850104567
+                                    },
+                                    "VariableId": {
+                                        "m_id": "{FDC94A17-A5D5-4650-A181-389B698CCD76}"
+                                    },
+                                    "VariableName": "ColorDuration",
+                                    "InitialValueSource": 1
+                                },
+                                {
+                                    "Datum": {
+                                        "scriptCanvasType": {
+                                            "m_type": 3
+                                        },
+                                        "isNullPointer": false,
+                                        "$type": "double",
+                                        "value": 0.0
+                                    },
+                                    "InputControlVisibility": {
+                                        "Value": 850104567
+                                    },
+                                    "VariableId": {
+                                        "m_id": "{FDC94A17-A5D5-4650-A181-389B698CCD76}"
+                                    },
+                                    "VariableName": "ColorDuration",
+                                    "InitialValueSource": 1
+                                }
+                            ]
+                        }
+                    }
+                },
+                "Component_[4762627531568837041]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 4762627531568837041
+                },
+                "Component_[6861916139381305279]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 6861916139381305279,
+                    "Parent Entity": "ContainerEntity",
+                    "Transform Data": {
+                        "Translate": [
+                            0.0,
+                            0.0,
+                            0.11382842063903809
+                        ],
+                        "UniformScale": 0.36000001430511475
+                    }
+                },
+                "Component_[7070952176273482870]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 7070952176273482870
+                },
+                "Component_[7886138722519552498]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 7886138722519552498,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 6861916139381305279
+                        },
+                        {
+                            "ComponentId": 9570305494043909738,
+                            "SortIndex": 1
+                        },
+                        {
+                            "ComponentId": 13360899357558608629,
+                            "SortIndex": 2
+                        }
+                    ]
+                },
+                "Component_[9570305494043909738]": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 9570305494043909738,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{C624B570-C86E-5922-BD68-4AA64DB6CA2B}",
+                                    "subId": 283508008
+                                },
+                                "assetHint": "assets/props/lightcircle/lightcircle.azmodel"
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

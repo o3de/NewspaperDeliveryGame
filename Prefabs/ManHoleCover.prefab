@@ -1,0 +1,230 @@
+{
+    "ContainerEntity": {
+        "Id": "ContainerEntity",
+        "Name": "ManHoleCover",
+        "Components": {
+            "Component_[1058777770201254016]": {
+                "$type": "EditorPrefabComponent",
+                "Id": 1058777770201254016
+            },
+            "Component_[11250120698890290857]": {
+                "$type": "EditorVisibilityComponent",
+                "Id": 11250120698890290857
+            },
+            "Component_[13233539239491295590]": {
+                "$type": "EditorOnlyEntityComponent",
+                "Id": 13233539239491295590
+            },
+            "Component_[13482136894758287697]": {
+                "$type": "EditorEntitySortComponent",
+                "Id": 13482136894758287697,
+                "Child Entity Order": [
+                    "Entity_[17092586091657]"
+                ]
+            },
+            "Component_[1546094357046096661]": {
+                "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                "Id": 1546094357046096661,
+                "Parent Entity": ""
+            },
+            "Component_[16002134294447146189]": {
+                "$type": "EditorInspectorComponent",
+                "Id": 16002134294447146189
+            },
+            "Component_[3398344885170985809]": {
+                "$type": "EditorEntityIconComponent",
+                "Id": 3398344885170985809
+            },
+            "Component_[6319283825804726859]": {
+                "$type": "EditorLockComponent",
+                "Id": 6319283825804726859
+            },
+            "Component_[8079416701834722048]": {
+                "$type": "EditorDisabledCompositionComponent",
+                "Id": 8079416701834722048
+            },
+            "Component_[8130205367143884078]": {
+                "$type": "EditorPendingCompositionComponent",
+                "Id": 8130205367143884078
+            }
+        }
+    },
+    "Entities": {
+        "Entity_[17092586091657]": {
+            "Id": "Entity_[17092586091657]",
+            "Name": "ManHoleCover",
+            "Components": {
+                "Component_[11535314335853008448]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 11535314335853008448
+                },
+                "Component_[1172082740016423949]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 1172082740016423949
+                },
+                "Component_[12365195442433716839]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 12365195442433716839,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": [
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 173450955
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{C2BA3A43-6271-5768-9463-F9C915BE5954}"
+                                            },
+                                            "assetHint": "assets/props/manholecover/manholecover_manholecovermat.azmaterial"
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 553270575
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{63111098-ED84-51DE-97AC-0B9CDD73DE86}"
+                                            },
+                                            "assetHint": "assets/props/manholecover/manholecover_manholesaftyyellowmat.azmaterial"
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 600479640
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{F333F03B-73D4-5188-84B4-8759D8E08D3E}"
+                                            },
+                                            "assetHint": "assets/props/manholecover/manholecover_manholesolidblackmat.azmaterial"
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 1143089953
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{86DB464E-D9F4-5080-AA82-98F226661D07}"
+                                            },
+                                            "assetHint": "assets/props/manholecover/manholecover_manholesaftyorangemat.azmaterial"
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 3224835173
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{22706D46-1AB2-5D2F-97A8-4F786ABDC4CD}"
+                                            },
+                                            "assetHint": "assets/props/manholecover/manholecover_manholesaftywhitemat.azmaterial"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                "Component_[13488529866938729383]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 13488529866938729383,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 17273457591199770561
+                        },
+                        {
+                            "ComponentId": 2009302594569382298,
+                            "SortIndex": 1
+                        },
+                        {
+                            "ComponentId": 12365195442433716839,
+                            "SortIndex": 2
+                        },
+                        {
+                            "ComponentId": 9429259351106435246,
+                            "SortIndex": 3
+                        }
+                    ]
+                },
+                "Component_[13865136788735150070]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 13865136788735150070
+                },
+                "Component_[16344818698423033767]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 16344818698423033767
+                },
+                "Component_[17273457591199770561]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 17273457591199770561,
+                    "Parent Entity": "ContainerEntity"
+                },
+                "Component_[18284947437616282295]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 18284947437616282295
+                },
+                "Component_[2009302594569382298]": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 2009302594569382298,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{F8D44AB5-3163-57E3-8093-AC4DC8B870C1}",
+                                    "subId": 271158969
+                                },
+                                "assetHint": "assets/props/manholecover/manholecover.azmodel"
+                            }
+                        }
+                    }
+                },
+                "Component_[2078337996791346729]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 2078337996791346729
+                },
+                "Component_[4751387578781858205]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 4751387578781858205
+                },
+                "Component_[9429259351106435246]": {
+                    "$type": "EditorColliderComponent",
+                    "Id": 9429259351106435246,
+                    "ColliderConfiguration": {
+                        "MaterialSlots": {
+                            "Slots": [
+                                {
+                                    "Name": "Entire object"
+                                }
+                            ]
+                        }
+                    },
+                    "ShapeConfiguration": {
+                        "ShapeType": 1,
+                        "Box": {
+                            "Configuration": [
+                                1.902921199798584,
+                                1.0,
+                                1.0
+                            ]
+                        }
+                    },
+                    "DebugDrawSettings": {
+                        "LocallyEnabled": false
+                    }
+                }
+            }
+        }
+    }
+}

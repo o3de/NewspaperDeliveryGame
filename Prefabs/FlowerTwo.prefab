@@ -1,0 +1,148 @@
+{
+    "ContainerEntity": {
+        "Id": "ContainerEntity",
+        "Name": "FlowerTwo",
+        "Components": {
+            "Component_[10446075666149911117]": {
+                "$type": "EditorEntitySortComponent",
+                "Id": 10446075666149911117,
+                "Child Entity Order": [
+                    "Entity_[119613233292370]"
+                ]
+            },
+            "Component_[12580567673765259016]": {
+                "$type": "EditorOnlyEntityComponent",
+                "Id": 12580567673765259016
+            },
+            "Component_[14265322658590628136]": {
+                "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                "Id": 14265322658590628136,
+                "Parent Entity": ""
+            },
+            "Component_[16804391867213832187]": {
+                "$type": "EditorEntityIconComponent",
+                "Id": 16804391867213832187
+            },
+            "Component_[2345824669884386262]": {
+                "$type": "EditorPrefabComponent",
+                "Id": 2345824669884386262
+            },
+            "Component_[2365434313527336120]": {
+                "$type": "EditorInspectorComponent",
+                "Id": 2365434313527336120
+            },
+            "Component_[4237184031504206791]": {
+                "$type": "EditorLockComponent",
+                "Id": 4237184031504206791
+            },
+            "Component_[4757439068333666502]": {
+                "$type": "EditorDisabledCompositionComponent",
+                "Id": 4757439068333666502
+            },
+            "Component_[5460308110030159395]": {
+                "$type": "EditorPendingCompositionComponent",
+                "Id": 5460308110030159395
+            },
+            "Component_[9494447170819014665]": {
+                "$type": "EditorVisibilityComponent",
+                "Id": 9494447170819014665
+            }
+        }
+    },
+    "Entities": {
+        "Entity_[119613233292370]": {
+            "Id": "Entity_[119613233292370]",
+            "Name": "FlowerTwo",
+            "Components": {
+                "Component_[10031651838280317766]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 10031651838280317766
+                },
+                "Component_[11263279514994593300]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 11263279514994593300,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": [
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 39181763
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{74EA2206-C26A-5265-BB3C-7A635AF17CB2}"
+                                            },
+                                            "assetHint": "assets/props/flower_tile_two/flower_tile_two_flower.azmaterial"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                "Component_[17228305325786047956]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 17228305325786047956
+                },
+                "Component_[1940533112324686543]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 1940533112324686543,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 2005445034466389785
+                        },
+                        {
+                            "ComponentId": 3627905145207693638,
+                            "SortIndex": 1
+                        },
+                        {
+                            "ComponentId": 11263279514994593300,
+                            "SortIndex": 2
+                        }
+                    ]
+                },
+                "Component_[2005445034466389785]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 2005445034466389785,
+                    "Parent Entity": "ContainerEntity"
+                },
+                "Component_[3245527337965451886]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 3245527337965451886
+                },
+                "Component_[3472373189216263737]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 3472373189216263737
+                },
+                "Component_[3627905145207693638]": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 3627905145207693638,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{584A773A-DF10-5082-A44A-32E2BD843D67}",
+                                    "subId": 277866330
+                                },
+                                "assetHint": "assets/props/flower_tile_two/flower_tile_two.azmodel"
+                            }
+                        }
+                    }
+                },
+                "Component_[5056665268673280838]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 5056665268673280838
+                },
+                "Component_[6667357210422924142]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 6667357210422924142
+                },
+                "Component_[8998237391522912895]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 8998237391522912895
+                }
+            }
+        }
+    }
+}

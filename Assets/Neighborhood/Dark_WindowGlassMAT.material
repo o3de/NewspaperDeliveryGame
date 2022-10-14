@@ -1,0 +1,27 @@
+{
+    "materialType": "Materials/Types/StandardPBR.materialtype",
+    "materialTypeVersion": 5,
+    "propertyValues": {
+        "baseColor.color": [
+            0.5374075174331665,
+            0.5374075174331665,
+            0.5374075174331665,
+            1.0
+        ],
+        "emissive.color": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+        ],
+        "general.doubleSided": true,
+        "metallic.factor": 0.25999999046325684,
+        "normal.flipY": true,
+        "normal.textureMap": "Assets/Neighborhood/textures/Cracks_Normal.png",
+        "opacity.factor": 1.0,
+        "opacity.mode": "TintedTransparent",
+        "roughness.factor": 0.1599999964237213,
+        "uv.tileU": 5.0,
+        "uv.tileV": 5.0
+    }
+}

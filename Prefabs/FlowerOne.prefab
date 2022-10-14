@@ -1,0 +1,148 @@
+{
+    "ContainerEntity": {
+        "Id": "ContainerEntity",
+        "Name": "FlowerOne",
+        "Components": {
+            "Component_[10277360197443346698]": {
+                "$type": "EditorPrefabComponent",
+                "Id": 10277360197443346698
+            },
+            "Component_[13536901843523810548]": {
+                "$type": "EditorOnlyEntityComponent",
+                "Id": 13536901843523810548
+            },
+            "Component_[1458937590261983865]": {
+                "$type": "EditorVisibilityComponent",
+                "Id": 1458937590261983865
+            },
+            "Component_[18309984820329142633]": {
+                "$type": "EditorPendingCompositionComponent",
+                "Id": 18309984820329142633
+            },
+            "Component_[3195953378274256154]": {
+                "$type": "EditorLockComponent",
+                "Id": 3195953378274256154
+            },
+            "Component_[375951263542591521]": {
+                "$type": "EditorEntityIconComponent",
+                "Id": 375951263542591521
+            },
+            "Component_[6809855915854149199]": {
+                "$type": "EditorEntitySortComponent",
+                "Id": 6809855915854149199,
+                "Child Entity Order": [
+                    "Entity_[119793621918802]"
+                ]
+            },
+            "Component_[7079716210173254062]": {
+                "$type": "EditorDisabledCompositionComponent",
+                "Id": 7079716210173254062
+            },
+            "Component_[7144096066703262275]": {
+                "$type": "EditorInspectorComponent",
+                "Id": 7144096066703262275
+            },
+            "Component_[9145415447810091921]": {
+                "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                "Id": 9145415447810091921,
+                "Parent Entity": ""
+            }
+        }
+    },
+    "Entities": {
+        "Entity_[119793621918802]": {
+            "Id": "Entity_[119793621918802]",
+            "Name": "FlowerOne",
+            "Components": {
+                "Component_[12397920913402899915]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 12397920913402899915,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 992040942973516185
+                        },
+                        {
+                            "ComponentId": 8078766682511003484,
+                            "SortIndex": 1
+                        },
+                        {
+                            "ComponentId": 5658601161511238549,
+                            "SortIndex": 2
+                        }
+                    ]
+                },
+                "Component_[12770457240173445997]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 12770457240173445997
+                },
+                "Component_[15095491047263871007]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 15095491047263871007
+                },
+                "Component_[16972096621321683566]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 16972096621321683566
+                },
+                "Component_[2205197659463649896]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 2205197659463649896
+                },
+                "Component_[2644325839135910546]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 2644325839135910546
+                },
+                "Component_[277354214727188898]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 277354214727188898
+                },
+                "Component_[2929604003046069464]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 2929604003046069464
+                },
+                "Component_[5658601161511238549]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 5658601161511238549,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": [
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 39181763
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{72177FEC-07D3-5A9B-BD66-0A0B917803AA}"
+                                            },
+                                            "assetHint": "assets/props/flower_tile_one/flower_tile_one_flower.azmaterial"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                "Component_[8078766682511003484]": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 8078766682511003484,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{65646FD2-6D4B-5D14-B3F8-29489AA2D570}",
+                                    "subId": 271182797
+                                },
+                                "assetHint": "assets/props/flower_tile_one/flower_tile_one.azmodel"
+                            }
+                        }
+                    }
+                },
+                "Component_[992040942973516185]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 992040942973516185,
+                    "Parent Entity": "ContainerEntity"
+                }
+            }
+        }
+    }
+}

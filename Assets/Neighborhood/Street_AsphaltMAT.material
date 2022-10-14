@@ -1,0 +1,26 @@
+{
+    "materialType": "Materials/Types/StandardPBR.materialtype",
+    "materialTypeVersion": 5,
+    "propertyValues": {
+        "baseColor.color": [
+            0.03401239961385727,
+            0.03370720148086548,
+            0.03370720148086548,
+            1.0
+        ],
+        "emissive.color": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+        ],
+        "metallic.factor": 0.7200000286102295,
+        "normal.factor": 0.5,
+        "normal.textureMap": "Assets/Neighborhood/textures/Noise_Normal.png",
+        "opacity.factor": 1.0,
+        "roughness.factor": 0.5799999833106995,
+        "specularF0.factor": 0.949999988079071,
+        "uv.tileU": 10.0,
+        "uv.tileV": 10.0
+    }
+}

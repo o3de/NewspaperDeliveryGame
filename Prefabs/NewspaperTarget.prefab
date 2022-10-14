@@ -1,0 +1,168 @@
+{
+    "ContainerEntity": {
+        "Id": "ContainerEntity",
+        "Name": "NewspaperTarget",
+        "Components": {
+            "Component_[12547392802824537834]": {
+                "$type": "EditorEntitySortComponent",
+                "Id": 12547392802824537834,
+                "Child Entity Order": [
+                    "Entity_[31422028466564]"
+                ]
+            },
+            "Component_[14167081204388187959]": {
+                "$type": "EditorInspectorComponent",
+                "Id": 14167081204388187959
+            },
+            "Component_[14753051579172329125]": {
+                "$type": "EditorOnlyEntityComponent",
+                "Id": 14753051579172329125
+            },
+            "Component_[16306419590698140143]": {
+                "$type": "EditorPendingCompositionComponent",
+                "Id": 16306419590698140143
+            },
+            "Component_[17399520959477290987]": {
+                "$type": "EditorVisibilityComponent",
+                "Id": 17399520959477290987
+            },
+            "Component_[18035742638903115128]": {
+                "$type": "EditorLockComponent",
+                "Id": 18035742638903115128
+            },
+            "Component_[1893414646602575547]": {
+                "$type": "EditorDisabledCompositionComponent",
+                "Id": 1893414646602575547
+            },
+            "Component_[2446030336184020358]": {
+                "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                "Id": 2446030336184020358,
+                "Parent Entity": ""
+            },
+            "Component_[2630706356742756385]": {
+                "$type": "EditorPrefabComponent",
+                "Id": 2630706356742756385
+            },
+            "Component_[8251826678252424549]": {
+                "$type": "EditorEntityIconComponent",
+                "Id": 8251826678252424549
+            }
+        }
+    },
+    "Entities": {
+        "Entity_[31422028466564]": {
+            "Id": "Entity_[31422028466564]",
+            "Name": "NewspaperTarget",
+            "Components": {
+                "Component_[11004493640114891261]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 11004493640114891261
+                },
+                "Component_[13007937052651131036]": {
+                    "$type": "EditorColliderComponent",
+                    "Id": 13007937052651131036,
+                    "ColliderConfiguration": {
+                        "Trigger": true,
+                        "MaterialSlots": {
+                            "Slots": [
+                                {
+                                    "Name": "Entire object"
+                                }
+                            ]
+                        }
+                    },
+                    "ShapeConfiguration": {
+                        "ShapeType": 1
+                    }
+                },
+                "Component_[13887981558053420052]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 13887981558053420052
+                },
+                "Component_[14511204499055162394]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 14511204499055162394,
+                    "Child Entity Order": [
+                        "Instance_[46372565521295]/ContainerEntity"
+                    ]
+                },
+                "Component_[15856588326937305232]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 15856588326937305232
+                },
+                "Component_[16409048605128145758]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 16409048605128145758,
+                    "Parent Entity": "ContainerEntity"
+                },
+                "Component_[17152908862555104305]": {
+                    "$type": "EditorScriptCanvasComponent",
+                    "Id": 17152908862555104305,
+                    "configuration": {
+                        "sourceHandle": {
+                            "id": "{9BB0AF20-30E7-541F-B627-46B0D07795DF}",
+                            "path": "scriptcanvas/NewspaperTarget.scriptcanvas"
+                        },
+                        "sourceName": "NewspaperTarget.scriptcanvas",
+                        "propertyOverrides": {
+                            "source": {
+                                "id": "{9BB0AF20-30E7-541F-B627-46B0D07795DF}",
+                                "path": "scriptcanvas/NewspaperTarget.scriptcanvas"
+                            }
+                        }
+                    }
+                },
+                "Component_[17345228050824822537]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 17345228050824822537
+                },
+                "Component_[17795464169794336163]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 17795464169794336163,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 16409048605128145758
+                        },
+                        {
+                            "ComponentId": 17152908862555104305,
+                            "SortIndex": 1
+                        },
+                        {
+                            "ComponentId": 4669122109557924706,
+                            "SortIndex": 2
+                        },
+                        {
+                            "ComponentId": 13007937052651131036,
+                            "SortIndex": 3
+                        }
+                    ]
+                },
+                "Component_[8605363588895197655]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 8605363588895197655
+                },
+                "Component_[9508414098937251678]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 9508414098937251678
+                }
+            }
+        }
+    },
+    "Instances": {
+        "Instance_[46372565521295]": {
+            "Source": "Prefabs/LightColumn.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[17171537345687986228]/Parent Entity",
+                    "value": "../Entity_[31422028466564]"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[17171537345687986228]/Transform Data/Translate/2",
+                    "value": 0.16583281755447388
+                }
+            ]
+        }
+    }
+}

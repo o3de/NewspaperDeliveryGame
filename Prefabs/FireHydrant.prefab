@@ -1,0 +1,175 @@
+{
+    "ContainerEntity": {
+        "Id": "ContainerEntity",
+        "Name": "FireHydrant",
+        "Components": {
+            "Component_[12602091156167412387]": {
+                "$type": "EditorDisabledCompositionComponent",
+                "Id": 12602091156167412387
+            },
+            "Component_[1267229915996524536]": {
+                "$type": "EditorPrefabComponent",
+                "Id": 1267229915996524536
+            },
+            "Component_[15045096587123926287]": {
+                "$type": "EditorEntityIconComponent",
+                "Id": 15045096587123926287
+            },
+            "Component_[1589323457735495025]": {
+                "$type": "EditorEntitySortComponent",
+                "Id": 1589323457735495025,
+                "Child Entity Order": [
+                    "Entity_[21147035219081]"
+                ]
+            },
+            "Component_[16720701687368118340]": {
+                "$type": "EditorPendingCompositionComponent",
+                "Id": 16720701687368118340
+            },
+            "Component_[17403561191275726747]": {
+                "$type": "EditorLockComponent",
+                "Id": 17403561191275726747
+            },
+            "Component_[2377001644331903406]": {
+                "$type": "EditorInspectorComponent",
+                "Id": 2377001644331903406
+            },
+            "Component_[3775831513192803925]": {
+                "$type": "EditorOnlyEntityComponent",
+                "Id": 3775831513192803925
+            },
+            "Component_[6928254875000492368]": {
+                "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                "Id": 6928254875000492368,
+                "Parent Entity": ""
+            },
+            "Component_[9842644186489811446]": {
+                "$type": "EditorVisibilityComponent",
+                "Id": 9842644186489811446
+            }
+        }
+    },
+    "Entities": {
+        "Entity_[21147035219081]": {
+            "Id": "Entity_[21147035219081]",
+            "Name": "FireHydrant",
+            "Components": {
+                "Component_[10280624026655169081]": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 10280624026655169081,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{47066E53-ABF0-5B86-B994-C9FEC93774F1}",
+                                    "subId": 280572587
+                                },
+                                "assetHint": "assets/props/firehydrant/firehydrant.azmodel"
+                            }
+                        }
+                    }
+                },
+                "Component_[10902877059668389032]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 10902877059668389032
+                },
+                "Component_[11370502590986216815]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 11370502590986216815
+                },
+                "Component_[1437904913575547325]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 1437904913575547325
+                },
+                "Component_[15243682643335351652]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 15243682643335351652,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 6546416403905296449
+                        },
+                        {
+                            "ComponentId": 10280624026655169081,
+                            "SortIndex": 1
+                        },
+                        {
+                            "ComponentId": 21256860139622616,
+                            "SortIndex": 2
+                        },
+                        {
+                            "ComponentId": 2760639471566635923,
+                            "SortIndex": 3
+                        }
+                    ]
+                },
+                "Component_[17929439044468718147]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 17929439044468718147
+                },
+                "Component_[21256860139622616]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 21256860139622616,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": [
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 3358536083
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{09537D65-7385-5BAA-A551-5000F9EDDA2F}"
+                                            },
+                                            "assetHint": "assets/props/firehydrant/firehydrant_firehydrantmat.azmaterial"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                "Component_[2760639471566635923]": {
+                    "$type": "EditorColliderComponent",
+                    "Id": 2760639471566635923,
+                    "ColliderConfiguration": {
+                        "MaterialSlots": {
+                            "Slots": [
+                                {
+                                    "Name": "Entire object"
+                                }
+                            ]
+                        }
+                    },
+                    "ShapeConfiguration": {
+                        "ShapeType": 1,
+                        "Box": {
+                            "Configuration": [
+                                0.4279860258102417,
+                                0.4495677947998047,
+                                1.0
+                            ]
+                        }
+                    }
+                },
+                "Component_[382662695185044392]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 382662695185044392
+                },
+                "Component_[641782650315388283]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 641782650315388283
+                },
+                "Component_[6546416403905296449]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 6546416403905296449,
+                    "Parent Entity": "ContainerEntity"
+                },
+                "Component_[6987463052914214948]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 6987463052914214948
+                }
+            }
+        }
+    }
+}

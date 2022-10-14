@@ -1,0 +1,222 @@
+{
+    "ContainerEntity": {
+        "Id": "ContainerEntity",
+        "Name": "Van_RightWheel",
+        "Components": {
+            "Component_[10550734691885411776]": {
+                "$type": "EditorDisabledCompositionComponent",
+                "Id": 10550734691885411776
+            },
+            "Component_[11142465277821016601]": {
+                "$type": "EditorPrefabComponent",
+                "Id": 11142465277821016601
+            },
+            "Component_[12477572753599585608]": {
+                "$type": "EditorLockComponent",
+                "Id": 12477572753599585608
+            },
+            "Component_[15935549167720000330]": {
+                "$type": "EditorEntityIconComponent",
+                "Id": 15935549167720000330
+            },
+            "Component_[16724226377283007136]": {
+                "$type": "EditorVisibilityComponent",
+                "Id": 16724226377283007136
+            },
+            "Component_[16955837687875173044]": {
+                "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                "Id": 16955837687875173044,
+                "Parent Entity": ""
+            },
+            "Component_[18368935922414734779]": {
+                "$type": "EditorEntitySortComponent",
+                "Id": 18368935922414734779,
+                "Child Entity Order": [
+                    "Entity_[11186679280886]"
+                ]
+            },
+            "Component_[18401123686305782967]": {
+                "$type": "EditorInspectorComponent",
+                "Id": 18401123686305782967
+            },
+            "Component_[2233155557068170834]": {
+                "$type": "EditorPendingCompositionComponent",
+                "Id": 2233155557068170834
+            },
+            "Component_[7750147512867553930]": {
+                "$type": "EditorOnlyEntityComponent",
+                "Id": 7750147512867553930
+            }
+        }
+    },
+    "Entities": {
+        "Entity_[11186679280886]": {
+            "Id": "Entity_[11186679280886]",
+            "Name": "Wheel",
+            "Components": {
+                "Component_[11139891792573676355]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 11139891792573676355
+                },
+                "Component_[11730819875983666369]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 11730819875983666369
+                },
+                "Component_[12284427221809417925]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 12284427221809417925
+                },
+                "Component_[13245290342322583534]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 13245290342322583534,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 15107079503521934416
+                        },
+                        {
+                            "ComponentId": 17522970661619772240,
+                            "SortIndex": 1
+                        },
+                        {
+                            "ComponentId": 6534234720510183357,
+                            "SortIndex": 2
+                        },
+                        {
+                            "ComponentId": 2139728155164218047,
+                            "SortIndex": 3
+                        }
+                    ]
+                },
+                "Component_[15107079503521934416]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 15107079503521934416,
+                    "Parent Entity": "ContainerEntity",
+                    "Transform Data": {
+                        "UniformScale": 0.949999988079071
+                    }
+                },
+                "Component_[1526428860564590942]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 1526428860564590942
+                },
+                "Component_[16135765693943130029]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 16135765693943130029
+                },
+                "Component_[17522970661619772240]": {
+                    "$type": "EditorScriptCanvasComponent",
+                    "Id": 17522970661619772240,
+                    "configuration": {
+                        "sourceHandle": {
+                            "id": "{AC6F6D8C-00DF-59CE-89BE-97388238AB57}",
+                            "path": "Scripts/Tire_Rotate.scriptcanvas"
+                        },
+                        "sourceName": "Tire_Rotate.scriptcanvas",
+                        "propertyOverrides": {
+                            "source": {
+                                "id": "{AC6F6D8C-00DF-59CE-89BE-97388238AB57}",
+                                "path": "Scripts/Tire_Rotate.scriptcanvas"
+                            },
+                            "variables": [
+                                {
+                                    "Datum": {
+                                        "scriptCanvasType": {
+                                            "m_type": 3
+                                        },
+                                        "isNullPointer": false,
+                                        "$type": "double",
+                                        "value": -4.0
+                                    },
+                                    "VariableId": {
+                                        "m_id": "{DCD42736-5E9A-4E7F-925F-151B2004F09E}"
+                                    },
+                                    "VariableName": "RotationModifier",
+                                    "InitialValueSource": 1
+                                }
+                            ],
+                            "overrides": [
+                                {
+                                    "Datum": {
+                                        "scriptCanvasType": {
+                                            "m_type": 3
+                                        },
+                                        "isNullPointer": false,
+                                        "$type": "double",
+                                        "value": -4.0
+                                    },
+                                    "InputControlVisibility": {
+                                        "Value": 850104567
+                                    },
+                                    "VariableId": {
+                                        "m_id": "{DCD42736-5E9A-4E7F-925F-151B2004F09E}"
+                                    },
+                                    "VariableName": "RotationModifier",
+                                    "InitialValueSource": 1
+                                }
+                            ]
+                        }
+                    }
+                },
+                "Component_[2139728155164218047]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 2139728155164218047,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": [
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 1687490049
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{9C5A8D75-D1B2-5C27-AD60-BBA87C8F3D78}"
+                                            },
+                                            "assetHint": "assets/props/van/automobile_van_tire_vanchromemat.azmaterial"
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 2304694867
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{4307E0D0-A18A-549F-8B63-8387E0DBC1F7}"
+                                            },
+                                            "assetHint": "assets/props/van/automobile_van_tire_vantiremat.azmaterial"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                "Component_[4019670720701561326]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 4019670720701561326
+                },
+                "Component_[5456055824362380283]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 5456055824362380283
+                },
+                "Component_[6534234720510183357]": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 6534234720510183357,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{59D45641-90ED-51EA-BF21-292F78FEE5E0}",
+                                    "subId": 283964868
+                                },
+                                "assetHint": "assets/props/van/automobile_van_tire.azmodel"
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "materialType": "Materials/Types/StandardPBR.materialtype",
+    "materialTypeVersion": 5,
+    "propertyValues": {
+        "baseColor.color": [
+            0.800000011920929,
+            0.800000011920929,
+            0.800000011920929,
+            1.0
+        ],
+        "baseColor.textureMap": "Assets/Props/Newspaper/textures/NewspaperMAT_BaseColor.png",
+        "emissive.color": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+        ],
+        "normal.textureMap": "Assets/Props/Newspaper/textures/NewspaperMAT_Normal.png",
+        "occlusion.diffuseTextureMap": "Assets/Props/Newspaper/textures/NewspaperMAT_AO.png",
+        "opacity.factor": 1.0,
+        "roughness.textureMap": "Assets/Props/Newspaper/textures/NewspaperMAT_Roughness.png"
+    }
+}

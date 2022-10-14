@@ -1,0 +1,329 @@
+{
+    "ContainerEntity": {
+        "Id": "ContainerEntity",
+        "Name": "MowerBlue",
+        "Components": {
+            "Component_[1014373571844028786]": {
+                "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                "Id": 1014373571844028786,
+                "Parent Entity": ""
+            },
+            "Component_[11023982853892671056]": {
+                "$type": "EditorEntitySortComponent",
+                "Id": 11023982853892671056,
+                "Child Entity Order": [
+                    "Entity_[54002762330952]"
+                ]
+            },
+            "Component_[12422169682301527381]": {
+                "$type": "EditorOnlyEntityComponent",
+                "Id": 12422169682301527381
+            },
+            "Component_[12826666199706066156]": {
+                "$type": "EditorVisibilityComponent",
+                "Id": 12826666199706066156
+            },
+            "Component_[18023235059194213572]": {
+                "$type": "EditorInspectorComponent",
+                "Id": 18023235059194213572
+            },
+            "Component_[3845348087170936675]": {
+                "$type": "EditorDisabledCompositionComponent",
+                "Id": 3845348087170936675
+            },
+            "Component_[4460388146111403430]": {
+                "$type": "EditorPrefabComponent",
+                "Id": 4460388146111403430
+            },
+            "Component_[9097481343931598472]": {
+                "$type": "EditorPendingCompositionComponent",
+                "Id": 9097481343931598472
+            },
+            "Component_[9481077859860147346]": {
+                "$type": "EditorEntityIconComponent",
+                "Id": 9481077859860147346
+            },
+            "Component_[9989584171232237210]": {
+                "$type": "EditorLockComponent",
+                "Id": 9989584171232237210
+            }
+        }
+    },
+    "Entities": {
+        "Entity_[54002762330952]": {
+            "Id": "Entity_[54002762330952]",
+            "Name": "MowerBlue",
+            "Components": {
+                "Component_[10324107714279091006]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 10324107714279091006
+                },
+                "Component_[10882499800015952800]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 10882499800015952800
+                },
+                "Component_[12449723034020257013]": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 12449723034020257013,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{8F8F7DED-4170-5FD8-9194-23A7D4A4DDD7}",
+                                    "subId": 284840595
+                                },
+                                "assetHint": "assets/props/mower/mower.azmodel"
+                            }
+                        }
+                    }
+                },
+                "Component_[12524081994743334132]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 12524081994743334132
+                },
+                "Component_[13766266687703149101]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 13766266687703149101
+                },
+                "Component_[14604681383082173542]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 14604681383082173542
+                },
+                "Component_[14960668391419864693]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 14960668391419864693,
+                    "Child Entity Order": [
+                        "",
+                        "",
+                        "",
+                        "",
+                        "",
+                        "Instance_[52435099267912]/ContainerEntity",
+                        "Instance_[52439394235208]/ContainerEntity",
+                        "Instance_[52430804300616]/ContainerEntity",
+                        "Instance_[52426509333320]/ContainerEntity"
+                    ]
+                },
+                "Component_[15489480443460013552]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 15489480443460013552,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": [
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 1529336661
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{14C9C32A-3FA0-5CAB-AB63-4B732807AB92}"
+                                            },
+                                            "assetHint": "assets/props/mower/mower_lawnmowermainmat.azmaterial"
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 3013802130
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{2E9F56A4-863A-5CF0-9F75-CA54B466CEB5}"
+                                            },
+                                            "assetHint": "assets/props/mower/mower_lawnmowercolorbluemat.azmaterial"
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 4264335010
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{A9C8697C-7A9B-5174-9C12-A4758A7944BA}"
+                                            },
+                                            "assetHint": "assets/props/mower/mower_lawnmowerlightmat.azmaterial"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                "Component_[4284763451099931820]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 4284763451099931820,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 6958485156296088418
+                        },
+                        {
+                            "ComponentId": 12449723034020257013,
+                            "SortIndex": 1
+                        },
+                        {
+                            "ComponentId": 15489480443460013552,
+                            "SortIndex": 2
+                        },
+                        {
+                            "ComponentId": 9045136832708316728,
+                            "SortIndex": 3
+                        }
+                    ]
+                },
+                "Component_[6958485156296088418]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 6958485156296088418,
+                    "Parent Entity": "ContainerEntity"
+                },
+                "Component_[8203239403817060641]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 8203239403817060641
+                },
+                "Component_[9045136832708316728]": {
+                    "$type": "EditorColliderComponent",
+                    "Id": 9045136832708316728,
+                    "ColliderConfiguration": {
+                        "Position": [
+                            0.0,
+                            0.1857530027627945,
+                            0.12363509833812714
+                        ],
+                        "MaterialSlots": {
+                            "Slots": [
+                                {
+                                    "Name": "Entire object"
+                                }
+                            ]
+                        }
+                    },
+                    "ShapeConfiguration": {
+                        "ShapeType": 1,
+                        "Box": {
+                            "Configuration": [
+                                1.6103277206420898,
+                                1.0972950458526611,
+                                1.0
+                            ]
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "Instances": {
+        "Instance_[52426509333320]": {
+            "Source": "Prefabs/MowerWheel.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[11928950667084836371]/Parent Entity",
+                    "value": "../Entity_[54002762330952]"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[11928950667084836371]/Transform Data/Translate/0",
+                    "value": 0.44989967346191406
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[11928950667084836371]/Transform Data/Translate/1",
+                    "value": -0.4475126266479492
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[11928950667084836371]/Transform Data/Translate/2",
+                    "value": -0.16770651936531067
+                }
+            ]
+        },
+        "Instance_[52430804300616]": {
+            "Source": "Prefabs/MowerWheel.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[11928950667084836371]/Parent Entity",
+                    "value": "../Entity_[54002762330952]"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[11928950667084836371]/Transform Data/Translate/0",
+                    "value": -0.5850048065185547
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[11928950667084836371]/Transform Data/Translate/1",
+                    "value": 0.7658381462097168
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[11928950667084836371]/Transform Data/Translate/2",
+                    "value": -0.16770651936531067
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[11928950667084836371]/Transform Data/Rotate/2",
+                    "value": 180.0
+                }
+            ]
+        },
+        "Instance_[52435099267912]": {
+            "Source": "Prefabs/MowerWheel.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[11928950667084836371]/Parent Entity",
+                    "value": "../Entity_[54002762330952]"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[11928950667084836371]/Transform Data/Translate/0",
+                    "value": 0.44989967346191406
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[11928950667084836371]/Transform Data/Translate/1",
+                    "value": 0.7658381462097168
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[11928950667084836371]/Transform Data/Translate/2",
+                    "value": -0.16770651936531067
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[11928950667084836371]/Transform Data/Rotate/2",
+                    "value": 180.0
+                }
+            ]
+        },
+        "Instance_[52439394235208]": {
+            "Source": "Prefabs/MowerWheel.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[11928950667084836371]/Parent Entity",
+                    "value": "../Entity_[54002762330952]"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[11928950667084836371]/Transform Data/Translate/0",
+                    "value": -0.5850048065185547
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[11928950667084836371]/Transform Data/Translate/1",
+                    "value": -0.4475126266479492
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[11928950667084836371]/Transform Data/Translate/2",
+                    "value": -0.16770651936531067
+                }
+            ]
+        }
+    }
+}

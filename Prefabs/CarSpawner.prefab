@@ -1,0 +1,123 @@
+{
+    "ContainerEntity": {
+        "Id": "ContainerEntity",
+        "Name": "CarSpawner",
+        "Components": {
+            "Component_[10005961901153906897]": {
+                "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                "Id": 10005961901153906897,
+                "Parent Entity": ""
+            },
+            "Component_[10848479533562275429]": {
+                "$type": "EditorDisabledCompositionComponent",
+                "Id": 10848479533562275429
+            },
+            "Component_[16314390457045576073]": {
+                "$type": "EditorEntityIconComponent",
+                "Id": 16314390457045576073
+            },
+            "Component_[17324865299442188903]": {
+                "$type": "EditorEntitySortComponent",
+                "Id": 17324865299442188903,
+                "Child Entity Order": [
+                    "Entity_[208029291528678]"
+                ]
+            },
+            "Component_[17375701267328149392]": {
+                "$type": "EditorInspectorComponent",
+                "Id": 17375701267328149392
+            },
+            "Component_[4742697150844611232]": {
+                "$type": "EditorPendingCompositionComponent",
+                "Id": 4742697150844611232
+            },
+            "Component_[6612069328084840296]": {
+                "$type": "EditorLockComponent",
+                "Id": 6612069328084840296
+            },
+            "Component_[7350184198115088959]": {
+                "$type": "EditorVisibilityComponent",
+                "Id": 7350184198115088959
+            },
+            "Component_[8206878611475169449]": {
+                "$type": "EditorPrefabComponent",
+                "Id": 8206878611475169449
+            },
+            "Component_[889556197080751523]": {
+                "$type": "EditorOnlyEntityComponent",
+                "Id": 889556197080751523
+            }
+        }
+    },
+    "Entities": {
+        "Entity_[208029291528678]": {
+            "Id": "Entity_[208029291528678]",
+            "Name": "CarSpawner",
+            "Components": {
+                "Component_[10715957468683106124]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 10715957468683106124,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 12053101980077236558
+                        },
+                        {
+                            "ComponentId": 16716502153856100239,
+                            "SortIndex": 1
+                        }
+                    ]
+                },
+                "Component_[12053101980077236558]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 12053101980077236558,
+                    "Parent Entity": "ContainerEntity"
+                },
+                "Component_[13004577421480630107]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 13004577421480630107
+                },
+                "Component_[14013931840231842102]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 14013931840231842102
+                },
+                "Component_[16716502153856100239]": {
+                    "$type": "EditorScriptCanvasComponent",
+                    "Id": 16716502153856100239,
+                    "configuration": {
+                        "sourceHandle": {
+                            "id": "{26AE9F58-05D6-5B3B-8EF1-4E1EE8AB862B}",
+                            "path": "scriptcanvas/CarSpawner.scriptcanvas"
+                        },
+                        "sourceName": "CarSpawner.scriptcanvas",
+                        "propertyOverrides": {
+                            "source": {
+                                "id": "{26AE9F58-05D6-5B3B-8EF1-4E1EE8AB862B}",
+                                "path": "scriptcanvas/CarSpawner.scriptcanvas"
+                            }
+                        }
+                    }
+                },
+                "Component_[18004732255852713584]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 18004732255852713584
+                },
+                "Component_[7635974534001313065]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 7635974534001313065
+                },
+                "Component_[7808394525488855333]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 7808394525488855333
+                },
+                "Component_[787612330584084660]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 787612330584084660
+                },
+                "Component_[8369746602503791586]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 8369746602503791586
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,1926 @@
+{
+    "ContainerEntity": {
+        "Id": "ContainerEntity",
+        "Name": "NewspaperTruck",
+        "Components": {
+            "Component_[11561725811845902694]": {
+                "$type": "EditorEntityIconComponent",
+                "Id": 11561725811845902694
+            },
+            "Component_[11922597832305066634]": {
+                "$type": "EditorVisibilityComponent",
+                "Id": 11922597832305066634
+            },
+            "Component_[12699496051337681875]": {
+                "$type": "EditorDisabledCompositionComponent",
+                "Id": 12699496051337681875
+            },
+            "Component_[12766394705484673322]": {
+                "$type": "EditorPendingCompositionComponent",
+                "Id": 12766394705484673322
+            },
+            "Component_[17725690523024380493]": {
+                "$type": "EditorEntitySortComponent",
+                "Id": 17725690523024380493,
+                "Child Entity Order": [
+                    "Entity_[12606477949448]",
+                    "Entity_[12658017557000]",
+                    "Entity_[12636542720520]",
+                    "Entity_[12640837687816]",
+                    "Entity_[12632247753224]",
+                    "Entity_[12619362851336]",
+                    "Entity_[12610772916744]",
+                    "Entity_[12653722589704]",
+                    "Entity_[12623657818632]",
+                    "Entity_[12649427622408]"
+                ]
+            },
+            "Component_[17850158975849729896]": {
+                "$type": "EditorPrefabComponent",
+                "Id": 17850158975849729896
+            },
+            "Component_[2981094327865674192]": {
+                "$type": "EditorLockComponent",
+                "Id": 2981094327865674192
+            },
+            "Component_[3586522081327691653]": {
+                "$type": "EditorInspectorComponent",
+                "Id": 3586522081327691653
+            },
+            "Component_[6425923396657223929]": {
+                "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                "Id": 6425923396657223929,
+                "Parent Entity": ""
+            },
+            "Component_[8087656993794582033]": {
+                "$type": "EditorOnlyEntityComponent",
+                "Id": 8087656993794582033
+            }
+        }
+    },
+    "Entities": {
+        "Entity_[12593593047560]": {
+            "Id": "Entity_[12593593047560]",
+            "Name": "Entity3",
+            "Components": {
+                "Component_[12301967286089635206]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 12301967286089635206
+                },
+                "Component_[13433142402633255472]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 13433142402633255472
+                },
+                "Component_[14098718602576607786]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 14098718602576607786,
+                    "Parent Entity": "Entity_[12640837687816]",
+                    "Transform Data": {
+                        "Translate": [
+                            0.0,
+                            0.0,
+                            0.4687642455101013
+                        ],
+                        "UniformScale": 0.8724130392074585
+                    }
+                },
+                "Component_[14394554316012315112]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 14394554316012315112
+                },
+                "Component_[16002162356762150970]": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 16002162356762150970,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{E1F2E7F2-7F2B-549E-B1B6-629715315F42}",
+                                    "subId": 283305606
+                                },
+                                "assetHint": "assets/props/newspaper/newspaper.azmodel"
+                            }
+                        }
+                    }
+                },
+                "Component_[2118224556668674485]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 2118224556668674485
+                },
+                "Component_[3342108992683346028]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 3342108992683346028,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": {
+                                "{}": {
+                                    "MaterialAsset": {
+                                        "assetId": {
+                                            "guid": "{050235E1-A735-53FE-B28A-2CA7ADEB809D}"
+                                        },
+                                        "assetHint": "assets/props/newspaper/newspaper_newspapermat.azmaterial"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "Component_[3891664416649747444]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 3891664416649747444
+                },
+                "Component_[7372186200357251224]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 7372186200357251224
+                },
+                "Component_[7984874516937459267]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 7984874516937459267
+                },
+                "Component_[9136279365155419968]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 9136279365155419968
+                }
+            }
+        },
+        "Entity_[12597888014856]": {
+            "Id": "Entity_[12597888014856]",
+            "Name": "Entity3",
+            "Components": {
+                "Component_[12301967286089635206]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 12301967286089635206
+                },
+                "Component_[13433142402633255472]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 13433142402633255472
+                },
+                "Component_[14098718602576607786]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 14098718602576607786,
+                    "Parent Entity": "Entity_[12632247753224]",
+                    "Transform Data": {
+                        "Translate": [
+                            0.000003814697265625,
+                            0.0,
+                            0.46876436471939087
+                        ],
+                        "Rotate": [
+                            0.0,
+                            0.0,
+                            0.000003415094397496432
+                        ],
+                        "UniformScale": 0.8724130392074585
+                    }
+                },
+                "Component_[14394554316012315112]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 14394554316012315112
+                },
+                "Component_[16002162356762150970]": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 16002162356762150970,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{E1F2E7F2-7F2B-549E-B1B6-629715315F42}",
+                                    "subId": 283305606
+                                },
+                                "assetHint": "assets/props/newspaper/newspaper.azmodel"
+                            }
+                        }
+                    }
+                },
+                "Component_[2118224556668674485]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 2118224556668674485
+                },
+                "Component_[3342108992683346028]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 3342108992683346028,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": {
+                                "{}": {
+                                    "MaterialAsset": {
+                                        "assetId": {
+                                            "guid": "{050235E1-A735-53FE-B28A-2CA7ADEB809D}"
+                                        },
+                                        "assetHint": "assets/props/newspaper/newspaper_newspapermat.azmaterial"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "Component_[3891664416649747444]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 3891664416649747444
+                },
+                "Component_[7372186200357251224]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 7372186200357251224
+                },
+                "Component_[7984874516937459267]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 7984874516937459267
+                },
+                "Component_[9136279365155419968]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 9136279365155419968
+                }
+            }
+        },
+        "Entity_[12602182982152]": {
+            "Id": "Entity_[12602182982152]",
+            "Name": "Entity3",
+            "Components": {
+                "Component_[12301967286089635206]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 12301967286089635206
+                },
+                "Component_[13433142402633255472]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 13433142402633255472
+                },
+                "Component_[14098718602576607786]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 14098718602576607786,
+                    "Parent Entity": "Entity_[12610772916744]",
+                    "Transform Data": {
+                        "Translate": [
+                            0.0000133514404296875,
+                            -0.000003814697265625,
+                            0.46876466274261475
+                        ],
+                        "UniformScale": 0.8724130392074585
+                    }
+                },
+                "Component_[14394554316012315112]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 14394554316012315112
+                },
+                "Component_[16002162356762150970]": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 16002162356762150970,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{E1F2E7F2-7F2B-549E-B1B6-629715315F42}",
+                                    "subId": 283305606
+                                },
+                                "assetHint": "assets/props/newspaper/newspaper.azmodel"
+                            }
+                        }
+                    }
+                },
+                "Component_[2118224556668674485]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 2118224556668674485
+                },
+                "Component_[3342108992683346028]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 3342108992683346028,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": {
+                                "{}": {
+                                    "MaterialAsset": {
+                                        "assetId": {
+                                            "guid": "{050235E1-A735-53FE-B28A-2CA7ADEB809D}"
+                                        },
+                                        "assetHint": "assets/props/newspaper/newspaper_newspapermat.azmaterial"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "Component_[3891664416649747444]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 3891664416649747444
+                },
+                "Component_[7372186200357251224]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 7372186200357251224
+                },
+                "Component_[7984874516937459267]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 7984874516937459267
+                },
+                "Component_[9136279365155419968]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 9136279365155419968
+                }
+            }
+        },
+        "Entity_[12606477949448]": {
+            "Id": "Entity_[12606477949448]",
+            "Name": "truck",
+            "Components": {
+                "Component_[11072045920624355395]": {
+                    "$type": "EditorColliderComponent",
+                    "Id": 11072045920624355395,
+                    "ColliderConfiguration": {
+                        "CollisionLayer": {
+                            "Index": 1
+                        },
+                        "Position": [
+                            0.0,
+                            0.0,
+                            1.9796106815338135
+                        ],
+                        "MaterialSlots": {
+                            "Slots": [
+                                {
+                                    "Name": "Entire object"
+                                }
+                            ]
+                        }
+                    },
+                    "ShapeConfiguration": {
+                        "ShapeType": 1,
+                        "Box": {
+                            "Configuration": [
+                                3.4271903038024902,
+                                5.821475028991699,
+                                3.8850059509277344
+                            ]
+                        }
+                    }
+                },
+                "Component_[11220603771372229725]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 11220603771372229725,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 7521929442801290923
+                        },
+                        {
+                            "ComponentId": 4439146493539681360,
+                            "SortIndex": 1
+                        },
+                        {
+                            "ComponentId": 13527097877220555290,
+                            "SortIndex": 2
+                        }
+                    ]
+                },
+                "Component_[13527097877220555290]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 13527097877220555290,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": {
+                                "{}": {
+                                    "MaterialAsset": {
+                                        "assetId": {
+                                            "guid": "{108BC97D-516B-58CA-95E9-5498EB81FAAD}"
+                                        },
+                                        "assetHint": "assets/props/truck/truck.azmaterial"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "Component_[13968278961306075562]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 13968278961306075562
+                },
+                "Component_[14797147760991535796]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 14797147760991535796
+                },
+                "Component_[186446470702452905]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 186446470702452905
+                },
+                "Component_[4439146493539681360]": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 4439146493539681360,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{0E09299B-9EA5-52B8-90F6-89A5DC70EFAE}",
+                                    "subId": 281867018
+                                },
+                                "assetHint": "assets/props/truck/truck.azmodel"
+                            }
+                        }
+                    }
+                },
+                "Component_[4807389899896644333]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 4807389899896644333
+                },
+                "Component_[625172997189842473]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 625172997189842473
+                },
+                "Component_[6725792225464545720]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 6725792225464545720
+                },
+                "Component_[7521929442801290923]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 7521929442801290923,
+                    "Parent Entity": "ContainerEntity",
+                    "Transform Data": {
+                        "Translate": [
+                            2.285463333129883,
+                            -0.8705291748046875,
+                            0.0
+                        ]
+                    }
+                },
+                "Component_[9815773085486113979]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 9815773085486113979
+                }
+            }
+        },
+        "Entity_[12610772916744]": {
+            "Id": "Entity_[12610772916744]",
+            "Name": "Paper Stack",
+            "Components": {
+                "Component_[12301967286089635206]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 12301967286089635206,
+                    "Child Entity Order": [
+                        "Entity_[12602182982152]"
+                    ]
+                },
+                "Component_[12506777236186216777]": {
+                    "$type": "EditorNonUniformScaleComponent",
+                    "Id": 12506777236186216777,
+                    "NonUniformScale": [
+                        1.2999999523162842,
+                        0.800000011920929,
+                        10.0
+                    ]
+                },
+                "Component_[12928496521446792308]": {
+                    "$type": "EditorColliderComponent",
+                    "Id": 12928496521446792308,
+                    "ColliderConfiguration": {
+                        "MaterialSlots": {
+                            "Slots": [
+                                {
+                                    "Name": "Entire object"
+                                }
+                            ]
+                        }
+                    },
+                    "ShapeConfiguration": {
+                        "ShapeType": 1,
+                        "Box": {
+                            "Scale": [
+                                0.9784498810768127,
+                                0.6021230220794678,
+                                7.526537895202637
+                            ],
+                            "Configuration": [
+                                0.2622683048248291,
+                                0.6065577864646912,
+                                0.10139310359954834
+                            ]
+                        },
+                        "HasNonUniformScale": true
+                    },
+                    "HasNonUniformScale": true
+                },
+                "Component_[13433142402633255472]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 13433142402633255472
+                },
+                "Component_[14098718602576607786]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 14098718602576607786,
+                    "Parent Entity": "ContainerEntity",
+                    "Transform Data": {
+                        "Translate": [
+                            0.027622222900390625,
+                            -0.5392465591430664,
+                            0.35761216282844543
+                        ],
+                        "Rotate": [
+                            0.0,
+                            0.0,
+                            41.693870544433594
+                        ],
+                        "UniformScale": 0.7526537775993347
+                    }
+                },
+                "Component_[14394554316012315112]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 14394554316012315112,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 14098718602576607786
+                        },
+                        {
+                            "ComponentId": 12506777236186216777,
+                            "SortIndex": 1
+                        },
+                        {
+                            "ComponentId": 16002162356762150970,
+                            "SortIndex": 2
+                        },
+                        {
+                            "ComponentId": 3342108992683346028,
+                            "SortIndex": 3
+                        }
+                    ]
+                },
+                "Component_[16002162356762150970]": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 16002162356762150970,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{E1F2E7F2-7F2B-549E-B1B6-629715315F42}",
+                                    "subId": 283305606
+                                },
+                                "assetHint": "assets/props/newspaper/newspaper.azmodel"
+                            }
+                        }
+                    }
+                },
+                "Component_[2118224556668674485]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 2118224556668674485
+                },
+                "Component_[3342108992683346028]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 3342108992683346028,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": {
+                                "{}": {
+                                    "MaterialAsset": {
+                                        "assetId": {
+                                            "guid": "{050235E1-A735-53FE-B28A-2CA7ADEB809D}"
+                                        },
+                                        "assetHint": "assets/props/newspaper/newspaper_newspapermat.azmaterial"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "Component_[3891664416649747444]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 3891664416649747444
+                },
+                "Component_[7372186200357251224]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 7372186200357251224
+                },
+                "Component_[7984874516937459267]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 7984874516937459267
+                },
+                "Component_[9136279365155419968]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 9136279365155419968
+                }
+            }
+        },
+        "Entity_[12615067884040]": {
+            "Id": "Entity_[12615067884040]",
+            "Name": "Entity3",
+            "Components": {
+                "Component_[12301967286089635206]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 12301967286089635206
+                },
+                "Component_[13433142402633255472]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 13433142402633255472
+                },
+                "Component_[14098718602576607786]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 14098718602576607786,
+                    "Parent Entity": "Entity_[12623657818632]",
+                    "Transform Data": {
+                        "Translate": [
+                            0.0,
+                            0.0,
+                            0.4687642455101013
+                        ],
+                        "UniformScale": 0.8724130392074585
+                    }
+                },
+                "Component_[14394554316012315112]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 14394554316012315112
+                },
+                "Component_[16002162356762150970]": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 16002162356762150970,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{E1F2E7F2-7F2B-549E-B1B6-629715315F42}",
+                                    "subId": 283305606
+                                },
+                                "assetHint": "assets/props/newspaper/newspaper.azmodel"
+                            }
+                        }
+                    }
+                },
+                "Component_[2118224556668674485]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 2118224556668674485
+                },
+                "Component_[3342108992683346028]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 3342108992683346028,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": {
+                                "{}": {
+                                    "MaterialAsset": {
+                                        "assetId": {
+                                            "guid": "{050235E1-A735-53FE-B28A-2CA7ADEB809D}"
+                                        },
+                                        "assetHint": "assets/props/newspaper/newspaper_newspapermat.azmaterial"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "Component_[3891664416649747444]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 3891664416649747444
+                },
+                "Component_[7372186200357251224]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 7372186200357251224
+                },
+                "Component_[7984874516937459267]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 7984874516937459267
+                },
+                "Component_[9136279365155419968]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 9136279365155419968
+                }
+            }
+        },
+        "Entity_[12619362851336]": {
+            "Id": "Entity_[12619362851336]",
+            "Name": "Paper Stack",
+            "Components": {
+                "Component_[12301967286089635206]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 12301967286089635206,
+                    "Child Entity Order": [
+                        "Entity_[12627952785928]"
+                    ]
+                },
+                "Component_[12506777236186216777]": {
+                    "$type": "EditorNonUniformScaleComponent",
+                    "Id": 12506777236186216777,
+                    "NonUniformScale": [
+                        1.2999999523162842,
+                        0.800000011920929,
+                        10.0
+                    ]
+                },
+                "Component_[13433142402633255472]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 13433142402633255472
+                },
+                "Component_[14098718602576607786]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 14098718602576607786,
+                    "Parent Entity": "ContainerEntity",
+                    "Transform Data": {
+                        "Translate": [
+                            -0.14909744262695313,
+                            1.0963249206542969,
+                            0.35761216282844543
+                        ],
+                        "Rotate": [
+                            0.0,
+                            0.0,
+                            41.693870544433594
+                        ],
+                        "UniformScale": 0.7526537775993347
+                    }
+                },
+                "Component_[14394554316012315112]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 14394554316012315112,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 14098718602576607786
+                        },
+                        {
+                            "ComponentId": 12506777236186216777,
+                            "SortIndex": 1
+                        },
+                        {
+                            "ComponentId": 16002162356762150970,
+                            "SortIndex": 2
+                        },
+                        {
+                            "ComponentId": 3342108992683346028,
+                            "SortIndex": 3
+                        }
+                    ]
+                },
+                "Component_[16002162356762150970]": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 16002162356762150970,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{E1F2E7F2-7F2B-549E-B1B6-629715315F42}",
+                                    "subId": 283305606
+                                },
+                                "assetHint": "assets/props/newspaper/newspaper.azmodel"
+                            }
+                        }
+                    }
+                },
+                "Component_[2118224556668674485]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 2118224556668674485
+                },
+                "Component_[3342108992683346028]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 3342108992683346028,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": {
+                                "{}": {
+                                    "MaterialAsset": {
+                                        "assetId": {
+                                            "guid": "{050235E1-A735-53FE-B28A-2CA7ADEB809D}"
+                                        },
+                                        "assetHint": "assets/props/newspaper/newspaper_newspapermat.azmaterial"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "Component_[3891664416649747444]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 3891664416649747444
+                },
+                "Component_[7372186200357251224]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 7372186200357251224
+                },
+                "Component_[7984874516937459267]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 7984874516937459267
+                },
+                "Component_[9136279365155419968]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 9136279365155419968
+                },
+                "Component_[9826716948792102666]": {
+                    "$type": "EditorColliderComponent",
+                    "Id": 9826716948792102666,
+                    "ColliderConfiguration": {
+                        "MaterialSlots": {
+                            "Slots": [
+                                {
+                                    "Name": "Entire object"
+                                }
+                            ]
+                        }
+                    },
+                    "ShapeConfiguration": {
+                        "ShapeType": 1,
+                        "Box": {
+                            "Scale": [
+                                0.9784498810768127,
+                                0.6021230220794678,
+                                7.526537895202637
+                            ],
+                            "Configuration": [
+                                0.2622683048248291,
+                                0.6065577864646912,
+                                0.10139310359954834
+                            ]
+                        },
+                        "HasNonUniformScale": true
+                    },
+                    "HasNonUniformScale": true
+                }
+            }
+        },
+        "Entity_[12623657818632]": {
+            "Id": "Entity_[12623657818632]",
+            "Name": "Paper Stack",
+            "Components": {
+                "Component_[12010434119565680858]": {
+                    "$type": "EditorColliderComponent",
+                    "Id": 12010434119565680858,
+                    "ColliderConfiguration": {
+                        "MaterialSlots": {
+                            "Slots": [
+                                {
+                                    "Name": "Entire object"
+                                }
+                            ]
+                        }
+                    },
+                    "ShapeConfiguration": {
+                        "ShapeType": 1,
+                        "Box": {
+                            "Scale": [
+                                0.9784498810768127,
+                                0.6021230220794678,
+                                7.526537895202637
+                            ],
+                            "Configuration": [
+                                0.2622683048248291,
+                                0.6065577864646912,
+                                0.10139310359954834
+                            ]
+                        },
+                        "HasNonUniformScale": true
+                    },
+                    "HasNonUniformScale": true
+                },
+                "Component_[12301967286089635206]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 12301967286089635206,
+                    "Child Entity Order": [
+                        "Entity_[12615067884040]"
+                    ]
+                },
+                "Component_[12506777236186216777]": {
+                    "$type": "EditorNonUniformScaleComponent",
+                    "Id": 12506777236186216777,
+                    "NonUniformScale": [
+                        1.2999999523162842,
+                        0.800000011920929,
+                        10.0
+                    ]
+                },
+                "Component_[13433142402633255472]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 13433142402633255472
+                },
+                "Component_[14098718602576607786]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 14098718602576607786,
+                    "Parent Entity": "ContainerEntity",
+                    "Transform Data": {
+                        "Translate": [
+                            -0.2593727111816406,
+                            -0.5892715454101563,
+                            0.3576121926307678
+                        ],
+                        "UniformScale": 0.7526537775993347
+                    }
+                },
+                "Component_[14394554316012315112]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 14394554316012315112,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 14098718602576607786
+                        },
+                        {
+                            "ComponentId": 12506777236186216777,
+                            "SortIndex": 1
+                        },
+                        {
+                            "ComponentId": 16002162356762150970,
+                            "SortIndex": 2
+                        },
+                        {
+                            "ComponentId": 3342108992683346028,
+                            "SortIndex": 3
+                        }
+                    ]
+                },
+                "Component_[16002162356762150970]": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 16002162356762150970,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{E1F2E7F2-7F2B-549E-B1B6-629715315F42}",
+                                    "subId": 283305606
+                                },
+                                "assetHint": "assets/props/newspaper/newspaper.azmodel"
+                            }
+                        }
+                    }
+                },
+                "Component_[2118224556668674485]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 2118224556668674485
+                },
+                "Component_[3342108992683346028]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 3342108992683346028,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": {
+                                "{}": {
+                                    "MaterialAsset": {
+                                        "assetId": {
+                                            "guid": "{050235E1-A735-53FE-B28A-2CA7ADEB809D}"
+                                        },
+                                        "assetHint": "assets/props/newspaper/newspaper_newspapermat.azmaterial"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "Component_[3891664416649747444]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 3891664416649747444
+                },
+                "Component_[7372186200357251224]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 7372186200357251224
+                },
+                "Component_[7984874516937459267]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 7984874516937459267
+                },
+                "Component_[9136279365155419968]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 9136279365155419968
+                }
+            }
+        },
+        "Entity_[12627952785928]": {
+            "Id": "Entity_[12627952785928]",
+            "Name": "Entity3",
+            "Components": {
+                "Component_[12301967286089635206]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 12301967286089635206
+                },
+                "Component_[13433142402633255472]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 13433142402633255472
+                },
+                "Component_[14098718602576607786]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 14098718602576607786,
+                    "Parent Entity": "Entity_[12619362851336]",
+                    "Transform Data": {
+                        "Translate": [
+                            0.0000019073486328125,
+                            0.000003814697265625,
+                            0.46876460313796997
+                        ],
+                        "UniformScale": 0.8724130392074585
+                    }
+                },
+                "Component_[14394554316012315112]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 14394554316012315112
+                },
+                "Component_[16002162356762150970]": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 16002162356762150970,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{E1F2E7F2-7F2B-549E-B1B6-629715315F42}",
+                                    "subId": 283305606
+                                },
+                                "assetHint": "assets/props/newspaper/newspaper.azmodel"
+                            }
+                        }
+                    }
+                },
+                "Component_[2118224556668674485]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 2118224556668674485
+                },
+                "Component_[3342108992683346028]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 3342108992683346028,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": {
+                                "{}": {
+                                    "MaterialAsset": {
+                                        "assetId": {
+                                            "guid": "{050235E1-A735-53FE-B28A-2CA7ADEB809D}"
+                                        },
+                                        "assetHint": "assets/props/newspaper/newspaper_newspapermat.azmaterial"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "Component_[3891664416649747444]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 3891664416649747444
+                },
+                "Component_[7372186200357251224]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 7372186200357251224
+                },
+                "Component_[7984874516937459267]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 7984874516937459267
+                },
+                "Component_[9136279365155419968]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 9136279365155419968
+                }
+            }
+        },
+        "Entity_[12632247753224]": {
+            "Id": "Entity_[12632247753224]",
+            "Name": "Paper Stack",
+            "Components": {
+                "Component_[12301967286089635206]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 12301967286089635206,
+                    "Child Entity Order": [
+                        "Entity_[12597888014856]"
+                    ]
+                },
+                "Component_[12506777236186216777]": {
+                    "$type": "EditorNonUniformScaleComponent",
+                    "Id": 12506777236186216777,
+                    "NonUniformScale": [
+                        1.2999999523162842,
+                        0.800000011920929,
+                        10.0
+                    ]
+                },
+                "Component_[13433142402633255472]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 13433142402633255472
+                },
+                "Component_[14098718602576607786]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 14098718602576607786,
+                    "Parent Entity": "ContainerEntity",
+                    "Transform Data": {
+                        "Translate": [
+                            -0.3516807556152344,
+                            0.6282033920288086,
+                            0.3576121926307678
+                        ],
+                        "Rotate": [
+                            0.0,
+                            0.0,
+                            -32.24427795410156
+                        ],
+                        "UniformScale": 0.7526537775993347
+                    }
+                },
+                "Component_[14394554316012315112]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 14394554316012315112,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 14098718602576607786
+                        },
+                        {
+                            "ComponentId": 12506777236186216777,
+                            "SortIndex": 1
+                        },
+                        {
+                            "ComponentId": 16002162356762150970,
+                            "SortIndex": 2
+                        },
+                        {
+                            "ComponentId": 3342108992683346028,
+                            "SortIndex": 3
+                        }
+                    ]
+                },
+                "Component_[16002162356762150970]": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 16002162356762150970,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{E1F2E7F2-7F2B-549E-B1B6-629715315F42}",
+                                    "subId": 283305606
+                                },
+                                "assetHint": "assets/props/newspaper/newspaper.azmodel"
+                            }
+                        }
+                    }
+                },
+                "Component_[16836483085689621972]": {
+                    "$type": "EditorColliderComponent",
+                    "Id": 16836483085689621972,
+                    "ColliderConfiguration": {
+                        "MaterialSlots": {
+                            "Slots": [
+                                {
+                                    "Name": "Entire object"
+                                }
+                            ]
+                        }
+                    },
+                    "ShapeConfiguration": {
+                        "ShapeType": 1,
+                        "Box": {
+                            "Scale": [
+                                0.9784498810768127,
+                                0.6021230220794678,
+                                7.526537895202637
+                            ],
+                            "Configuration": [
+                                0.2622683048248291,
+                                0.6065577864646912,
+                                0.10139310359954834
+                            ]
+                        },
+                        "HasNonUniformScale": true
+                    },
+                    "HasNonUniformScale": true
+                },
+                "Component_[2118224556668674485]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 2118224556668674485
+                },
+                "Component_[3342108992683346028]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 3342108992683346028,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": {
+                                "{}": {
+                                    "MaterialAsset": {
+                                        "assetId": {
+                                            "guid": "{050235E1-A735-53FE-B28A-2CA7ADEB809D}"
+                                        },
+                                        "assetHint": "assets/props/newspaper/newspaper_newspapermat.azmaterial"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "Component_[3891664416649747444]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 3891664416649747444
+                },
+                "Component_[7372186200357251224]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 7372186200357251224
+                },
+                "Component_[7984874516937459267]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 7984874516937459267
+                },
+                "Component_[9136279365155419968]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 9136279365155419968
+                }
+            }
+        },
+        "Entity_[12636542720520]": {
+            "Id": "Entity_[12636542720520]",
+            "Name": "Entity3",
+            "Components": {
+                "Component_[12301967286089635206]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 12301967286089635206
+                },
+                "Component_[13433142402633255472]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 13433142402633255472
+                },
+                "Component_[14098718602576607786]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 14098718602576607786,
+                    "Parent Entity": "ContainerEntity",
+                    "Transform Data": {
+                        "Translate": [
+                            -0.4143333435058594,
+                            0.12302303314208984,
+                            1.3235266208648682
+                        ],
+                        "UniformScale": 0.656624972820282
+                    }
+                },
+                "Component_[14394554316012315112]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 14394554316012315112,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 14098718602576607786
+                        },
+                        {
+                            "ComponentId": 16002162356762150970,
+                            "SortIndex": 1
+                        },
+                        {
+                            "ComponentId": 3342108992683346028,
+                            "SortIndex": 2
+                        }
+                    ]
+                },
+                "Component_[16002162356762150970]": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 16002162356762150970,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{E1F2E7F2-7F2B-549E-B1B6-629715315F42}",
+                                    "subId": 283305606
+                                },
+                                "assetHint": "assets/props/newspaper/newspaper.azmodel"
+                            }
+                        }
+                    }
+                },
+                "Component_[2118224556668674485]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 2118224556668674485
+                },
+                "Component_[3342108992683346028]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 3342108992683346028,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": {
+                                "{}": {
+                                    "MaterialAsset": {
+                                        "assetId": {
+                                            "guid": "{050235E1-A735-53FE-B28A-2CA7ADEB809D}"
+                                        },
+                                        "assetHint": "assets/props/newspaper/newspaper_newspapermat.azmaterial"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "Component_[3891664416649747444]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 3891664416649747444
+                },
+                "Component_[7372186200357251224]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 7372186200357251224
+                },
+                "Component_[7984874516937459267]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 7984874516937459267
+                },
+                "Component_[9136279365155419968]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 9136279365155419968
+                }
+            }
+        },
+        "Entity_[12640837687816]": {
+            "Id": "Entity_[12640837687816]",
+            "Name": "Paper Stack",
+            "Components": {
+                "Component_[12301967286089635206]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 12301967286089635206,
+                    "Child Entity Order": [
+                        "Entity_[12593593047560]"
+                    ]
+                },
+                "Component_[12506777236186216777]": {
+                    "$type": "EditorNonUniformScaleComponent",
+                    "Id": 12506777236186216777,
+                    "NonUniformScale": [
+                        1.2999999523162842,
+                        0.800000011920929,
+                        10.0
+                    ]
+                },
+                "Component_[13433142402633255472]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 13433142402633255472
+                },
+                "Component_[14098718602576607786]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 14098718602576607786,
+                    "Parent Entity": "ContainerEntity",
+                    "Transform Data": {
+                        "Translate": [
+                            -0.43609619140625,
+                            1.0462970733642578,
+                            0.3576121926307678
+                        ],
+                        "UniformScale": 0.7526537775993347
+                    }
+                },
+                "Component_[14394554316012315112]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 14394554316012315112,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 14098718602576607786
+                        },
+                        {
+                            "ComponentId": 12506777236186216777,
+                            "SortIndex": 1
+                        },
+                        {
+                            "ComponentId": 16002162356762150970,
+                            "SortIndex": 2
+                        },
+                        {
+                            "ComponentId": 3342108992683346028,
+                            "SortIndex": 3
+                        }
+                    ]
+                },
+                "Component_[16002162356762150970]": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 16002162356762150970,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{E1F2E7F2-7F2B-549E-B1B6-629715315F42}",
+                                    "subId": 283305606
+                                },
+                                "assetHint": "assets/props/newspaper/newspaper.azmodel"
+                            }
+                        }
+                    }
+                },
+                "Component_[2118224556668674485]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 2118224556668674485
+                },
+                "Component_[3342108992683346028]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 3342108992683346028,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": {
+                                "{}": {
+                                    "MaterialAsset": {
+                                        "assetId": {
+                                            "guid": "{050235E1-A735-53FE-B28A-2CA7ADEB809D}"
+                                        },
+                                        "assetHint": "assets/props/newspaper/newspaper_newspapermat.azmaterial"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "Component_[3891664416649747444]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 3891664416649747444
+                },
+                "Component_[677831253444729589]": {
+                    "$type": "EditorColliderComponent",
+                    "Id": 677831253444729589,
+                    "ColliderConfiguration": {
+                        "MaterialSlots": {
+                            "Slots": [
+                                {
+                                    "Name": "Entire object"
+                                }
+                            ]
+                        }
+                    },
+                    "ShapeConfiguration": {
+                        "ShapeType": 1,
+                        "Box": {
+                            "Scale": [
+                                0.9784498810768127,
+                                0.6021230220794678,
+                                7.526537895202637
+                            ],
+                            "Configuration": [
+                                0.2622683048248291,
+                                0.6065578460693359,
+                                0.10139311850070953
+                            ]
+                        },
+                        "HasNonUniformScale": true
+                    },
+                    "HasNonUniformScale": true
+                },
+                "Component_[7372186200357251224]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 7372186200357251224
+                },
+                "Component_[7984874516937459267]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 7984874516937459267
+                },
+                "Component_[9136279365155419968]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 9136279365155419968
+                }
+            }
+        },
+        "Entity_[12645132655112]": {
+            "Id": "Entity_[12645132655112]",
+            "Name": "Entity3",
+            "Components": {
+                "Component_[12301967286089635206]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 12301967286089635206
+                },
+                "Component_[13433142402633255472]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 13433142402633255472
+                },
+                "Component_[14098718602576607786]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 14098718602576607786,
+                    "Parent Entity": "Entity_[12653722589704]",
+                    "Transform Data": {
+                        "Translate": [
+                            0.00000762939453125,
+                            -0.000003814697265625,
+                            0.4687644839286804
+                        ],
+                        "Rotate": [
+                            0.0,
+                            0.0,
+                            0.000003415094397496432
+                        ],
+                        "UniformScale": 0.8724130392074585
+                    }
+                },
+                "Component_[14394554316012315112]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 14394554316012315112
+                },
+                "Component_[16002162356762150970]": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 16002162356762150970,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{E1F2E7F2-7F2B-549E-B1B6-629715315F42}",
+                                    "subId": 283305606
+                                },
+                                "assetHint": "assets/props/newspaper/newspaper.azmodel"
+                            }
+                        }
+                    }
+                },
+                "Component_[2118224556668674485]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 2118224556668674485
+                },
+                "Component_[3342108992683346028]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 3342108992683346028,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": {
+                                "{}": {
+                                    "MaterialAsset": {
+                                        "assetId": {
+                                            "guid": "{050235E1-A735-53FE-B28A-2CA7ADEB809D}"
+                                        },
+                                        "assetHint": "assets/props/newspaper/newspaper_newspapermat.azmaterial"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "Component_[3891664416649747444]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 3891664416649747444
+                },
+                "Component_[7372186200357251224]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 7372186200357251224
+                },
+                "Component_[7984874516937459267]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 7984874516937459267
+                },
+                "Component_[9136279365155419968]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 9136279365155419968
+                }
+            }
+        },
+        "Entity_[12649427622408]": {
+            "Id": "Entity_[12649427622408]",
+            "Name": "Entity3",
+            "Components": {
+                "Component_[12301967286089635206]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 12301967286089635206
+                },
+                "Component_[13433142402633255472]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 13433142402633255472
+                },
+                "Component_[14098718602576607786]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 14098718602576607786,
+                    "Parent Entity": "ContainerEntity",
+                    "Transform Data": {
+                        "Translate": [
+                            -0.4143333435058594,
+                            0.12302303314208984,
+                            1.3709716796875
+                        ],
+                        "Rotate": [
+                            0.0,
+                            0.0,
+                            12.656500816345215
+                        ],
+                        "UniformScale": 0.656624972820282
+                    }
+                },
+                "Component_[14394554316012315112]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 14394554316012315112,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 14098718602576607786
+                        },
+                        {
+                            "ComponentId": 16002162356762150970,
+                            "SortIndex": 1
+                        },
+                        {
+                            "ComponentId": 3342108992683346028,
+                            "SortIndex": 2
+                        }
+                    ]
+                },
+                "Component_[16002162356762150970]": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 16002162356762150970,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{E1F2E7F2-7F2B-549E-B1B6-629715315F42}",
+                                    "subId": 283305606
+                                },
+                                "assetHint": "assets/props/newspaper/newspaper.azmodel"
+                            }
+                        }
+                    }
+                },
+                "Component_[2118224556668674485]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 2118224556668674485
+                },
+                "Component_[3342108992683346028]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 3342108992683346028,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": {
+                                "{}": {
+                                    "MaterialAsset": {
+                                        "assetId": {
+                                            "guid": "{050235E1-A735-53FE-B28A-2CA7ADEB809D}"
+                                        },
+                                        "assetHint": "assets/props/newspaper/newspaper_newspapermat.azmaterial"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "Component_[3891664416649747444]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 3891664416649747444
+                },
+                "Component_[7372186200357251224]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 7372186200357251224
+                },
+                "Component_[7984874516937459267]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 7984874516937459267
+                },
+                "Component_[9136279365155419968]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 9136279365155419968
+                }
+            }
+        },
+        "Entity_[12653722589704]": {
+            "Id": "Entity_[12653722589704]",
+            "Name": "Paper Stack",
+            "Components": {
+                "Component_[11848056852036003869]": {
+                    "$type": "EditorColliderComponent",
+                    "Id": 11848056852036003869,
+                    "ColliderConfiguration": {
+                        "MaterialSlots": {
+                            "Slots": [
+                                {
+                                    "Name": "Entire object"
+                                }
+                            ]
+                        }
+                    },
+                    "ShapeConfiguration": {
+                        "ShapeType": 1,
+                        "Box": {
+                            "Scale": [
+                                0.9784498810768127,
+                                0.6021230220794678,
+                                7.526537895202637
+                            ],
+                            "Configuration": [
+                                0.2622683048248291,
+                                0.6065577864646912,
+                                0.10139310359954834
+                            ]
+                        },
+                        "HasNonUniformScale": true
+                    },
+                    "HasNonUniformScale": true
+                },
+                "Component_[12301967286089635206]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 12301967286089635206,
+                    "Child Entity Order": [
+                        "Entity_[12645132655112]"
+                    ]
+                },
+                "Component_[12506777236186216777]": {
+                    "$type": "EditorNonUniformScaleComponent",
+                    "Id": 12506777236186216777,
+                    "NonUniformScale": [
+                        1.2999999523162842,
+                        0.800000011920929,
+                        10.0
+                    ]
+                },
+                "Component_[13433142402633255472]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 13433142402633255472
+                },
+                "Component_[14098718602576607786]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 14098718602576607786,
+                    "Parent Entity": "ContainerEntity",
+                    "Transform Data": {
+                        "Translate": [
+                            -0.17495346069335938,
+                            -1.0073661804199219,
+                            0.3576121926307678
+                        ],
+                        "Rotate": [
+                            0.0,
+                            0.0,
+                            -32.24427795410156
+                        ],
+                        "UniformScale": 0.7526537775993347
+                    }
+                },
+                "Component_[14394554316012315112]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 14394554316012315112,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 14098718602576607786
+                        },
+                        {
+                            "ComponentId": 12506777236186216777,
+                            "SortIndex": 1
+                        },
+                        {
+                            "ComponentId": 16002162356762150970,
+                            "SortIndex": 2
+                        },
+                        {
+                            "ComponentId": 3342108992683346028,
+                            "SortIndex": 3
+                        }
+                    ]
+                },
+                "Component_[16002162356762150970]": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 16002162356762150970,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{E1F2E7F2-7F2B-549E-B1B6-629715315F42}",
+                                    "subId": 283305606
+                                },
+                                "assetHint": "assets/props/newspaper/newspaper.azmodel"
+                            }
+                        }
+                    }
+                },
+                "Component_[2118224556668674485]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 2118224556668674485
+                },
+                "Component_[3342108992683346028]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 3342108992683346028,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": {
+                                "{}": {
+                                    "MaterialAsset": {
+                                        "assetId": {
+                                            "guid": "{050235E1-A735-53FE-B28A-2CA7ADEB809D}"
+                                        },
+                                        "assetHint": "assets/props/newspaper/newspaper_newspapermat.azmaterial"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "Component_[3891664416649747444]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 3891664416649747444
+                },
+                "Component_[7372186200357251224]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 7372186200357251224
+                },
+                "Component_[7984874516937459267]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 7984874516937459267
+                },
+                "Component_[9136279365155419968]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 9136279365155419968
+                }
+            }
+        },
+        "Entity_[12658017557000]": {
+            "Id": "Entity_[12658017557000]",
+            "Name": "newsman",
+            "Components": {
+                "Component_[13518123529242602499]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 13518123529242602499
+                },
+                "Component_[15123405945103726519]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 15123405945103726519
+                },
+                "Component_[15209916818798452956]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 15209916818798452956,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 5706568785474295991
+                        },
+                        {
+                            "ComponentId": 5267778737576178734,
+                            "SortIndex": 1
+                        },
+                        {
+                            "ComponentId": 3437268673385017663,
+                            "SortIndex": 2
+                        }
+                    ]
+                },
+                "Component_[18081493448645506872]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 18081493448645506872
+                },
+                "Component_[3437268673385017663]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 3437268673385017663,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": [
+                                {
+                                    "Key": {},
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{651B49C0-173A-5FFF-95C4-1410AA831408}"
+                                            },
+                                            "assetHint": "assets/actors/newsman.azmaterial"
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 1668134766
+                                    },
+                                    "Value": {
+                                        "PropertyOverrides": {
+                                            "baseColor.textureMap": {
+                                                "$type": "AssetId",
+                                                "Value": {
+                                                    "guid": "{B823F9DC-55E2-575E-AAF6-0E9683BE3764}",
+                                                    "subId": 1000
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                "Component_[4727953064977759793]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 4727953064977759793
+                },
+                "Component_[5267778737576178734]": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 5267778737576178734,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{93F89AB4-8382-5477-9FE0-BF24F056E21B}",
+                                    "subId": 272182986
+                                },
+                                "assetHint": "assets/actors/default_newsman_432fd771_7153_5974_802b_43952fbbfd6f_.azmodel"
+                            }
+                        }
+                    }
+                },
+                "Component_[5706568785474295991]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 5706568785474295991,
+                    "Parent Entity": "ContainerEntity",
+                    "Transform Data": {
+                        "Translate": [
+                            -0.11320114135742188,
+                            -0.0105133056640625,
+                            0.07095217704772949
+                        ],
+                        "Rotate": [
+                            0.0,
+                            0.0,
+                            85.0650863647461
+                        ]
+                    }
+                },
+                "Component_[6756435323097148929]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 6756435323097148929
+                },
+                "Component_[6788490862444830412]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 6788490862444830412
+                },
+                "Component_[7516538138647876124]": {
+                    "$type": "EditorColliderComponent",
+                    "Id": 7516538138647876124,
+                    "ColliderConfiguration": {
+                        "Position": [
+                            0.05077517032623291,
+                            0.0,
+                            4.0
+                        ],
+                        "MaterialSlots": {
+                            "Slots": [
+                                {
+                                    "Name": "Entire object"
+                                }
+                            ]
+                        }
+                    },
+                    "ShapeConfiguration": {
+                        "ShapeType": 2,
+                        "Capsule": {
+                            "Height": 10.0,
+                            "Radius": 0.36000001430511475
+                        }
+                    }
+                },
+                "Component_[9160427152005446796]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 9160427152005446796
+                }
+            }
+        }
+    }
+}

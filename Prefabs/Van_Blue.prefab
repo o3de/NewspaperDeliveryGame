@@ -1,0 +1,465 @@
+{
+    "ContainerEntity": {
+        "Id": "ContainerEntity",
+        "Name": "Van_Blue",
+        "Components": {
+            "Component_[12572349878599080596]": {
+                "$type": "EditorDisabledCompositionComponent",
+                "Id": 12572349878599080596
+            },
+            "Component_[12924400058038142071]": {
+                "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                "Id": 12924400058038142071,
+                "Parent Entity": ""
+            },
+            "Component_[13746395162190524370]": {
+                "$type": "EditorPendingCompositionComponent",
+                "Id": 13746395162190524370
+            },
+            "Component_[17445813238787746196]": {
+                "$type": "EditorEntitySortComponent",
+                "Id": 17445813238787746196,
+                "Child Entity Order": [
+                    "Entity_[88880770109608]"
+                ]
+            },
+            "Component_[17722611159058056570]": {
+                "$type": "EditorOnlyEntityComponent",
+                "Id": 17722611159058056570
+            },
+            "Component_[18031157746109530901]": {
+                "$type": "EditorEntityIconComponent",
+                "Id": 18031157746109530901
+            },
+            "Component_[4791043747178218317]": {
+                "$type": "EditorVisibilityComponent",
+                "Id": 4791043747178218317
+            },
+            "Component_[4888674408152230195]": {
+                "$type": "EditorPrefabComponent",
+                "Id": 4888674408152230195
+            },
+            "Component_[7314129604533170583]": {
+                "$type": "EditorLockComponent",
+                "Id": 7314129604533170583
+            },
+            "Component_[828634333480641336]": {
+                "$type": "EditorInspectorComponent",
+                "Id": 828634333480641336
+            }
+        }
+    },
+    "Entities": {
+        "Entity_[88880770109608]": {
+            "Id": "Entity_[88880770109608]",
+            "Name": "Van_Blue",
+            "Components": {
+                "Component_[10236824938763007411]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 10236824938763007411
+                },
+                "Component_[13366596955985760336]": {
+                    "$type": "EditorScriptCanvasComponent",
+                    "Id": 13366596955985760336,
+                    "configuration": {
+                        "sourceHandle": {
+                            "id": "{11B9BA7A-5A37-51F7-B11A-5522A06CF28C}",
+                            "path": "scriptcanvas/Car.scriptcanvas"
+                        },
+                        "sourceName": "Car.scriptcanvas",
+                        "propertyOverrides": {
+                            "source": {
+                                "id": "{11B9BA7A-5A37-51F7-B11A-5522A06CF28C}",
+                                "path": "scriptcanvas/Car.scriptcanvas"
+                            }
+                        }
+                    }
+                },
+                "Component_[14084454471197762054]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 14084454471197762054,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": [
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 149026674
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{0733D674-3DEB-5BC2-A71F-D3EDA9EB9A05}"
+                                            },
+                                            "assetHint": "assets/props/van/automobile_van_vanbakelightsmat.azmaterial"
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 469921357
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{505078DF-B96F-5210-ABEE-376AF65233E5}"
+                                            },
+                                            "assetHint": "assets/props/van/automobile_van_licplatemat.azmaterial"
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 1687490049
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{DA3ACC5F-89EF-5B98-8AA5-867E957D3DCE}"
+                                            },
+                                            "assetHint": "assets/props/van/automobile_van_vanchromemat.azmaterial"
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 1771320701
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{85FC2FE6-403E-546C-8FA8-7F14007BADB9}"
+                                            },
+                                            "assetHint": "assets/props/van/automobile_van_vanheadlightsmat.azmaterial"
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 1849203794
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{9EE2DA79-57D9-59DD-B4F5-5AD00736A183}"
+                                            },
+                                            "assetHint": "assets/props/van/automobile_van_vanpaintaccentmat.azmaterial"
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 2304694867
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{7E239949-FB70-5C58-8A99-BE490DA6CCC9}"
+                                            },
+                                            "assetHint": "assets/props/van/automobile_van_vantiremat.azmaterial"
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 2570075154
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{972018D2-BA2B-5531-B013-EBA4B3064FBF}"
+                                            },
+                                            "assetHint": "assets/props/van/automobile_van_vanautoglassmat.azmaterial"
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 3112819380
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{155FBA89-EDEF-5011-8747-0478BAC4B0EF}"
+                                            },
+                                            "assetHint": "assets/props/van/automobile_van_vanpaintmainmat.azmaterial"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                "Component_[17551180196552731296]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 17551180196552731296
+                },
+                "Component_[2041011453372020995]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 2041011453372020995,
+                    "Parent Entity": "ContainerEntity",
+                    "Transform Data": {
+                        "Translate": [
+                            0.0,
+                            0.0,
+                            -0.5543357133865356
+                        ],
+                        "UniformScale": 0.949999988079071
+                    }
+                },
+                "Component_[3072056651864325484]": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 3072056651864325484,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{74CA1199-7B22-5E7F-A94E-8DE78E8084AB}",
+                                    "subId": 283854220
+                                },
+                                "assetHint": "assets/props/van/automobile_van.azmodel"
+                            },
+                            "LodType": 1
+                        }
+                    }
+                },
+                "Component_[4015844436333767505]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 4015844436333767505
+                },
+                "Component_[5029121945530591281]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 5029121945530591281
+                },
+                "Component_[5109909117354925085]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 5109909117354925085,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 2041011453372020995
+                        },
+                        {
+                            "ComponentId": 3072056651864325484,
+                            "SortIndex": 1
+                        },
+                        {
+                            "ComponentId": 14084454471197762054,
+                            "SortIndex": 2
+                        }
+                    ]
+                },
+                "Component_[5201360386454157255]": {
+                    "$type": "EditorRigidBodyComponent",
+                    "Id": 5201360386454157255,
+                    "Configuration": {
+                        "entityId": "",
+                        "Kinematic": true,
+                        "Mass": 17516.48046875,
+                        "Centre of mass offset": [
+                            -0.008189571090042591,
+                            0.0,
+                            1.1009013652801514
+                        ],
+                        "Inertia tensor": [
+                            12758.6416015625,
+                            0.0,
+                            0.0,
+                            0.0,
+                            12758.6416015625,
+                            0.0,
+                            0.0,
+                            0.0,
+                            12758.6416015625
+                        ]
+                    }
+                },
+                "Component_[7469649431801341611]": {
+                    "$type": "EditorColliderComponent",
+                    "Id": 7469649431801341611,
+                    "ColliderConfiguration": {
+                        "Position": [
+                            -0.00204299995675683,
+                            0.0,
+                            0.4547450542449951
+                        ],
+                        "MaterialSlots": {
+                            "Slots": [
+                                {
+                                    "Name": "_Box_1x1__1__MiddleGrey__physNone"
+                                }
+                            ]
+                        }
+                    },
+                    "ShapeConfiguration": {
+                        "PhysicsAsset": {
+                            "Asset": {
+                                "assetId": {
+                                    "guid": "{C15CD465-9589-56ED-945F-8416FA4798A3}",
+                                    "subId": 858390244
+                                },
+                                "assetHint": "objects/_primitives/_box_1x1.pxmesh"
+                            },
+                            "Configuration": {
+                                "Scale": [
+                                    0.949999988079071,
+                                    0.949999988079071,
+                                    0.949999988079071
+                                ],
+                                "PhysicsAsset": {
+                                    "assetId": {
+                                        "guid": "{C15CD465-9589-56ED-945F-8416FA4798A3}",
+                                        "subId": 858390244
+                                    },
+                                    "loadBehavior": "QueueLoad",
+                                    "assetHint": "objects/_primitives/_box_1x1.pxmesh"
+                                },
+                                "AssetScale": [
+                                    4.00860071182251,
+                                    2.107090711593628,
+                                    2.1872754096984863
+                                ]
+                            }
+                        }
+                    },
+                    "DebugDrawSettings": {
+                        "LocallyEnabled": false
+                    }
+                },
+                "Component_[7908152654641492469]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 7908152654641492469
+                },
+                "Component_[8937197562420481080]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 8937197562420481080,
+                    "Child Entity Order": [
+                        "Instance_[46090010939560]/ContainerEntity",
+                        "Instance_[11113664836854]/ContainerEntity",
+                        "Instance_[11178089346294]/ContainerEntity",
+                        "Instance_[11302643397878]/ContainerEntity"
+                    ]
+                },
+                "Component_[9378880014507404140]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 9378880014507404140
+                }
+            }
+        }
+    },
+    "Instances": {
+        "Instance_[11113664836854]": {
+            "Source": "Prefabs/Van_Wheel.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[7717069092669321121]/Parent Entity",
+                    "value": "../Entity_[88880770109608]"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[7717069092669321121]/Transform Data/Translate/0",
+                    "value": 0.9421271085739136
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[7717069092669321121]/Transform Data/Translate/1",
+                    "value": 0.8695738315582275
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[7717069092669321121]/Transform Data/Translate/2",
+                    "value": 0.2774609923362732
+                }
+            ]
+        },
+        "Instance_[11178089346294]": {
+            "Source": "Prefabs/Van_RightWheel.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[16955837687875173044]/Parent Entity",
+                    "value": "../Entity_[88880770109608]"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[16955837687875173044]/Transform Data/Translate/0",
+                    "value": -1.0756397247314453
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[16955837687875173044]/Transform Data/Translate/1",
+                    "value": -0.8866273164749146
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[16955837687875173044]/Transform Data/Translate/2",
+                    "value": 0.2774609923362732
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[16955837687875173044]/Transform Data/Rotate/2",
+                    "value": 180.0
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[16955837687875173044]/Transform Data/UniformScale",
+                    "value": 1.0526316165924072
+                }
+            ]
+        },
+        "Instance_[11302643397878]": {
+            "Source": "Prefabs/Van_RightWheel.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[16955837687875173044]/Parent Entity",
+                    "value": "../Entity_[88880770109608]"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[16955837687875173044]/Transform Data/Translate/0",
+                    "value": 0.9421262741088867
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[16955837687875173044]/Transform Data/Translate/1",
+                    "value": -0.8866273164749146
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[16955837687875173044]/Transform Data/Translate/2",
+                    "value": 0.2774609327316284
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[16955837687875173044]/Transform Data/Rotate/2",
+                    "value": 180.0
+                }
+            ]
+        },
+        "Instance_[46090010939560]": {
+            "Source": "Prefabs/Van_Wheel.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[7717069092669321121]/Parent Entity",
+                    "value": "../Entity_[88880770109608]"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[7717069092669321121]/Transform Data/Translate/0",
+                    "value": -1.0737563371658323
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[7717069092669321121]/Transform Data/Translate/1",
+                    "value": 0.869573712348938
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[7717069092669321121]/Transform Data/Translate/2",
+                    "value": 0.2774609327316284
+                }
+            ]
+        }
+    }
+}

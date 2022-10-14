@@ -1,0 +1,151 @@
+{
+    "ContainerEntity": {
+        "Id": "ContainerEntity",
+        "Name": "LawnMowerZone",
+        "Components": {
+            "Component_[11017411451393253255]": {
+                "$type": "EditorDisabledCompositionComponent",
+                "Id": 11017411451393253255
+            },
+            "Component_[15210467471554695681]": {
+                "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                "Id": 15210467471554695681,
+                "Parent Entity": ""
+            },
+            "Component_[17400412033276712955]": {
+                "$type": "EditorPrefabComponent",
+                "Id": 17400412033276712955
+            },
+            "Component_[18127841025035162132]": {
+                "$type": "EditorVisibilityComponent",
+                "Id": 18127841025035162132
+            },
+            "Component_[18395465793720818008]": {
+                "$type": "EditorEntityIconComponent",
+                "Id": 18395465793720818008
+            },
+            "Component_[2580955117640249648]": {
+                "$type": "EditorOnlyEntityComponent",
+                "Id": 2580955117640249648
+            },
+            "Component_[2703177955805448669]": {
+                "$type": "EditorLockComponent",
+                "Id": 2703177955805448669
+            },
+            "Component_[6977589498194236814]": {
+                "$type": "EditorPendingCompositionComponent",
+                "Id": 6977589498194236814
+            },
+            "Component_[854547113838611223]": {
+                "$type": "EditorInspectorComponent",
+                "Id": 854547113838611223
+            },
+            "Component_[9748928973366211151]": {
+                "$type": "EditorEntitySortComponent",
+                "Id": 9748928973366211151,
+                "Child Entity Order": [
+                    "Entity_[787732541479827]"
+                ]
+            }
+        }
+    },
+    "Entities": {
+        "Entity_[787732541479827]": {
+            "Id": "Entity_[787732541479827]",
+            "Name": "LawnMowerZone",
+            "Components": {
+                "Component_[10116298661550047348]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 10116298661550047348,
+                    "Parent Entity": "ContainerEntity"
+                },
+                "Component_[1191094552181795305]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 1191094552181795305
+                },
+                "Component_[14502043102672505033]": {
+                    "$type": "EditorColliderComponent",
+                    "Id": 14502043102672505033,
+                    "ColliderConfiguration": {
+                        "Trigger": true,
+                        "MaterialSlots": {
+                            "Slots": [
+                                {
+                                    "Name": "Entire object"
+                                }
+                            ]
+                        }
+                    },
+                    "ShapeConfiguration": {
+                        "ShapeType": 1,
+                        "Box": {
+                            "Configuration": [
+                                5.0,
+                                5.0,
+                                1.0
+                            ]
+                        }
+                    }
+                },
+                "Component_[1606135258485992951]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 1606135258485992951
+                },
+                "Component_[16401419535961429317]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 16401419535961429317
+                },
+                "Component_[16443777372398202712]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 16443777372398202712
+                },
+                "Component_[16578559752663612890]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 16578559752663612890,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 10116298661550047348
+                        },
+                        {
+                            "ComponentId": 14502043102672505033,
+                            "SortIndex": 1
+                        },
+                        {
+                            "ComponentId": 6081823756515451908,
+                            "SortIndex": 2
+                        }
+                    ]
+                },
+                "Component_[17193275326676784442]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 17193275326676784442
+                },
+                "Component_[1852285675349740162]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 1852285675349740162
+                },
+                "Component_[4370644781662542507]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 4370644781662542507
+                },
+                "Component_[6081823756515451908]": {
+                    "$type": "EditorScriptCanvasComponent",
+                    "Id": 6081823756515451908,
+                    "configuration": {
+                        "sourceHandle": {
+                            "id": "{41885196-CF43-59F1-924C-386F58FC560D}",
+                            "path": "scriptcanvas/LawnMowerZone.scriptcanvas"
+                        },
+                        "sourceName": "LawnMowerZone.scriptcanvas",
+                        "propertyOverrides": {
+                            "source": {
+                                "id": "{41885196-CF43-59F1-924C-386F58FC560D}",
+                                "path": "scriptcanvas/LawnMowerZone.scriptcanvas"
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

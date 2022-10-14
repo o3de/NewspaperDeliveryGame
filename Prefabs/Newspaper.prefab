@@ -1,0 +1,204 @@
+{
+    "ContainerEntity": {
+        "Id": "ContainerEntity",
+        "Name": "Newspaper",
+        "Components": {
+            "Component_[11337685310437212098]": {
+                "$type": "EditorEntityIconComponent",
+                "Id": 11337685310437212098
+            },
+            "Component_[12835172654399795002]": {
+                "$type": "EditorPrefabComponent",
+                "Id": 12835172654399795002
+            },
+            "Component_[1458004695314928405]": {
+                "$type": "EditorInspectorComponent",
+                "Id": 1458004695314928405
+            },
+            "Component_[2808303054550380282]": {
+                "$type": "EditorVisibilityComponent",
+                "Id": 2808303054550380282
+            },
+            "Component_[4469999759080467112]": {
+                "$type": "EditorOnlyEntityComponent",
+                "Id": 4469999759080467112
+            },
+            "Component_[4560868413258206575]": {
+                "$type": "EditorPendingCompositionComponent",
+                "Id": 4560868413258206575
+            },
+            "Component_[5729360109700082558]": {
+                "$type": "EditorDisabledCompositionComponent",
+                "Id": 5729360109700082558
+            },
+            "Component_[6892526075151010593]": {
+                "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                "Id": 6892526075151010593,
+                "Parent Entity": ""
+            },
+            "Component_[7264720630417167000]": {
+                "$type": "EditorEntitySortComponent",
+                "Id": 7264720630417167000,
+                "Child Entity Order": [
+                    "Entity_[2535050934700]"
+                ]
+            },
+            "Component_[9149819323006474656]": {
+                "$type": "EditorLockComponent",
+                "Id": 9149819323006474656
+            }
+        }
+    },
+    "Entities": {
+        "Entity_[2535050934700]": {
+            "Id": "Entity_[2535050934700]",
+            "Name": "Newspaper",
+            "Components": {
+                "Component_[10254563086397536542]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 10254563086397536542,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": {
+                                "{}": {
+                                    "MaterialAsset": {
+                                        "assetId": {
+                                            "guid": "{050235E1-A735-53FE-B28A-2CA7ADEB809D}"
+                                        },
+                                        "assetHint": "assets/props/newspaper/newspaper_newspapermat.azmaterial"
+                                    }
+                                }
+                            }
+                        }
+                    }
+                },
+                "Component_[10591036511425168509]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 10591036511425168509
+                },
+                "Component_[1135239462232313465]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 1135239462232313465,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 13723200635832004294
+                        },
+                        {
+                            "ComponentId": 8491075445176027487,
+                            "SortIndex": 1
+                        },
+                        {
+                            "ComponentId": 16878378420310157097,
+                            "SortIndex": 2
+                        },
+                        {
+                            "ComponentId": 17811019013972169782,
+                            "SortIndex": 3
+                        }
+                    ]
+                },
+                "Component_[11638170764125197876]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 11638170764125197876
+                },
+                "Component_[13723200635832004294]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 13723200635832004294,
+                    "Parent Entity": "ContainerEntity",
+                    "Transform Data": {
+                        "Translate": [
+                            0.0,
+                            0.0,
+                            0.05959963798522949
+                        ]
+                    }
+                },
+                "Component_[16878378420310157097]": {
+                    "$type": "EditorColliderComponent",
+                    "Id": 16878378420310157097,
+                    "ColliderConfiguration": {
+                        "Position": [
+                            0.01957981288433075,
+                            0.0,
+                            0.0
+                        ],
+                        "MaterialSlots": {
+                            "Slots": [
+                                {
+                                    "Name": "Entire object"
+                                }
+                            ]
+                        }
+                    },
+                    "ShapeConfiguration": {
+                        "ShapeType": 1,
+                        "Box": {
+                            "Configuration": [
+                                0.2800000011920929,
+                                0.6000000238418579,
+                                0.10000000149011612
+                            ]
+                        }
+                    },
+                    "DebugDrawSettings": {
+                        "LocallyEnabled": false
+                    }
+                },
+                "Component_[17307373132230754767]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 17307373132230754767
+                },
+                "Component_[17811019013972169782]": {
+                    "$type": "EditorRigidBodyComponent",
+                    "Id": 17811019013972169782,
+                    "Configuration": {
+                        "entityId": "",
+                        "Mass": 989.9999389648438,
+                        "Inertia tensor": [
+                            165.0,
+                            0.0,
+                            0.0,
+                            0.0,
+                            163.35826110839844,
+                            0.0,
+                            0.0,
+                            0.0,
+                            163.35826110839844
+                        ]
+                    }
+                },
+                "Component_[2627625468548306170]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 2627625468548306170
+                },
+                "Component_[2929808224533362852]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 2929808224533362852
+                },
+                "Component_[3774172569886344629]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 3774172569886344629
+                },
+                "Component_[5124642959018450411]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 5124642959018450411
+                },
+                "Component_[8491075445176027487]": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 8491075445176027487,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{E1F2E7F2-7F2B-549E-B1B6-629715315F42}",
+                                    "subId": 283305606
+                                },
+                                "assetHint": "assets/props/newspaper/newspaper.azmodel"
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

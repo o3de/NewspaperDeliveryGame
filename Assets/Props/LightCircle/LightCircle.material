@@ -1,0 +1,22 @@
+{
+    "materialType": "Materials/Types/StandardPBR.materialtype",
+    "materialTypeVersion": 5,
+    "propertyValues": {
+        "baseColor.color": [
+            0.0,
+            0.23137255012989044,
+            1.0,
+            1.0
+        ],
+        "baseColor.textureMap": "Assets/Props/LightCircle/LightCircle.png",
+        "emissive.enable": true,
+        "emissive.intensity": 1.0,
+        "emissive.textureMap": "Assets/Props/LightCircle/LightCircle.png",
+        "general.doubleSided": true,
+        "general.enableShadows": false,
+        "opacity.alphaAffectsSpecular": 1.0,
+        "opacity.factor": 0.75,
+        "opacity.mode": "Blended",
+        "uv.offsetV": 0.44999998807907104
+    }
+}

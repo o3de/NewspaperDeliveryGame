@@ -1,0 +1,175 @@
+{
+    "ContainerEntity": {
+        "Id": "ContainerEntity",
+        "Name": "Tombstone",
+        "Components": {
+            "Component_[13034893659004364600]": {
+                "$type": "EditorPendingCompositionComponent",
+                "Id": 13034893659004364600
+            },
+            "Component_[15415283810846391818]": {
+                "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                "Id": 15415283810846391818,
+                "Parent Entity": ""
+            },
+            "Component_[16750393889637322839]": {
+                "$type": "EditorInspectorComponent",
+                "Id": 16750393889637322839
+            },
+            "Component_[17445711451232692969]": {
+                "$type": "EditorEntityIconComponent",
+                "Id": 17445711451232692969
+            },
+            "Component_[18297903511666155551]": {
+                "$type": "EditorPrefabComponent",
+                "Id": 18297903511666155551
+            },
+            "Component_[4070871171087323155]": {
+                "$type": "EditorOnlyEntityComponent",
+                "Id": 4070871171087323155
+            },
+            "Component_[417253208466397893]": {
+                "$type": "EditorVisibilityComponent",
+                "Id": 417253208466397893
+            },
+            "Component_[6849754342289399466]": {
+                "$type": "EditorDisabledCompositionComponent",
+                "Id": 6849754342289399466
+            },
+            "Component_[7663789052057016157]": {
+                "$type": "EditorEntitySortComponent",
+                "Id": 7663789052057016157,
+                "Child Entity Order": [
+                    "Entity_[16464754140618]"
+                ]
+            },
+            "Component_[9835757358619862671]": {
+                "$type": "EditorLockComponent",
+                "Id": 9835757358619862671
+            }
+        }
+    },
+    "Entities": {
+        "Entity_[16464754140618]": {
+            "Id": "Entity_[16464754140618]",
+            "Name": "Tombstone",
+            "Components": {
+                "Component_[10000466068242449525]": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 10000466068242449525,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{3C4557A9-05D9-5229-9E62-AD08FB5EFBB5}",
+                                    "subId": 282215715
+                                },
+                                "assetHint": "assets/neighborhood/tombstone.azmodel"
+                            }
+                        }
+                    }
+                },
+                "Component_[10815546578226358429]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 10815546578226358429
+                },
+                "Component_[12460624356951078943]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 12460624356951078943
+                },
+                "Component_[12975409354493588293]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 12975409354493588293
+                },
+                "Component_[13222846652748158820]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 13222846652748158820,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": [
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 1484106627
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{5A231063-8362-5DD0-9836-55E1F48464B3}"
+                                            },
+                                            "assetHint": "assets/neighborhood/tombstone_tombstonemat.azmaterial"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                "Component_[13586869826519833491]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 13586869826519833491
+                },
+                "Component_[15740163323573337096]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 15740163323573337096,
+                    "Parent Entity": "ContainerEntity"
+                },
+                "Component_[16012999233373954334]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 16012999233373954334
+                },
+                "Component_[3436141642038285712]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 3436141642038285712
+                },
+                "Component_[6508523476034229805]": {
+                    "$type": "EditorColliderComponent",
+                    "Id": 6508523476034229805,
+                    "ColliderConfiguration": {
+                        "MaterialSlots": {
+                            "Slots": [
+                                {
+                                    "Name": "Entire object"
+                                }
+                            ]
+                        }
+                    },
+                    "ShapeConfiguration": {
+                        "ShapeType": 1,
+                        "Box": {
+                            "Configuration": [
+                                0.18330144882202148,
+                                3.2068943977355957,
+                                1.2750020027160645
+                            ]
+                        }
+                    }
+                },
+                "Component_[6834075519874446239]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 6834075519874446239,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 15740163323573337096
+                        },
+                        {
+                            "ComponentId": 13222846652748158820,
+                            "SortIndex": 1
+                        },
+                        {
+                            "ComponentId": 10000466068242449525,
+                            "SortIndex": 2
+                        },
+                        {
+                            "ComponentId": 6508523476034229805,
+                            "SortIndex": 3
+                        }
+                    ]
+                },
+                "Component_[7246465509089018891]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 7246465509089018891
+                }
+            }
+        }
+    }
+}

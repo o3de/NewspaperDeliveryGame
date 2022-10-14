@@ -1,0 +1,183 @@
+{
+    "ContainerEntity": {
+        "Id": "ContainerEntity",
+        "Name": "Tires",
+        "Components": {
+            "Component_[1004343664722843225]": {
+                "$type": "EditorInspectorComponent",
+                "Id": 1004343664722843225
+            },
+            "Component_[10717195247434177037]": {
+                "$type": "EditorLockComponent",
+                "Id": 10717195247434177037
+            },
+            "Component_[10776130260984637165]": {
+                "$type": "EditorPendingCompositionComponent",
+                "Id": 10776130260984637165
+            },
+            "Component_[17783756560695987240]": {
+                "$type": "EditorEntityIconComponent",
+                "Id": 17783756560695987240
+            },
+            "Component_[1879090545496336938]": {
+                "$type": "EditorOnlyEntityComponent",
+                "Id": 1879090545496336938
+            },
+            "Component_[1967004121584860702]": {
+                "$type": "EditorDisabledCompositionComponent",
+                "Id": 1967004121584860702
+            },
+            "Component_[3322556285072176771]": {
+                "$type": "EditorVisibilityComponent",
+                "Id": 3322556285072176771
+            },
+            "Component_[4868855727814017900]": {
+                "$type": "EditorPrefabComponent",
+                "Id": 4868855727814017900
+            },
+            "Component_[6476664728429359093]": {
+                "$type": "EditorEntitySortComponent",
+                "Id": 6476664728429359093,
+                "Child Entity Order": [
+                    "Entity_[15433371804875]"
+                ]
+            },
+            "Component_[8296227433915392514]": {
+                "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                "Id": 8296227433915392514,
+                "Parent Entity": ""
+            }
+        }
+    },
+    "Entities": {
+        "Entity_[15433371804875]": {
+            "Id": "Entity_[15433371804875]",
+            "Name": "Tires",
+            "Components": {
+                "Component_[11217274571260919321]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 11217274571260919321,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 8340071899987654327
+                        },
+                        {
+                            "ComponentId": 11929640871084909516,
+                            "SortIndex": 1
+                        },
+                        {
+                            "ComponentId": 16582453165919138137,
+                            "SortIndex": 2
+                        },
+                        {
+                            "ComponentId": 12510832481410357076,
+                            "SortIndex": 3
+                        }
+                    ]
+                },
+                "Component_[11929640871084909516]": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 11929640871084909516,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{8E7000E2-8149-5EDA-A0FB-60ABFD19539C}",
+                                    "subId": 279775937
+                                },
+                                "assetHint": "assets/props/tires/tires.azmodel"
+                            }
+                        }
+                    }
+                },
+                "Component_[12510832481410357076]": {
+                    "$type": "EditorColliderComponent",
+                    "Id": 12510832481410357076,
+                    "ColliderConfiguration": {
+                        "Position": [
+                            0.17145228385925293,
+                            0.0,
+                            0.5387274026870728
+                        ],
+                        "MaterialSlots": {
+                            "Slots": [
+                                {
+                                    "Name": "Entire object"
+                                }
+                            ]
+                        }
+                    },
+                    "ShapeConfiguration": {
+                        "ShapeType": 1,
+                        "Box": {
+                            "Configuration": [
+                                1.4918897151947021,
+                                1.0,
+                                1.0
+                            ]
+                        }
+                    },
+                    "DebugDrawSettings": {
+                        "LocallyEnabled": false
+                    }
+                },
+                "Component_[13089358338910865571]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 13089358338910865571
+                },
+                "Component_[13806632034471618987]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 13806632034471618987
+                },
+                "Component_[1454487357252669433]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 1454487357252669433
+                },
+                "Component_[16123008327253995060]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 16123008327253995060
+                },
+                "Component_[16582453165919138137]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 16582453165919138137,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": [
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 2770455833
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{8D4297CB-982E-58AB-86FC-A0EE531A4ED0}"
+                                            },
+                                            "assetHint": "assets/props/tires/tires_tiremat.azmaterial"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                "Component_[5070413789210127474]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 5070413789210127474
+                },
+                "Component_[5998563097834704127]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 5998563097834704127
+                },
+                "Component_[8210401656178144108]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 8210401656178144108
+                },
+                "Component_[8340071899987654327]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 8340071899987654327,
+                    "Parent Entity": "ContainerEntity"
+                }
+            }
+        }
+    }
+}

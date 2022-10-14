@@ -1,0 +1,227 @@
+{
+    "ContainerEntity": {
+        "Id": "ContainerEntity",
+        "Name": "MailBox",
+        "Components": {
+            "Component_[14818875602330169750]": {
+                "$type": "EditorLockComponent",
+                "Id": 14818875602330169750
+            },
+            "Component_[15793904615364437898]": {
+                "$type": "EditorDisabledCompositionComponent",
+                "Id": 15793904615364437898
+            },
+            "Component_[18038743085682109931]": {
+                "$type": "EditorEntityIconComponent",
+                "Id": 18038743085682109931
+            },
+            "Component_[209036799794276114]": {
+                "$type": "EditorPendingCompositionComponent",
+                "Id": 209036799794276114
+            },
+            "Component_[4033576233023015036]": {
+                "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                "Id": 4033576233023015036,
+                "Parent Entity": ""
+            },
+            "Component_[4488041733660867225]": {
+                "$type": "EditorInspectorComponent",
+                "Id": 4488041733660867225
+            },
+            "Component_[7106895665234053266]": {
+                "$type": "EditorEntitySortComponent",
+                "Id": 7106895665234053266,
+                "Child Entity Order": [
+                    "Entity_[6072384399767]"
+                ]
+            },
+            "Component_[7145785308513199615]": {
+                "$type": "EditorOnlyEntityComponent",
+                "Id": 7145785308513199615
+            },
+            "Component_[7407520424142124951]": {
+                "$type": "EditorPrefabComponent",
+                "Id": 7407520424142124951
+            },
+            "Component_[8917965145914494591]": {
+                "$type": "EditorVisibilityComponent",
+                "Id": 8917965145914494591
+            }
+        }
+    },
+    "Entities": {
+        "Entity_[6072384399767]": {
+            "Id": "Entity_[6072384399767]",
+            "Name": "MailBox",
+            "Components": {
+                "Component_[10249068692862788496]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 10249068692862788496
+                },
+                "Component_[13456964371368906743]": {
+                    "$type": "EditorColliderComponent",
+                    "Id": 13456964371368906743,
+                    "ColliderConfiguration": {
+                        "Position": [
+                            0.0,
+                            0.0,
+                            -0.75
+                        ],
+                        "MaterialSlots": {
+                            "Slots": [
+                                {
+                                    "Name": "Entire object"
+                                }
+                            ]
+                        }
+                    },
+                    "ShapeConfiguration": {
+                        "ShapeType": 2,
+                        "Capsule": {
+                            "Height": 1.5,
+                            "Radius": 0.10000000149011612
+                        }
+                    }
+                },
+                "Component_[13497947637346822968]": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 13497947637346822968,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{5039A435-0B5B-5142-BCD3-984C51FAD8C7}",
+                                    "subId": 278913547
+                                },
+                                "assetHint": "assets/props/mailbox/mailbox.azmodel"
+                            }
+                        }
+                    }
+                },
+                "Component_[141487530487638881]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 141487530487638881,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 14344423580993455043
+                        },
+                        {
+                            "ComponentId": 13497947637346822968,
+                            "SortIndex": 1
+                        },
+                        {
+                            "ComponentId": 1451497617887189842,
+                            "SortIndex": 2
+                        }
+                    ]
+                },
+                "Component_[14344423580993455043]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 14344423580993455043,
+                    "Parent Entity": "ContainerEntity"
+                },
+                "Component_[1451497617887189842]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 1451497617887189842,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": [
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 992924081
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{859BC333-B74B-56E4-8311-A292CFB980BD}"
+                                            },
+                                            "assetHint": "assets/props/mailbox/mailbox_mailboxonedoormat.azmaterial"
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 1509317457
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{355F5228-6BC9-5655-9316-B3C5FC5176C7}"
+                                            },
+                                            "assetHint": "assets/props/mailbox/mailbox_mailboxflagmat.azmaterial"
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 1540944494
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{6ACA83F9-1331-5AB4-A567-E95BA90629F0}"
+                                            },
+                                            "assetHint": "assets/props/mailbox/mailbox_mailboxpost.azmaterial"
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 4289294184
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{DF66CD53-2EE7-5F34-82A7-F63C15944DBC}"
+                                            },
+                                            "assetHint": "assets/props/mailbox/mailbox_mailboxmat.azmaterial"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                "Component_[16155004073691733077]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 16155004073691733077
+                },
+                "Component_[17411422417334134722]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 17411422417334134722
+                },
+                "Component_[1805726640608497310]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 1805726640608497310
+                },
+                "Component_[2414526855773025942]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 2414526855773025942
+                },
+                "Component_[6087588099845250092]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 6087588099845250092,
+                    "Child Entity Order": [
+                        "Instance_[33883530214859]/ContainerEntity"
+                    ]
+                },
+                "Component_[6362844026570023917]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 6362844026570023917
+                }
+            }
+        }
+    },
+    "Instances": {
+        "Instance_[33883530214859]": {
+            "Source": "Prefabs/NewspaperTargetMailbox_250.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[2657043876434061452]/Parent Entity",
+                    "value": "../Entity_[6072384399767]"
+                }
+            ]
+        }
+    }
+}

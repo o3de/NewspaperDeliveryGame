@@ -1,0 +1,196 @@
+{
+    "ContainerEntity": {
+        "Id": "ContainerEntity",
+        "Name": "TrashCan",
+        "Components": {
+            "Component_[15243363507249240956]": {
+                "$type": "EditorDisabledCompositionComponent",
+                "Id": 15243363507249240956
+            },
+            "Component_[15997470934256932978]": {
+                "$type": "EditorEntityIconComponent",
+                "Id": 15997470934256932978
+            },
+            "Component_[16822466372698193445]": {
+                "$type": "EditorOnlyEntityComponent",
+                "Id": 16822466372698193445
+            },
+            "Component_[16985413445880100084]": {
+                "$type": "EditorEntitySortComponent",
+                "Id": 16985413445880100084,
+                "Child Entity Order": [
+                    "Entity_[13583597810825]"
+                ]
+            },
+            "Component_[2625924752133306451]": {
+                "$type": "EditorPendingCompositionComponent",
+                "Id": 2625924752133306451
+            },
+            "Component_[4213672495179838668]": {
+                "$type": "EditorLockComponent",
+                "Id": 4213672495179838668
+            },
+            "Component_[4664294012337540673]": {
+                "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                "Id": 4664294012337540673,
+                "Parent Entity": ""
+            },
+            "Component_[4800668902419750309]": {
+                "$type": "EditorInspectorComponent",
+                "Id": 4800668902419750309
+            },
+            "Component_[9541219244907663117]": {
+                "$type": "EditorPrefabComponent",
+                "Id": 9541219244907663117
+            },
+            "Component_[9575652147358948232]": {
+                "$type": "EditorVisibilityComponent",
+                "Id": 9575652147358948232
+            }
+        }
+    },
+    "Entities": {
+        "Entity_[13583597810825]": {
+            "Id": "Entity_[13583597810825]",
+            "Name": "TrashCan",
+            "Components": {
+                "Component_[10789493722774215242]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 10789493722774215242
+                },
+                "Component_[11877783501257156047]": {
+                    "$type": "EditorColliderComponent",
+                    "Id": 11877783501257156047,
+                    "ColliderConfiguration": {
+                        "Position": [
+                            -0.22309565544128418,
+                            0.0,
+                            0.7692492008209229
+                        ],
+                        "MaterialSlots": {
+                            "Slots": [
+                                {
+                                    "Name": "Entire object"
+                                }
+                            ]
+                        }
+                    },
+                    "ShapeConfiguration": {
+                        "ShapeType": 1,
+                        "Box": {
+                            "Configuration": [
+                                1.123142957687378,
+                                1.1335870027542114,
+                                1.4560320377349854
+                            ]
+                        }
+                    },
+                    "DebugDrawSettings": {
+                        "LocallyEnabled": false
+                    }
+                },
+                "Component_[1197036083523373064]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 1197036083523373064
+                },
+                "Component_[13248433316016692201]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 13248433316016692201,
+                    "Parent Entity": "ContainerEntity"
+                },
+                "Component_[1417721037361393189]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 1417721037361393189,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 13248433316016692201
+                        },
+                        {
+                            "ComponentId": 14398315811920401345,
+                            "SortIndex": 1
+                        },
+                        {
+                            "ComponentId": 14991686221854772897,
+                            "SortIndex": 2
+                        },
+                        {
+                            "ComponentId": 11877783501257156047,
+                            "SortIndex": 3
+                        }
+                    ]
+                },
+                "Component_[14398315811920401345]": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 14398315811920401345,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{E9FD8B5B-B9F4-5F4A-8725-610107846B15}",
+                                    "subId": 284851149
+                                },
+                                "assetHint": "assets/props/trashcan/trashcan.azmodel"
+                            }
+                        }
+                    }
+                },
+                "Component_[14991686221854772897]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 14991686221854772897,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": [
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 2388934690
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{6CBF43AD-683F-54F9-8174-5EA26E0B17BC}"
+                                            },
+                                            "assetHint": "assets/props/trashcan/trashcan_trahscanwheelmat.azmaterial"
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 3625914498
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{D94DBA84-92E8-59DE-804C-4D7F63AC8085}"
+                                            },
+                                            "assetHint": "assets/props/trashcan/trashcan_trashcanmat.azmaterial"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                "Component_[15392797354536933934]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 15392797354536933934
+                },
+                "Component_[17571436549739489202]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 17571436549739489202
+                },
+                "Component_[2371767050049835608]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 2371767050049835608
+                },
+                "Component_[5583744180103686661]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 5583744180103686661
+                },
+                "Component_[8385359441526075333]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 8385359441526075333
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,492 @@
+{
+    "ContainerEntity": {
+        "Id": "ContainerEntity",
+        "Name": "Hills",
+        "Components": {
+            "Component_[11529812485635515735]": {
+                "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                "Id": 11529812485635515735,
+                "Parent Entity": ""
+            },
+            "Component_[13721224325138369416]": {
+                "$type": "EditorPrefabComponent",
+                "Id": 13721224325138369416
+            },
+            "Component_[14133454081880432706]": {
+                "$type": "EditorOnlyEntityComponent",
+                "Id": 14133454081880432706
+            },
+            "Component_[1750938463387832056]": {
+                "$type": "EditorInspectorComponent",
+                "Id": 1750938463387832056
+            },
+            "Component_[1868582660272960133]": {
+                "$type": "EditorEntitySortComponent",
+                "Id": 1868582660272960133,
+                "Child Entity Order": [
+                    "Entity_[14370301990951]"
+                ]
+            },
+            "Component_[4333998030330029769]": {
+                "$type": "EditorPendingCompositionComponent",
+                "Id": 4333998030330029769
+            },
+            "Component_[5182240485888250651]": {
+                "$type": "EditorEntityIconComponent",
+                "Id": 5182240485888250651
+            },
+            "Component_[6022149404657351113]": {
+                "$type": "EditorDisabledCompositionComponent",
+                "Id": 6022149404657351113
+            },
+            "Component_[8194238843179086297]": {
+                "$type": "EditorLockComponent",
+                "Id": 8194238843179086297
+            },
+            "Component_[8533430990828537146]": {
+                "$type": "EditorVisibilityComponent",
+                "Id": 8533430990828537146
+            }
+        }
+    },
+    "Entities": {
+        "Entity_[14370301990951]": {
+            "Id": "Entity_[14370301990951]",
+            "Name": "Hills",
+            "Components": {
+                "Component_[11118529851035864128]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 11118529851035864128,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": [
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 2084814471
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{83E4C4E5-A514-5B8B-B9D0-4B93CA7A764E}"
+                                            },
+                                            "assetHint": "assets/neighborhood/street_grassmat.azmaterial"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                "Component_[11159392246591539401]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 11159392246591539401
+                },
+                "Component_[1279467573789878742]": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 1279467573789878742,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{65CE99CD-6B25-52E8-8FDF-F70583A7DD1F}",
+                                    "subId": 281494897
+                                },
+                                "assetHint": "assets/neighborhood/hills.azmodel"
+                            },
+                            "ExcludeFromReflectionCubeMaps": true,
+                            "LodType": 1
+                        }
+                    }
+                },
+                "Component_[17273996622929479529]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 17273996622929479529
+                },
+                "Component_[17458337277695697455]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 17458337277695697455,
+                    "Child Entity Order": [
+                        "Instance_[158609596209672]/ContainerEntity",
+                        "Instance_[162706995010056]/ContainerEntity",
+                        "Instance_[162681225206280]/ContainerEntity",
+                        "Instance_[158734150261256]/ContainerEntity",
+                        "Instance_[162853023898120]/ContainerEntity",
+                        "Instance_[158901653985800]/ContainerEntity",
+                        "Instance_[162668340304392]/ContainerEntity",
+                        "Instance_[162694110108168]/ContainerEntity",
+                        "Instance_[162655455402504]/ContainerEntity",
+                        "Instance_[162840138996232]/ContainerEntity",
+                        "Instance_[162719879911944]/ContainerEntity",
+                        "Instance_[162827254094344]/ContainerEntity",
+                        "Instance_[158850114378248]/ContainerEntity"
+                    ]
+                },
+                "Component_[18285265790720975838]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 18285265790720975838
+                },
+                "Component_[1969721678266998420]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 1969721678266998420,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 4004568491400424309
+                        },
+                        {
+                            "ComponentId": 1279467573789878742,
+                            "SortIndex": 1
+                        },
+                        {
+                            "ComponentId": 11118529851035864128,
+                            "SortIndex": 2
+                        }
+                    ]
+                },
+                "Component_[4004568491400424309]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 4004568491400424309,
+                    "Parent Entity": "ContainerEntity"
+                },
+                "Component_[719755471724992992]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 719755471724992992
+                },
+                "Component_[8507977107574099634]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 8507977107574099634
+                },
+                "Component_[9722566967676403990]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 9722566967676403990
+                }
+            }
+        }
+    },
+    "Instances": {
+        "Instance_[158609596209672]": {
+            "Source": "Prefabs/oak_tree_big.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[14983228262674218259]/Parent Entity",
+                    "value": "../Entity_[14370301990951]"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[14983228262674218259]/Transform Data/Translate/0",
+                    "value": -58.13829040527344
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[14983228262674218259]/Transform Data/Translate/1",
+                    "value": 19.67654800415039
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[14983228262674218259]/Transform Data/Translate/2",
+                    "value": -0.19742965698242188
+                }
+            ]
+        },
+        "Instance_[158734150261256]": {
+            "Source": "Prefabs/oak_tree_big.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[14983228262674218259]/Parent Entity",
+                    "value": "../Entity_[14370301990951]"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[14983228262674218259]/Transform Data/Translate/0",
+                    "value": 78.96488189697266
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[14983228262674218259]/Transform Data/Translate/1",
+                    "value": -7.426015377044678
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[14983228262674218259]/Transform Data/Translate/2",
+                    "value": 1.0250835418701172
+                }
+            ]
+        },
+        "Instance_[158850114378248]": {
+            "Source": "Prefabs/oak_tree_big.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[14983228262674218259]/Parent Entity",
+                    "value": "../Entity_[14370301990951]"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[14983228262674218259]/Transform Data/Translate/0",
+                    "value": 65.10142517089844
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[14983228262674218259]/Transform Data/Translate/1",
+                    "value": -18.389118194580078
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[14983228262674218259]/Transform Data/Translate/2",
+                    "value": -0.21434259414672852
+                }
+            ]
+        },
+        "Instance_[158901653985800]": {
+            "Source": "Prefabs/oak_tree_big.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[14983228262674218259]/Parent Entity",
+                    "value": "../Entity_[14370301990951]"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[14983228262674218259]/Transform Data/Translate/0",
+                    "value": 66.07120513916016
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[14983228262674218259]/Transform Data/Translate/1",
+                    "value": -48.82166290283203
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[14983228262674218259]/Transform Data/Translate/2",
+                    "value": -0.08786869049072266
+                }
+            ]
+        },
+        "Instance_[162655455402504]": {
+            "Source": "Prefabs/oak_tree_big.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[14983228262674218259]/Parent Entity",
+                    "value": "../Entity_[14370301990951]"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[14983228262674218259]/Transform Data/Translate/0",
+                    "value": 49.33403778076172
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[14983228262674218259]/Transform Data/Translate/1",
+                    "value": -60.62355041503906
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[14983228262674218259]/Transform Data/Translate/2",
+                    "value": -0.08786869049072266
+                }
+            ]
+        },
+        "Instance_[162668340304392]": {
+            "Source": "Prefabs/oak_tree_big.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[14983228262674218259]/Parent Entity",
+                    "value": "../Entity_[14370301990951]"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[14983228262674218259]/Transform Data/Translate/0",
+                    "value": 24.198074340820313
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[14983228262674218259]/Transform Data/Translate/1",
+                    "value": -69.8115234375
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[14983228262674218259]/Transform Data/Translate/2",
+                    "value": -0.26555538177490234
+                }
+            ]
+        },
+        "Instance_[162681225206280]": {
+            "Source": "Prefabs/oak_tree_big.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[14983228262674218259]/Parent Entity",
+                    "value": "../Entity_[14370301990951]"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[14983228262674218259]/Transform Data/Translate/0",
+                    "value": 9.389495849609375
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[14983228262674218259]/Transform Data/Translate/1",
+                    "value": -60.743988037109375
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[14983228262674218259]/Transform Data/Translate/2",
+                    "value": -0.26555538177490234
+                }
+            ]
+        },
+        "Instance_[162694110108168]": {
+            "Source": "Prefabs/oak_tree_big.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[14983228262674218259]/Parent Entity",
+                    "value": "../Entity_[14370301990951]"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[14983228262674218259]/Transform Data/Translate/0",
+                    "value": -19.83510398864746
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[14983228262674218259]/Transform Data/Translate/1",
+                    "value": -62.1156005859375
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[14983228262674218259]/Transform Data/Translate/2",
+                    "value": -0.26555538177490234
+                }
+            ]
+        },
+        "Instance_[162706995010056]": {
+            "Source": "Prefabs/oak_tree_big.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[14983228262674218259]/Parent Entity",
+                    "value": "../Entity_[14370301990951]"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[14983228262674218259]/Transform Data/Translate/0",
+                    "value": -54.970489501953125
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[14983228262674218259]/Transform Data/Translate/1",
+                    "value": -48.06399154663086
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[14983228262674218259]/Transform Data/Translate/2",
+                    "value": -0.26555538177490234
+                }
+            ]
+        },
+        "Instance_[162719879911944]": {
+            "Source": "Prefabs/oak_tree_big.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[14983228262674218259]/Parent Entity",
+                    "value": "../Entity_[14370301990951]"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[14983228262674218259]/Transform Data/Translate/0",
+                    "value": -64.39505767822266
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[14983228262674218259]/Transform Data/Translate/1",
+                    "value": -14.422203063964844
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[14983228262674218259]/Transform Data/Translate/2",
+                    "value": -0.26555538177490234
+                }
+            ]
+        },
+        "Instance_[162827254094344]": {
+            "Source": "Prefabs/oak_tree_big.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[14983228262674218259]/Parent Entity",
+                    "value": "../Entity_[14370301990951]"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[14983228262674218259]/Transform Data/Translate/0",
+                    "value": -41.744415283203125
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[14983228262674218259]/Transform Data/Translate/1",
+                    "value": 54.93998336791992
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[14983228262674218259]/Transform Data/Translate/2",
+                    "value": -0.19742965698242188
+                }
+            ]
+        },
+        "Instance_[162840138996232]": {
+            "Source": "Prefabs/oak_tree_big.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[14983228262674218259]/Parent Entity",
+                    "value": "../Entity_[14370301990951]"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[14983228262674218259]/Transform Data/Translate/0",
+                    "value": -8.947031021118164
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[14983228262674218259]/Transform Data/Translate/1",
+                    "value": 57.06001663208008
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[14983228262674218259]/Transform Data/Translate/2",
+                    "value": -0.19742965698242188
+                }
+            ]
+        },
+        "Instance_[162853023898120]": {
+            "Source": "Prefabs/oak_tree_big.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[14983228262674218259]/Parent Entity",
+                    "value": "../Entity_[14370301990951]"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[14983228262674218259]/Transform Data/Translate/0",
+                    "value": 36.7483024597168
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[14983228262674218259]/Transform Data/Translate/1",
+                    "value": 65.4578628540039
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[14983228262674218259]/Transform Data/Translate/2",
+                    "value": 0.08707088232040405
+                }
+            ]
+        }
+    }
+}

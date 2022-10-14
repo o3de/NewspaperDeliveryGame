@@ -1,0 +1,23 @@
+{
+    "materialType": "Materials/Types/StandardPBR.materialtype",
+    "materialTypeVersion": 5,
+    "propertyValues": {
+        "baseColor.color": [
+            0.43598076701164246,
+            0.43662166595458984,
+            0.4761883020401001,
+            1.0
+        ],
+        "clearCoat.enable": true,
+        "emissive.color": [
+            0.0,
+            0.0,
+            0.0,
+            1.0
+        ],
+        "metallic.factor": 0.4000000059604645,
+        "opacity.factor": 1.0,
+        "opacity.mode": "TintedTransparent",
+        "roughness.factor": 0.28999999165534973
+    }
+}

@@ -1,0 +1,215 @@
+{
+    "ContainerEntity": {
+        "Id": "ContainerEntity",
+        "Name": "MowerWheel",
+        "Components": {
+            "Component_[11535882354115425857]": {
+                "$type": "EditorLockComponent",
+                "Id": 11535882354115425857
+            },
+            "Component_[11928950667084836371]": {
+                "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                "Id": 11928950667084836371,
+                "Parent Entity": ""
+            },
+            "Component_[13508649027384339998]": {
+                "$type": "EditorInspectorComponent",
+                "Id": 13508649027384339998
+            },
+            "Component_[14015159803802910791]": {
+                "$type": "EditorPendingCompositionComponent",
+                "Id": 14015159803802910791
+            },
+            "Component_[15475758401717200648]": {
+                "$type": "EditorPrefabComponent",
+                "Id": 15475758401717200648
+            },
+            "Component_[15782718455779274899]": {
+                "$type": "EditorOnlyEntityComponent",
+                "Id": 15782718455779274899
+            },
+            "Component_[16260352685663919169]": {
+                "$type": "EditorVisibilityComponent",
+                "Id": 16260352685663919169
+            },
+            "Component_[16833882362668562057]": {
+                "$type": "EditorEntityIconComponent",
+                "Id": 16833882362668562057
+            },
+            "Component_[6097706513404244629]": {
+                "$type": "EditorDisabledCompositionComponent",
+                "Id": 6097706513404244629
+            },
+            "Component_[6235451476638024194]": {
+                "$type": "EditorEntitySortComponent",
+                "Id": 6235451476638024194,
+                "Child Entity Order": [
+                    "Entity_[13213457920840]"
+                ]
+            }
+        }
+    },
+    "Entities": {
+        "Entity_[13213457920840]": {
+            "Id": "Entity_[13213457920840]",
+            "Name": "MowerWheel",
+            "Components": {
+                "Component_[13143257936735684432]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 13143257936735684432,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 748082818487666015
+                        },
+                        {
+                            "ComponentId": 3274300456850937899,
+                            "SortIndex": 1
+                        },
+                        {
+                            "ComponentId": 8653284061067155343,
+                            "SortIndex": 2
+                        }
+                    ]
+                },
+                "Component_[15635141819246121306]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 15635141819246121306
+                },
+                "Component_[2241310346576524421]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 2241310346576524421
+                },
+                "Component_[3044142121207445077]": {
+                    "$type": "EditorScriptCanvasComponent",
+                    "Id": 3044142121207445077,
+                    "configuration": {
+                        "sourceHandle": {
+                            "id": "{AC6F6D8C-00DF-59CE-89BE-97388238AB57}",
+                            "path": "Scripts/Tire_Rotate.scriptcanvas"
+                        },
+                        "sourceName": "Tire_Rotate.scriptcanvas",
+                        "propertyOverrides": {
+                            "source": {
+                                "id": "{AC6F6D8C-00DF-59CE-89BE-97388238AB57}",
+                                "path": "Scripts/Tire_Rotate.scriptcanvas"
+                            },
+                            "variables": [
+                                {
+                                    "Datum": {
+                                        "scriptCanvasType": {
+                                            "m_type": 3
+                                        },
+                                        "isNullPointer": false,
+                                        "$type": "double",
+                                        "value": -4.0
+                                    },
+                                    "VariableId": {
+                                        "m_id": "{DCD42736-5E9A-4E7F-925F-151B2004F09E}"
+                                    },
+                                    "VariableName": "RotationModifier",
+                                    "InitialValueSource": 1
+                                }
+                            ],
+                            "overrides": [
+                                {
+                                    "Datum": {
+                                        "scriptCanvasType": {
+                                            "m_type": 3
+                                        },
+                                        "isNullPointer": false,
+                                        "$type": "double",
+                                        "value": 4.0
+                                    },
+                                    "InputControlVisibility": {
+                                        "Value": 850104567
+                                    },
+                                    "VariableId": {
+                                        "m_id": "{DCD42736-5E9A-4E7F-925F-151B2004F09E}"
+                                    },
+                                    "VariableName": "RotationModifier",
+                                    "InitialValueSource": 1
+                                }
+                            ]
+                        }
+                    }
+                },
+                "Component_[3274300456850937899]": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 3274300456850937899,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{34BFE5DC-A81F-5773-96BE-4B9643A142A9}",
+                                    "subId": 273327787
+                                },
+                                "assetHint": "assets/props/mower/mowerwheel.azmodel"
+                            }
+                        }
+                    }
+                },
+                "Component_[3911869816130316813]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 3911869816130316813
+                },
+                "Component_[449139338200204820]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 449139338200204820
+                },
+                "Component_[7421145294671556890]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 7421145294671556890
+                },
+                "Component_[748082818487666015]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 748082818487666015,
+                    "Parent Entity": "ContainerEntity"
+                },
+                "Component_[860362679903873112]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 860362679903873112
+                },
+                "Component_[8653284061067155343]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 8653284061067155343,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": [
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 1773488715
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{14C9C32A-3FA0-5CAB-AB63-4B732807AB92}"
+                                            },
+                                            "assetHint": "assets/props/mower/mower_lawnmowermainmat.azmaterial"
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 3013802130
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{6DE01C75-5227-51C3-B59D-5DFA3C78B489}"
+                                            },
+                                            "assetHint": "assets/props/mower/mowerwheelsmat.azmaterial"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                "Component_[8820341139538809975]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 8820341139538809975
+                }
+            }
+        }
+    }
+}

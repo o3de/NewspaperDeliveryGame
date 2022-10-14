@@ -1,0 +1,709 @@
+{
+    "ContainerEntity": {
+        "Id": "ContainerEntity",
+        "Name": "HouseFour",
+        "Components": {
+            "Component_[16655206880563323027]": {
+                "$type": "EditorEntitySortComponent",
+                "Id": 16655206880563323027,
+                "Child Entity Order": [
+                    "Entity_[11431597040722]",
+                    "Entity_[16366586919363]",
+                    ""
+                ]
+            },
+            "Component_[1739710145820058159]": {
+                "$type": "EditorDisabledCompositionComponent",
+                "Id": 1739710145820058159
+            },
+            "Component_[2681401069948010739]": {
+                "$type": "EditorVisibilityComponent",
+                "Id": 2681401069948010739
+            },
+            "Component_[3866916586198617290]": {
+                "$type": "EditorPendingCompositionComponent",
+                "Id": 3866916586198617290
+            },
+            "Component_[4072999205722652745]": {
+                "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                "Id": 4072999205722652745,
+                "Parent Entity": ""
+            },
+            "Component_[5762593396476852875]": {
+                "$type": "EditorEntityIconComponent",
+                "Id": 5762593396476852875
+            },
+            "Component_[6233458490424342817]": {
+                "$type": "EditorInspectorComponent",
+                "Id": 6233458490424342817
+            },
+            "Component_[7222448179813085706]": {
+                "$type": "EditorPrefabComponent",
+                "Id": 7222448179813085706
+            },
+            "Component_[7369399947017270045]": {
+                "$type": "EditorOnlyEntityComponent",
+                "Id": 7369399947017270045
+            },
+            "Component_[8248121150587216771]": {
+                "$type": "EditorLockComponent",
+                "Id": 8248121150587216771
+            }
+        }
+    },
+    "Entities": {
+        "Entity_[11431597040722]": {
+            "Id": "Entity_[11431597040722]",
+            "Name": "HouseFour",
+            "Components": {
+                "Component_[10770861567504053778]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 10770861567504053778
+                },
+                "Component_[10810002640902810946]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 10810002640902810946,
+                    "Parent Entity": "ContainerEntity"
+                },
+                "Component_[12486053971558489263]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 12486053971558489263,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": [
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 226037593
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{17FDDB1B-861D-53DB-93B4-9B4D211812C1}"
+                                            },
+                                            "assetHint": "assets/neighborhood/housefour_houseonedoormat.azmaterial"
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 1381420976
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{BAA6B522-7FF4-550A-BDC1-8C9B6506F1C7}"
+                                            },
+                                            "assetHint": "assets/neighborhood/housefour_housefourroofmat.azmaterial"
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 1853668042
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{7B03FDA2-7575-5C3B-A451-70A6CE56C53D}"
+                                            },
+                                            "assetHint": "assets/neighborhood/housefour_housesmokestack.azmaterial"
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 1902860146
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{CFE0BB1D-9941-5081-A182-03A8EB33A30E}"
+                                            },
+                                            "assetHint": "assets/neighborhood/housefour_windowframmat.azmaterial"
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 2368685285
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{4107A55D-A6DD-5269-9E92-BF1A0369E434}"
+                                            },
+                                            "assetHint": "assets/neighborhood/housefour_housefourmat.azmaterial"
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 2375999076
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{39AE3194-6C7F-5C1F-ACD8-80D6B9A2F796}"
+                                            },
+                                            "assetHint": "assets/neighborhood/housefour_housefourdoormatmat.azmaterial"
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 2379715182
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{2D20EF35-B3CE-5958-8D78-90822625E17F}"
+                                            },
+                                            "assetHint": "assets/neighborhood/housefour_concretemat.azmaterial"
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 2621492704
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{A6A99E83-ACAD-5AA8-8193-7EEF181BE315}"
+                                            },
+                                            "assetHint": "assets/neighborhood/housefour_houseonetrimmat.azmaterial"
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 2653744528
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{DC6B08E1-BBAB-5AFC-AC01-8C9FC435D858}"
+                                            },
+                                            "assetHint": "assets/neighborhood/housefour_windowglassmat.azmaterial"
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 2981813968
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{22FE9D5D-1F52-5AD9-A5D1-0BCB91EBFF95}"
+                                            },
+                                            "assetHint": "assets/neighborhood/housefour_housefourgaragedoormat.azmaterial"
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 3323648343
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{2C6D63B6-F4F5-5118-B971-6E9FDBD77724}"
+                                            },
+                                            "assetHint": "assets/neighborhood/housefour_housefourtrimmat.azmaterial"
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 3722881073
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{2A935798-5703-5EEE-A9A4-48E121954D64}"
+                                            },
+                                            "assetHint": "assets/neighborhood/housefour_housedoorhandlemat.azmaterial"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                "Component_[13896639662179397093]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 13896639662179397093
+                },
+                "Component_[1666971396640748166]": {
+                    "$type": "EditorColliderComponent",
+                    "Id": 1666971396640748166,
+                    "ColliderConfiguration": {
+                        "CollisionLayer": {
+                            "Index": 1
+                        },
+                        "MaterialSlots": {
+                            "Slots": [
+                                {
+                                    "Name": "HouseDoorHandleMAT"
+                                },
+                                {
+                                    "Name": "ConcreteMAT"
+                                },
+                                {
+                                    "Name": "WindowFramMAT"
+                                },
+                                {
+                                    "Name": "HouseOneTrimMAT"
+                                },
+                                {
+                                    "Name": "HouseFourGarageDoorMAT"
+                                },
+                                {
+                                    "Name": "HouseFourRoofMAT"
+                                },
+                                {
+                                    "Name": "HouseFourTrimMAT"
+                                },
+                                {
+                                    "Name": "HouseFourMAT"
+                                },
+                                {
+                                    "Name": "HouseSmokeStack"
+                                },
+                                {
+                                    "Name": "HouseFourDoormatMAT"
+                                },
+                                {
+                                    "Name": "WindowGlassMAT"
+                                },
+                                {
+                                    "Name": "HouseFourInsideMAT"
+                                },
+                                {
+                                    "Name": "HouseOneDoorMAT"
+                                }
+                            ]
+                        },
+                        "ColliderTag": "Light"
+                    },
+                    "ShapeConfiguration": {
+                        "PhysicsAsset": {
+                            "Asset": {
+                                "assetId": {
+                                    "guid": "{0D37E076-926B-514B-8611-8E3F0E65ECB4}",
+                                    "subId": 2121832894
+                                },
+                                "assetHint": "assets/neighborhood/housefour.pxmesh"
+                            },
+                            "Configuration": {
+                                "PhysicsAsset": {
+                                    "assetId": {
+                                        "guid": "{0D37E076-926B-514B-8611-8E3F0E65ECB4}",
+                                        "subId": 2121832894
+                                    },
+                                    "loadBehavior": "QueueLoad",
+                                    "assetHint": "assets/neighborhood/housefour.pxmesh"
+                                }
+                            }
+                        }
+                    },
+                    "DebugDrawSettings": {
+                        "LocallyEnabled": false
+                    }
+                },
+                "Component_[1989796842733331766]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 1989796842733331766
+                },
+                "Component_[2008950256071721306]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 2008950256071721306,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 10810002640902810946
+                        },
+                        {
+                            "ComponentId": 533821160882847813,
+                            "SortIndex": 1
+                        },
+                        {
+                            "ComponentId": 12486053971558489263,
+                            "SortIndex": 2
+                        }
+                    ]
+                },
+                "Component_[2970034957467861678]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 2970034957467861678
+                },
+                "Component_[4288657010451365290]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 4288657010451365290
+                },
+                "Component_[533821160882847813]": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 533821160882847813,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{0D37E076-926B-514B-8611-8E3F0E65ECB4}",
+                                    "subId": 281560250
+                                },
+                                "assetHint": "assets/neighborhood/housefour.azmodel"
+                            }
+                        }
+                    }
+                },
+                "Component_[5374064654898669998]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 5374064654898669998
+                },
+                "Component_[7586760209761160177]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 7586760209761160177
+                }
+            }
+        },
+        "Entity_[16366586919363]": {
+            "Id": "Entity_[16366586919363]",
+            "Name": "HouseFour_Dark",
+            "Components": {
+                "Component_[10306777462103014636]": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 10306777462103014636
+                },
+                "Component_[10572423137570537005]": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 10572423137570537005
+                },
+                "Component_[14853577008735834507]": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 14853577008735834507,
+                    "VisibilityFlag": false
+                },
+                "Component_[15780501680622089568]": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 15780501680622089568
+                },
+                "Component_[15870960657947189448]": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 15870960657947189448
+                },
+                "Component_[16223869792885953539]": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 16223869792885953539
+                },
+                "Component_[16894916968981632522]": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 16894916968981632522,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": [
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 420412654
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{83E11A7E-BEAB-547F-A287-F69D844ED909}"
+                                            },
+                                            "assetHint": "assets/neighborhood/housefour_dark_houseonedarkmat.azmaterial"
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 690860252
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{B0706E95-FA16-5749-BFBC-E5B270F67B5D}"
+                                            },
+                                            "assetHint": "assets/neighborhood/housefour_dark_housefourinsidemat.azmaterial"
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 771922537
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{18176747-0AAE-55FC-A5B8-55325CDBAB41}"
+                                            },
+                                            "assetHint": "assets/neighborhood/housefour_dark_housetworoofdarkmat.azmaterial"
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 1853668042
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{4449EF4A-52E2-52C4-B116-1F379374ED7F}"
+                                            },
+                                            "assetHint": "assets/neighborhood/housefour_dark_housesmokestack.azmaterial"
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 1902860146
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{81B6639B-2521-5D06-8968-A25B8D577FFD}"
+                                            },
+                                            "assetHint": "assets/neighborhood/housefour_dark_windowframmat.azmaterial"
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 2379715182
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{2D20EF35-B3CE-5958-8D78-90822625E17F}"
+                                            },
+                                            "assetHint": "assets/neighborhood/housefour_concretemat.azmaterial"
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 2458877583
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{333368D9-A60F-59D6-864A-543CA3DFBB52}"
+                                            },
+                                            "assetHint": "assets/neighborhood/housefour_dark_housetwotrimdarkmat.azmaterial"
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 2621492704
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{A711BFE2-60F9-52B1-A808-D36018C8FD1D}"
+                                            },
+                                            "assetHint": "assets/neighborhood/housefour_dark_houseonetrimmat.azmaterial"
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 2653744528
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{3481828F-8056-5928-9611-6DBF217430A2}"
+                                            },
+                                            "assetHint": "assets/neighborhood/dark_windowglassmat.azmaterial"
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 2670478751
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{8A94262E-4523-5DB1-820F-E12BAD479095}"
+                                            },
+                                            "assetHint": "assets/neighborhood/housefour_dark_houseonegaragedarkmat.azmaterial"
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 3722881073
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{90758BBD-0463-5529-AA43-309C79D000CD}"
+                                            },
+                                            "assetHint": "assets/neighborhood/housefour_dark_housedoorhandlemat.azmaterial"
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 3794750036
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{95472808-BF16-5261-A245-B38D7E27A012}"
+                                            },
+                                            "assetHint": "assets/neighborhood/housefour_dark_houseonedoordarkmat.azmaterial"
+                                        }
+                                    }
+                                },
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 3929861727
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{EB1A720C-D817-5C16-AABD-5376C2BB8C3C}"
+                                            },
+                                            "assetHint": "assets/neighborhood/housefour_dark_houseonedarkdoormat.azmaterial"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                "Component_[18266077304503443422]": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 18266077304503443422,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{F524D5FF-80DB-5C30-828B-55948FCB44CA}",
+                                    "subId": 271108371
+                                },
+                                "assetHint": "assets/neighborhood/housefour_dark.azmodel"
+                            }
+                        }
+                    }
+                },
+                "Component_[522534646951967812]": {
+                    "$type": "EditorLockComponent",
+                    "Id": 522534646951967812
+                },
+                "Component_[7009583241746681559]": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 7009583241746681559
+                },
+                "Component_[7902755800221254700]": {
+                    "$type": "EditorColliderComponent",
+                    "Id": 7902755800221254700,
+                    "ColliderConfiguration": {
+                        "MaterialSlots": {
+                            "Slots": [
+                                {
+                                    "Name": "HouseDoorHandleMAT"
+                                },
+                                {
+                                    "Name": "ConcreteMAT"
+                                },
+                                {
+                                    "Name": "WindowFramMAT"
+                                },
+                                {
+                                    "Name": "HouseOneTrimMAT"
+                                },
+                                {
+                                    "Name": "HouseFourGarageDoorMAT"
+                                },
+                                {
+                                    "Name": "HouseFourRoofMAT"
+                                },
+                                {
+                                    "Name": "HouseFourTrimMAT"
+                                },
+                                {
+                                    "Name": "HouseFourMAT"
+                                },
+                                {
+                                    "Name": "HouseSmokeStack"
+                                },
+                                {
+                                    "Name": "HouseFourDoormatMAT"
+                                },
+                                {
+                                    "Name": "WindowGlassMAT"
+                                },
+                                {
+                                    "Name": "HouseFourInsideMAT"
+                                },
+                                {
+                                    "Name": "HouseOneDoorMAT"
+                                }
+                            ]
+                        },
+                        "ColliderTag": "Dark"
+                    },
+                    "ShapeConfiguration": {
+                        "PhysicsAsset": {
+                            "Asset": {
+                                "assetId": {
+                                    "guid": "{0D37E076-926B-514B-8611-8E3F0E65ECB4}",
+                                    "subId": 2121832894
+                                },
+                                "assetHint": "assets/neighborhood/housefour.pxmesh"
+                            },
+                            "Configuration": {
+                                "PhysicsAsset": {
+                                    "assetId": {
+                                        "guid": "{0D37E076-926B-514B-8611-8E3F0E65ECB4}",
+                                        "subId": 2121832894
+                                    },
+                                    "loadBehavior": "QueueLoad",
+                                    "assetHint": "assets/neighborhood/housefour.pxmesh"
+                                }
+                            }
+                        }
+                    },
+                    "DebugDrawSettings": {
+                        "LocallyEnabled": false
+                    }
+                },
+                "Component_[8184347824273934640]": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 8184347824273934640,
+                    "Parent Entity": "ContainerEntity"
+                }
+            }
+        }
+    },
+    "Instances": {
+        "Instance_[7427130566222]": {
+            "Source": "Prefabs/NewspaperTargetPorch_100.prefab",
+            "Patches": [
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[11048069862848976261]/Parent Entity",
+                    "value": "../ContainerEntity"
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[11048069862848976261]/Transform Data/Translate/0",
+                    "value": 1.1126842498779297
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[11048069862848976261]/Transform Data/Translate/1",
+                    "value": -7.2017951011657715
+                },
+                {
+                    "op": "replace",
+                    "path": "/ContainerEntity/Components/Component_[11048069862848976261]/Transform Data/Translate/2",
+                    "value": 1.1893982887268066
+                }
+            ]
+        }
+    }
+}
