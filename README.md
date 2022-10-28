@@ -5,7 +5,7 @@ The player takes the role of a newspaper delivery kid who, within a vast fiction
 
 ## Project Screenshots
 
-![Image](./Media/image7.png)
+<img src="./Media/image7.png")
 
 ## The Project Includes
 
