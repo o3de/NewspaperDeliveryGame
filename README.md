@@ -5,7 +5,7 @@ The player takes the role of a newspaper delivery kid who, within a vast fiction
 
 ## Project Screenshots
 
-<img src="./Media/image7.png")
+<img src="./Media/image7.png">
 
 ## The Project Includes
 
@@ -40,42 +40,42 @@ The project supports the following platforms:
     1.  git clone <https://github.com/o3de/NewspaperDeliveryGame>
 2.  Within the Project manager locate and click on the **New Project** button. Then from the drop down menu select the **Open Existing Project** option.
 
-    ![Image](./Media/image8.png)
+    <img src="./Media/image8.png">
 
 3.  Once Windows Explorer opens, navigate to and select the **NewspaperDeliveryGame** folder. Once selected click on the **Select Folder** button.
 
-    ![Image](./Media/image9.png)
+    <img src="./Media/image9.png">
 
 4.  This will load the **NewspaperDeliveryGame** project into the **Project Manager**.
 5.  In order to build the project, locate and click on the **Build Project** button, located on the **NewspaperDeliveryGame** icon.
 
-    ![Image](./Media/image10.png)
+   <img src="./Media/image10.png">
 
 ## Launching the Project
 
 1.  Once the project has been built sucessfully, the **Build Project** button will disappear and an **Open Editor** button should be the only option you can select.
 2.  Click on the **Open Editor** button this will open the **NewspaperDeliveryGame** project.
 
-    ![Image](./Media/image11.png)
+    <img src="./Media/image11.png">
 
 ## Opening the Gameplay Level
 
 1.  Once the Asset Processor has completed importing and processing a signifgance portion of the assets the O3DE Editor will open.
 2.  In the **Welcome to O3DE** splash screen select the **Open** button to open a new level.
 
-    ![Image](./Media/image12.png)
+    <img src="./Media/image12.png">
 
 3.  This will open the **Open a Level** window
 4.  Select the Neighborhood level and click the open level to launch the level.
 
-    ![Image](./Media/image13.png)
+   <img src="./Media/image13.png">
 
 5.  Once the level opens click the play button in the upper hand corner to launch the main menu of the game.
 
-    ![Image](./Media/image14.png)
+    <img src="./Media/image14.png">
 
 6.  Once presented with the main menu press the **enter key** on your keyboard to start the game.
-7.  ![Image](./Media/image15.png)
+7.  <img src="./Media/image15.png">
 
 **Controlling the Newspaper Kid Model**
 
@@ -83,13 +83,13 @@ The project supports the following platforms:
 
 1.  **The Newspaper Kid model can be moved around the level using the W,A,S,D keyboard keys.**
 
-    **![Image](./Media/image16.png)**
+    **<img src="./Media/image16.png">**
 
 **Tossing The Newspaper**
 
 1.  Press the left **Mouse Button** toss the newspaper around the level.
 
-    **![Image](./Media/image17.png)**
+    **<img src="./Media/image17.png">**
 
 **License**
 
