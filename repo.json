@@ -1,0 +1,9 @@
+{
+    "repo_name": "Newspaper Delivery Game",
+    "origin": "https://github.com/o3de/o3de-NewspaperDeliveryGame",
+    "repo_uri": "https://github.com/o3de/NewspaperDeliveryGame.git",
+    "summary": "A newspaper delivery game.",
+    "projects": [
+        "https://github.com/o3de/NewspaperDeliveryGame.git"
+    ]
+}
