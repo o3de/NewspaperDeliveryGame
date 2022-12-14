@@ -3,6 +3,12 @@
 **Project Description:**   
 The player takes the role of a newspaper delivery kid who, within a vast fictional 3D world, delivers newspapers to customer’s homes within a set time limit. If all deliveries are made before the timer expires, the player will be allowed to progress on to the next level. Gameplay becomes exceedingly more difficult, by the numerous obstacles in the players path. Obstacles such as electric lawnmowers, cars and trucks.
 
+
+
+https://user-images.githubusercontent.com/87207603/207639297-110dcaf4-dd8c-4a97-8d3c-92a34e6040c8.mp4
+
+
+
 ## Project Screenshots
 
 <img src="./Media/image7.png">
