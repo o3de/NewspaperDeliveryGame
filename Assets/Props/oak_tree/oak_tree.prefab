@@ -90,6 +90,10 @@
                     "$type": "EditorOnlyEntityComponent",
                     "Id": 18370362298751193885
                 },
+                "Component_[5545594614568177491]": {
+                    "$type": "EditorStaticRigidBodyComponent",
+                    "Id": 5545594614568177491
+                },
                 "Component_[6495291924243783671]": {
                     "$type": "EditorInspectorComponent",
                     "Id": 6495291924243783671
@@ -252,6 +256,10 @@
                             "SortIndex": 2
                         }
                     ]
+                },
+                "Component_[9970428173110314776]": {
+                    "$type": "EditorStaticRigidBodyComponent",
+                    "Id": 9970428173110314776
                 }
             }
         }

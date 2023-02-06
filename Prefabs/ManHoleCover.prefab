@@ -54,6 +54,10 @@
             "Id": "Entity_[17092586091657]",
             "Name": "ManHoleCover",
             "Components": {
+                "Component_[11109668287515108186]": {
+                    "$type": "EditorStaticRigidBodyComponent",
+                    "Id": 11109668287515108186
+                },
                 "Component_[11535314335853008448]": {
                     "$type": "EditorEntitySortComponent",
                     "Id": 11535314335853008448

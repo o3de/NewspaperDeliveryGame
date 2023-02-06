@@ -164,6 +164,10 @@
                     "$type": "EditorVisibilityComponent",
                     "Id": 5070413789210127474
                 },
+                "Component_[5171927639457227895]": {
+                    "$type": "EditorStaticRigidBodyComponent",
+                    "Id": 5171927639457227895
+                },
                 "Component_[5998563097834704127]": {
                     "$type": "EditorOnlyEntityComponent",
                     "Id": 5998563097834704127

@@ -205,6 +205,10 @@
                         ]
                     }
                 },
+                "Component_[7541655689040331415]": {
+                    "$type": "EditorStaticRigidBodyComponent",
+                    "Id": 7541655689040331415
+                },
                 "Component_[8445136296963424565]": {
                     "$type": "EditorMaterialComponent",
                     "Id": 8445136296963424565,
@@ -627,6 +631,10 @@
                             ]
                         }
                     }
+                },
+                "Component_[5005662653106702213]": {
+                    "$type": "EditorStaticRigidBodyComponent",
+                    "Id": 5005662653106702213
                 },
                 "Component_[6571501850434631224]": {
                     "$type": "EditorPendingCompositionComponent",

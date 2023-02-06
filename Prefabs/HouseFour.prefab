@@ -360,6 +360,10 @@
                     "$type": "EditorPendingCompositionComponent",
                     "Id": 5374064654898669998
                 },
+                "Component_[6844516215859402941]": {
+                    "$type": "EditorStaticRigidBodyComponent",
+                    "Id": 6844516215859402941
+                },
                 "Component_[7586760209761160177]": {
                     "$type": "EditorDisabledCompositionComponent",
                     "Id": 7586760209761160177
@@ -588,6 +592,10 @@
                             }
                         }
                     }
+                },
+                "Component_[2337858081698443256]": {
+                    "$type": "EditorStaticRigidBodyComponent",
+                    "Id": 2337858081698443256
                 },
                 "Component_[522534646951967812]": {
                     "$type": "EditorLockComponent",

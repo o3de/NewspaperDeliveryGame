@@ -278,6 +278,10 @@
                     "$type": "EditorLockComponent",
                     "Id": 5253808659116847058
                 },
+                "Component_[6901803588474416989]": {
+                    "$type": "EditorStaticRigidBodyComponent",
+                    "Id": 6901803588474416989
+                },
                 "Component_[7015330279787534294]": {
                     "$type": "EditorVisibilityComponent",
                     "Id": 7015330279787534294
@@ -474,6 +478,10 @@
                 "Component_[5810197542871238612]": {
                     "$type": "EditorEntityIconComponent",
                     "Id": 5810197542871238612
+                },
+                "Component_[7338685398404292051]": {
+                    "$type": "EditorStaticRigidBodyComponent",
+                    "Id": 7338685398404292051
                 },
                 "Component_[8190325209977572815]": {
                     "$type": "EditorOnlyEntityComponent",

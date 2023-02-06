@@ -235,8 +235,7 @@
                                 0.6078431606292725
                             ],
                             "FogStartDistance": 0.0,
-                            "FogEndDistance": 2000.0,
-                            "IsEnabled": true
+                            "FogEndDistance": 2000.0
                         }
                     }
                 },
@@ -578,6 +577,10 @@
             "Id": "Entity_[402703138839801]",
             "Name": "Wall",
             "Components": {
+                "Component_[11731398738794320804]": {
+                    "$type": "EditorStaticRigidBodyComponent",
+                    "Id": 11731398738794320804
+                },
                 "Component_[12552237852692690151]": {
                     "$type": "EditorVisibilityComponent",
                     "Id": 12552237852692690151
@@ -651,6 +654,10 @@
             "Id": "Entity_[402720318708985]",
             "Name": "Wall",
             "Components": {
+                "Component_[11654883349265409901]": {
+                    "$type": "EditorStaticRigidBodyComponent",
+                    "Id": 11654883349265409901
+                },
                 "Component_[12552237852692690151]": {
                     "$type": "EditorVisibilityComponent",
                     "Id": 12552237852692690151
@@ -765,6 +772,10 @@
                         ]
                     }
                 },
+                "Component_[4597476229061883022]": {
+                    "$type": "EditorStaticRigidBodyComponent",
+                    "Id": 4597476229061883022
+                },
                 "Component_[5413950866394649821]": {
                     "$type": "EditorLockComponent",
                     "Id": 5413950866394649821
@@ -802,6 +813,10 @@
             "Id": "Entity_[402746088512761]",
             "Name": "Wall",
             "Components": {
+                "Component_[12530857459441702109]": {
+                    "$type": "EditorStaticRigidBodyComponent",
+                    "Id": 12530857459441702109
+                },
                 "Component_[12552237852692690151]": {
                     "$type": "EditorVisibilityComponent",
                     "Id": 12552237852692690151

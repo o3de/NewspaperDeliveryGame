@@ -54,6 +54,10 @@
             "Id": "Entity_[13583597810825]",
             "Name": "TrashCan",
             "Components": {
+                "Component_[10537206701491798109]": {
+                    "$type": "EditorStaticRigidBodyComponent",
+                    "Id": 10537206701491798109
+                },
                 "Component_[10789493722774215242]": {
                     "$type": "EditorDisabledCompositionComponent",
                     "Id": 10789493722774215242

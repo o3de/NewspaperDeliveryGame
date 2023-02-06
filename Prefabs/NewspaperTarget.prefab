@@ -86,6 +86,10 @@
                         "Instance_[46372565521295]/ContainerEntity"
                     ]
                 },
+                "Component_[15269032430946969616]": {
+                    "$type": "EditorStaticRigidBodyComponent",
+                    "Id": 15269032430946969616
+                },
                 "Component_[15856588326937305232]": {
                     "$type": "EditorPendingCompositionComponent",
                     "Id": 15856588326937305232
