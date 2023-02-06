@@ -437,6 +437,10 @@
                         ]
                     }
                 },
+                "Component_[8870485923821766980]": {
+                    "$type": "EditorStaticRigidBodyComponent",
+                    "Id": 8870485923821766980
+                },
                 "Component_[9815773085486113979]": {
                     "$type": "EditorEntitySortComponent",
                     "Id": 9815773085486113979
@@ -577,6 +581,10 @@
                     "$type": "EditorEntityIconComponent",
                     "Id": 3891664416649747444
                 },
+                "Component_[7202892845969300396]": {
+                    "$type": "EditorStaticRigidBodyComponent",
+                    "Id": 7202892845969300396
+                },
                 "Component_[7372186200357251224]": {
                     "$type": "EditorLockComponent",
                     "Id": 7372186200357251224
@@ -698,6 +706,10 @@
                 "Component_[13433142402633255472]": {
                     "$type": "EditorOnlyEntityComponent",
                     "Id": 13433142402633255472
+                },
+                "Component_[13550130004525770094]": {
+                    "$type": "EditorStaticRigidBodyComponent",
+                    "Id": 13550130004525770094
                 },
                 "Component_[14098718602576607786]": {
                     "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
@@ -956,6 +968,10 @@
                     "$type": "EditorLockComponent",
                     "Id": 7372186200357251224
                 },
+                "Component_[7762825402017612318]": {
+                    "$type": "EditorStaticRigidBodyComponent",
+                    "Id": 7762825402017612318
+                },
                 "Component_[7984874516937459267]": {
                     "$type": "EditorDisabledCompositionComponent",
                     "Id": 7984874516937459267
@@ -1054,6 +1070,10 @@
             "Id": "Entity_[12632247753224]",
             "Name": "Paper Stack",
             "Components": {
+                "Component_[11605912514343310129]": {
+                    "$type": "EditorStaticRigidBodyComponent",
+                    "Id": 11605912514343310129
+                },
                 "Component_[12301967286089635206]": {
                     "$type": "EditorEntitySortComponent",
                     "Id": 12301967286089635206,
@@ -1428,6 +1448,10 @@
                     "$type": "EditorLockComponent",
                     "Id": 7372186200357251224
                 },
+                "Component_[7975649740561395201]": {
+                    "$type": "EditorStaticRigidBodyComponent",
+                    "Id": 7975649740561395201
+                },
                 "Component_[7984874516937459267]": {
                     "$type": "EditorDisabledCompositionComponent",
                     "Id": 7984874516937459267
@@ -1771,6 +1795,10 @@
                     "$type": "EditorDisabledCompositionComponent",
                     "Id": 7984874516937459267
                 },
+                "Component_[8348758570132970053]": {
+                    "$type": "EditorStaticRigidBodyComponent",
+                    "Id": 8348758570132970053
+                },
                 "Component_[9136279365155419968]": {
                     "$type": "EditorPendingCompositionComponent",
                     "Id": 9136279365155419968
@@ -1781,6 +1809,10 @@
             "Id": "Entity_[12658017557000]",
             "Name": "newsman",
             "Components": {
+                "Component_[12929987276517465871]": {
+                    "$type": "EditorStaticRigidBodyComponent",
+                    "Id": 12929987276517465871
+                },
                 "Component_[13518123529242602499]": {
                     "$type": "EditorPendingCompositionComponent",
                     "Id": 13518123529242602499

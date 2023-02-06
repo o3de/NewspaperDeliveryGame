@@ -62,6 +62,10 @@
                     "$type": "EditorOnlyEntityComponent",
                     "Id": 10882499800015952800
                 },
+                "Component_[11273410122192242682]": {
+                    "$type": "EditorStaticRigidBodyComponent",
+                    "Id": 11273410122192242682
+                },
                 "Component_[12449723034020257013]": {
                     "$type": "AZ::Render::EditorMeshComponent",
                     "Id": 12449723034020257013,

@@ -220,6 +220,10 @@
                     "$type": "EditorLockComponent",
                     "Id": 7090012899106946164
                 },
+                "Component_[9183157961446999764]": {
+                    "$type": "EditorStaticRigidBodyComponent",
+                    "Id": 9183157961446999764
+                },
                 "Component_[9410832619875640998]": {
                     "$type": "EditorVisibilityComponent",
                     "Id": 9410832619875640998
@@ -3651,7 +3655,7 @@
                 {
                     "op": "replace",
                     "path": "/ContainerEntity/Components/Component_[17603529919546135644]/Transform Data/Rotate/0",
-                    "value": -25.374065399169922
+                    "value": -25.37406539916992
                 },
                 {
                     "op": "replace",
