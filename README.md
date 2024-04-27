@@ -2,7 +2,7 @@
 
 # Newspaper Delivery Game
 
-![gameplay](Media/gameplay.png?raw=true)
+![gameplay](Media/gameplay.gif?raw=true)
 
 The player takes the role of a newspaper delivery kid who, within a vast fictional 3D world, delivers newspapers to customer's homes within a set time limit. If all deliveries are made before the timer expires, the player will be allowed to progress on to the next level. Gameplay becomes exceedingly more difficult, by the numerous obstacles in the players path. Obstacles such as electric lawnmowers, cars and trucks.
 

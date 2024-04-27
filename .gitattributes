@@ -53,7 +53,6 @@
 *.fsq filter=lfs diff=lfs merge=lfs -text
 *.fxl filter=lfs diff=lfs merge=lfs -text
 *.gfx filter=lfs diff=lfs merge=lfs -text
-*.gif filter=lfs diff=lfs merge=lfs -text
 *.grd filter=lfs diff=lfs merge=lfs -text
 *.i_caf filter=lfs diff=lfs merge=lfs -text
 *.icns filter=lfs diff=lfs merge=lfs -text
