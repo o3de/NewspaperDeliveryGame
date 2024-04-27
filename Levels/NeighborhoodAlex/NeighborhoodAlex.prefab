@@ -60,10 +60,6 @@
                 "$type": "EditorEntityIconComponent",
                 "Id": 5688118765544765547
             },
-            "Component_[6545738857812235305]": {
-                "$type": "SelectionComponent",
-                "Id": 6545738857812235305
-            },
             "Component_[7247035804068349658]": {
                 "$type": "EditorPrefabComponent",
                 "Id": 7247035804068349658
@@ -83,10 +79,6 @@
             "Id": "Entity_[1155164325235]",
             "Name": "Sun",
             "Components": {
-                "Component_[10440557478882592717]": {
-                    "$type": "SelectionComponent",
-                    "Id": 10440557478882592717
-                },
                 "Component_[13620450453324765907]": {
                     "$type": "EditorLockComponent",
                     "Id": 13620450453324765907
@@ -189,8 +181,7 @@
                                 0.6078431606292725
                             ],
                             "FogStartDistance": 0.0,
-                            "FogEndDistance": 2000.0,
-                            "IsEnabled": true
+                            "FogEndDistance": 2000.0
                         }
                     }
                 },
@@ -210,10 +201,6 @@
                             0.0
                         ]
                     }
-                },
-                "Component_[18387556550380114975]": {
-                    "$type": "SelectionComponent",
-                    "Id": 18387556550380114975
                 },
                 "Component_[2654521436129313160]": {
                     "$type": "EditorVisibilityComponent",
@@ -269,10 +256,6 @@
                     "$type": "EditorLockComponent",
                     "Id": 14988041764659020032
                 },
-                "Component_[15808690248755038124]": {
-                    "$type": "SelectionComponent",
-                    "Id": 15808690248755038124
-                },
                 "Component_[15900837685796817138]": {
                     "$type": "EditorVisibilityComponent",
                     "Id": 15900837685796817138
@@ -307,10 +290,6 @@
             "Id": "Entity_[1180934129011]",
             "Name": "Global Sky",
             "Components": {
-                "Component_[11980494120202836095]": {
-                    "$type": "SelectionComponent",
-                    "Id": 11980494120202836095
-                },
                 "Component_[12182216402575906396]": {
                     "$type": "AZ::Render::EditorImageBasedLightComponent",
                     "Id": 12182216402575906396,
@@ -468,10 +447,6 @@
                     "$type": "EditorPendingCompositionComponent",
                     "Id": 2543440940045093325
                 },
-                "Component_[326209780584186918]": {
-                    "$type": "SelectionComponent",
-                    "Id": 326209780584186918
-                },
                 "Component_[7348520339633561790]": {
                     "$type": "EditorEntityIconComponent",
                     "Id": 7348520339633561790
@@ -551,10 +526,6 @@
                     "$type": "EditorOnlyEntityComponent",
                     "Id": 3253891979043622215
                 },
-                "Component_[5164808916328317205]": {
-                    "$type": "SelectionComponent",
-                    "Id": 5164808916328317205
-                },
                 "Component_[5568332434353528961]": {
                     "$type": "EditorLockComponent",
                     "Id": 5568332434353528961
@@ -622,6 +593,696 @@
                 {
                     "op": "remove",
                     "path": "/ContainerEntity/Components/Component_[12865205284592485770]/Child Entity Order/1"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[13059389645906]/Entities/Entity_[64113738348995]/Components/Component_[13217889949763174505]/ShapeConfiguration/PhysicsAsset/Asset/assetHint",
+                    "value": "assets/neighborhood/houseone.fbx.pxmesh"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[13059389645906]/Entities/Entity_[64113738348995]/Components/Component_[13217889949763174505]/ShapeConfiguration/PhysicsAsset/Configuration/PhysicsAsset/assetHint",
+                    "value": "assets/neighborhood/houseone.fbx.pxmesh"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[13059389645906]/Entities/Entity_[64113738348995]/Components/Component_[2008965779386579673]/Controller/Configuration/ModelAsset/assetHint",
+                    "value": "assets/neighborhood/houseone_dark.fbx.azmodel"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[13059389645906]/Entities/Entity_[4551059432530]/Components/Component_[7276057032838070705]/ShapeConfiguration/PhysicsAsset/Asset/assetHint",
+                    "value": "assets/neighborhood/houseone.fbx.pxmesh"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[13059389645906]/Entities/Entity_[4551059432530]/Components/Component_[7276057032838070705]/ShapeConfiguration/PhysicsAsset/Configuration/PhysicsAsset/assetHint",
+                    "value": "assets/neighborhood/houseone.fbx.pxmesh"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[13059389645906]/Entities/Entity_[4551059432530]/Components/Component_[7644915086096819377]/Controller/Configuration/ModelAsset/assetHint",
+                    "value": "assets/neighborhood/houseone.fbx.azmodel"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[13007850038354]/Entities/Entity_[64964141873603]/Components/Component_[16258631589039510913]/ShapeConfiguration/PhysicsAsset/Asset/assetHint",
+                    "value": "assets/neighborhood/housetwo.fbx.pxmesh"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[13007850038354]/Entities/Entity_[64964141873603]/Components/Component_[16258631589039510913]/ShapeConfiguration/PhysicsAsset/Configuration/PhysicsAsset/assetHint",
+                    "value": "assets/neighborhood/housetwo.fbx.pxmesh"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[13007850038354]/Entities/Entity_[64964141873603]/Components/Component_[7152035287462130957]/Controller/Configuration/ModelAsset/assetHint",
+                    "value": "assets/neighborhood/housetwo_dark.fbx.azmodel"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[13007850038354]/Entities/Entity_[4774397731922]/Components/Component_[11910089888175445162]/Controller/Configuration/ModelAsset/assetHint",
+                    "value": "assets/neighborhood/housetwo.fbx.azmodel"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[13007850038354]/Entities/Entity_[4774397731922]/Components/Component_[4053479541161709826]/ShapeConfiguration/PhysicsAsset/Asset/assetHint",
+                    "value": "assets/neighborhood/housetwo.fbx.pxmesh"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[13007850038354]/Entities/Entity_[4774397731922]/Components/Component_[4053479541161709826]/ShapeConfiguration/PhysicsAsset/Configuration/PhysicsAsset/assetHint",
+                    "value": "assets/neighborhood/housetwo.fbx.pxmesh"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[12969195332690]/Entities/Entity_[64113738348995]/Components/Component_[13217889949763174505]/ShapeConfiguration/PhysicsAsset/Asset/assetHint",
+                    "value": "assets/neighborhood/houseone.fbx.pxmesh"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[12969195332690]/Entities/Entity_[64113738348995]/Components/Component_[13217889949763174505]/ShapeConfiguration/PhysicsAsset/Configuration/PhysicsAsset/assetHint",
+                    "value": "assets/neighborhood/houseone.fbx.pxmesh"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[12969195332690]/Entities/Entity_[64113738348995]/Components/Component_[2008965779386579673]/Controller/Configuration/ModelAsset/assetHint",
+                    "value": "assets/neighborhood/houseone_dark.fbx.azmodel"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[12969195332690]/Entities/Entity_[4551059432530]/Components/Component_[7276057032838070705]/ShapeConfiguration/PhysicsAsset/Asset/assetHint",
+                    "value": "assets/neighborhood/houseone.fbx.pxmesh"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[12969195332690]/Entities/Entity_[4551059432530]/Components/Component_[7276057032838070705]/ShapeConfiguration/PhysicsAsset/Configuration/PhysicsAsset/assetHint",
+                    "value": "assets/neighborhood/houseone.fbx.pxmesh"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[12969195332690]/Entities/Entity_[4551059432530]/Components/Component_[7644915086096819377]/Controller/Configuration/ModelAsset/assetHint",
+                    "value": "assets/neighborhood/houseone.fbx.azmodel"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[12917655725138]/Entities/Entity_[64113738348995]/Components/Component_[13217889949763174505]/ShapeConfiguration/PhysicsAsset/Asset/assetHint",
+                    "value": "assets/neighborhood/houseone.fbx.pxmesh"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[12917655725138]/Entities/Entity_[64113738348995]/Components/Component_[13217889949763174505]/ShapeConfiguration/PhysicsAsset/Configuration/PhysicsAsset/assetHint",
+                    "value": "assets/neighborhood/houseone.fbx.pxmesh"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[12917655725138]/Entities/Entity_[64113738348995]/Components/Component_[2008965779386579673]/Controller/Configuration/ModelAsset/assetHint",
+                    "value": "assets/neighborhood/houseone_dark.fbx.azmodel"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[12917655725138]/Entities/Entity_[4551059432530]/Components/Component_[7276057032838070705]/ShapeConfiguration/PhysicsAsset/Asset/assetHint",
+                    "value": "assets/neighborhood/houseone.fbx.pxmesh"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[12917655725138]/Entities/Entity_[4551059432530]/Components/Component_[7276057032838070705]/ShapeConfiguration/PhysicsAsset/Configuration/PhysicsAsset/assetHint",
+                    "value": "assets/neighborhood/houseone.fbx.pxmesh"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[12917655725138]/Entities/Entity_[4551059432530]/Components/Component_[7644915086096819377]/Controller/Configuration/ModelAsset/assetHint",
+                    "value": "assets/neighborhood/houseone.fbx.azmodel"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[4877476947026]/Entities/Entity_[64113738348995]/Components/Component_[13217889949763174505]/ShapeConfiguration/PhysicsAsset/Asset/assetHint",
+                    "value": "assets/neighborhood/houseone.fbx.pxmesh"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[4877476947026]/Entities/Entity_[64113738348995]/Components/Component_[13217889949763174505]/ShapeConfiguration/PhysicsAsset/Configuration/PhysicsAsset/assetHint",
+                    "value": "assets/neighborhood/houseone.fbx.pxmesh"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[4877476947026]/Entities/Entity_[64113738348995]/Components/Component_[2008965779386579673]/Controller/Configuration/ModelAsset/assetHint",
+                    "value": "assets/neighborhood/houseone_dark.fbx.azmodel"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[4877476947026]/Entities/Entity_[4551059432530]/Components/Component_[7276057032838070705]/ShapeConfiguration/PhysicsAsset/Asset/assetHint",
+                    "value": "assets/neighborhood/houseone.fbx.pxmesh"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[4877476947026]/Entities/Entity_[4551059432530]/Components/Component_[7276057032838070705]/ShapeConfiguration/PhysicsAsset/Configuration/PhysicsAsset/assetHint",
+                    "value": "assets/neighborhood/houseone.fbx.pxmesh"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[4877476947026]/Entities/Entity_[4551059432530]/Components/Component_[7644915086096819377]/Controller/Configuration/ModelAsset/assetHint",
+                    "value": "assets/neighborhood/houseone.fbx.azmodel"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[13072274547794]/Entities/Entity_[65823135332803]/Components/Component_[2925782240960850520]/ShapeConfiguration/PhysicsAsset/Asset/assetHint",
+                    "value": "assets/neighborhood/housethree.fbx.pxmesh"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[13072274547794]/Entities/Entity_[65823135332803]/Components/Component_[2925782240960850520]/ShapeConfiguration/PhysicsAsset/Configuration/PhysicsAsset/assetHint",
+                    "value": "assets/neighborhood/housethree.fbx.pxmesh"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[13072274547794]/Entities/Entity_[65823135332803]/Components/Component_[8571449534317710586]/Controller/Configuration/ModelAsset/assetHint",
+                    "value": "assets/neighborhood/housethree_dark.fbx.azmodel"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[13072274547794]/Entities/Entity_[4662728582226]/Components/Component_[3315794935884876414]/Controller/Configuration/ModelAsset/assetHint",
+                    "value": "assets/neighborhood/housethree.fbx.azmodel"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[13072274547794]/Entities/Entity_[4662728582226]/Components/Component_[8537454777747208414]/ShapeConfiguration/PhysicsAsset/Asset/assetHint",
+                    "value": "assets/neighborhood/housethree.fbx.pxmesh"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[13072274547794]/Entities/Entity_[4662728582226]/Components/Component_[8537454777747208414]/ShapeConfiguration/PhysicsAsset/Configuration/PhysicsAsset/assetHint",
+                    "value": "assets/neighborhood/housethree.fbx.pxmesh"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[13020734940242]/Entities/Entity_[64113738348995]/Components/Component_[13217889949763174505]/ShapeConfiguration/PhysicsAsset/Asset/assetHint",
+                    "value": "assets/neighborhood/houseone.fbx.pxmesh"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[13020734940242]/Entities/Entity_[64113738348995]/Components/Component_[13217889949763174505]/ShapeConfiguration/PhysicsAsset/Configuration/PhysicsAsset/assetHint",
+                    "value": "assets/neighborhood/houseone.fbx.pxmesh"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[13020734940242]/Entities/Entity_[64113738348995]/Components/Component_[2008965779386579673]/Controller/Configuration/ModelAsset/assetHint",
+                    "value": "assets/neighborhood/houseone_dark.fbx.azmodel"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[13020734940242]/Entities/Entity_[4551059432530]/Components/Component_[7276057032838070705]/ShapeConfiguration/PhysicsAsset/Asset/assetHint",
+                    "value": "assets/neighborhood/houseone.fbx.pxmesh"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[13020734940242]/Entities/Entity_[4551059432530]/Components/Component_[7276057032838070705]/ShapeConfiguration/PhysicsAsset/Configuration/PhysicsAsset/assetHint",
+                    "value": "assets/neighborhood/houseone.fbx.pxmesh"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[13020734940242]/Entities/Entity_[4551059432530]/Components/Component_[7644915086096819377]/Controller/Configuration/ModelAsset/assetHint",
+                    "value": "assets/neighborhood/houseone.fbx.azmodel"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[12994965136466]/Entities/Entity_[16366586919363]/Components/Component_[18266077304503443422]/Controller/Configuration/ModelAsset/assetHint",
+                    "value": "assets/neighborhood/housefour_dark.fbx.azmodel"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[12994965136466]/Entities/Entity_[16366586919363]/Components/Component_[7902755800221254700]/ShapeConfiguration/PhysicsAsset/Asset/assetHint",
+                    "value": "assets/neighborhood/housefour.fbx.pxmesh"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[12994965136466]/Entities/Entity_[16366586919363]/Components/Component_[7902755800221254700]/ShapeConfiguration/PhysicsAsset/Configuration/PhysicsAsset/assetHint",
+                    "value": "assets/neighborhood/housefour.fbx.pxmesh"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[12994965136466]/Entities/Entity_[11431597040722]/Components/Component_[1666971396640748166]/ShapeConfiguration/PhysicsAsset/Asset/assetHint",
+                    "value": "assets/neighborhood/housefour.fbx.pxmesh"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[12994965136466]/Entities/Entity_[11431597040722]/Components/Component_[1666971396640748166]/ShapeConfiguration/PhysicsAsset/Configuration/PhysicsAsset/assetHint",
+                    "value": "assets/neighborhood/housefour.fbx.pxmesh"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[12994965136466]/Entities/Entity_[11431597040722]/Components/Component_[533821160882847813]/Controller/Configuration/ModelAsset/assetHint",
+                    "value": "assets/neighborhood/housefour.fbx.azmodel"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[13110929253458]/Entities/Entity_[64113738348995]/Components/Component_[13217889949763174505]/ShapeConfiguration/PhysicsAsset/Asset/assetHint",
+                    "value": "assets/neighborhood/houseone.fbx.pxmesh"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[13110929253458]/Entities/Entity_[64113738348995]/Components/Component_[13217889949763174505]/ShapeConfiguration/PhysicsAsset/Configuration/PhysicsAsset/assetHint",
+                    "value": "assets/neighborhood/houseone.fbx.pxmesh"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[13110929253458]/Entities/Entity_[64113738348995]/Components/Component_[2008965779386579673]/Controller/Configuration/ModelAsset/assetHint",
+                    "value": "assets/neighborhood/houseone_dark.fbx.azmodel"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[13110929253458]/Entities/Entity_[4551059432530]/Components/Component_[7276057032838070705]/ShapeConfiguration/PhysicsAsset/Asset/assetHint",
+                    "value": "assets/neighborhood/houseone.fbx.pxmesh"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[13110929253458]/Entities/Entity_[4551059432530]/Components/Component_[7276057032838070705]/ShapeConfiguration/PhysicsAsset/Configuration/PhysicsAsset/assetHint",
+                    "value": "assets/neighborhood/houseone.fbx.pxmesh"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[13110929253458]/Entities/Entity_[4551059432530]/Components/Component_[7644915086096819377]/Controller/Configuration/ModelAsset/assetHint",
+                    "value": "assets/neighborhood/houseone.fbx.azmodel"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[12943425528914]/Entities/Entity_[65823135332803]/Components/Component_[2925782240960850520]/ShapeConfiguration/PhysicsAsset/Asset/assetHint",
+                    "value": "assets/neighborhood/housethree.fbx.pxmesh"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[12943425528914]/Entities/Entity_[65823135332803]/Components/Component_[2925782240960850520]/ShapeConfiguration/PhysicsAsset/Configuration/PhysicsAsset/assetHint",
+                    "value": "assets/neighborhood/housethree.fbx.pxmesh"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[12943425528914]/Entities/Entity_[65823135332803]/Components/Component_[8571449534317710586]/Controller/Configuration/ModelAsset/assetHint",
+                    "value": "assets/neighborhood/housethree_dark.fbx.azmodel"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[12943425528914]/Entities/Entity_[4662728582226]/Components/Component_[3315794935884876414]/Controller/Configuration/ModelAsset/assetHint",
+                    "value": "assets/neighborhood/housethree.fbx.azmodel"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[12943425528914]/Entities/Entity_[4662728582226]/Components/Component_[8537454777747208414]/ShapeConfiguration/PhysicsAsset/Asset/assetHint",
+                    "value": "assets/neighborhood/housethree.fbx.pxmesh"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[12943425528914]/Entities/Entity_[4662728582226]/Components/Component_[8537454777747208414]/ShapeConfiguration/PhysicsAsset/Configuration/PhysicsAsset/assetHint",
+                    "value": "assets/neighborhood/housethree.fbx.pxmesh"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[13046504744018]/Entities/Entity_[64964141873603]/Components/Component_[16258631589039510913]/ShapeConfiguration/PhysicsAsset/Asset/assetHint",
+                    "value": "assets/neighborhood/housetwo.fbx.pxmesh"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[13046504744018]/Entities/Entity_[64964141873603]/Components/Component_[16258631589039510913]/ShapeConfiguration/PhysicsAsset/Configuration/PhysicsAsset/assetHint",
+                    "value": "assets/neighborhood/housetwo.fbx.pxmesh"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[13046504744018]/Entities/Entity_[64964141873603]/Components/Component_[7152035287462130957]/Controller/Configuration/ModelAsset/assetHint",
+                    "value": "assets/neighborhood/housetwo_dark.fbx.azmodel"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[13046504744018]/Entities/Entity_[4774397731922]/Components/Component_[11910089888175445162]/Controller/Configuration/ModelAsset/assetHint",
+                    "value": "assets/neighborhood/housetwo.fbx.azmodel"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[13046504744018]/Entities/Entity_[4774397731922]/Components/Component_[4053479541161709826]/ShapeConfiguration/PhysicsAsset/Asset/assetHint",
+                    "value": "assets/neighborhood/housetwo.fbx.pxmesh"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[13046504744018]/Entities/Entity_[4774397731922]/Components/Component_[4053479541161709826]/ShapeConfiguration/PhysicsAsset/Configuration/PhysicsAsset/assetHint",
+                    "value": "assets/neighborhood/housetwo.fbx.pxmesh"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[12982080234578]/Entities/Entity_[64113738348995]/Components/Component_[13217889949763174505]/ShapeConfiguration/PhysicsAsset/Asset/assetHint",
+                    "value": "assets/neighborhood/houseone.fbx.pxmesh"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[12982080234578]/Entities/Entity_[64113738348995]/Components/Component_[13217889949763174505]/ShapeConfiguration/PhysicsAsset/Configuration/PhysicsAsset/assetHint",
+                    "value": "assets/neighborhood/houseone.fbx.pxmesh"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[12982080234578]/Entities/Entity_[64113738348995]/Components/Component_[2008965779386579673]/Controller/Configuration/ModelAsset/assetHint",
+                    "value": "assets/neighborhood/houseone_dark.fbx.azmodel"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[12982080234578]/Entities/Entity_[4551059432530]/Components/Component_[7276057032838070705]/ShapeConfiguration/PhysicsAsset/Asset/assetHint",
+                    "value": "assets/neighborhood/houseone.fbx.pxmesh"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[12982080234578]/Entities/Entity_[4551059432530]/Components/Component_[7276057032838070705]/ShapeConfiguration/PhysicsAsset/Configuration/PhysicsAsset/assetHint",
+                    "value": "assets/neighborhood/houseone.fbx.pxmesh"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[12982080234578]/Entities/Entity_[4551059432530]/Components/Component_[7644915086096819377]/Controller/Configuration/ModelAsset/assetHint",
+                    "value": "assets/neighborhood/houseone.fbx.azmodel"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[13098044351570]/Entities/Entity_[64964141873603]/Components/Component_[16258631589039510913]/ShapeConfiguration/PhysicsAsset/Asset/assetHint",
+                    "value": "assets/neighborhood/housetwo.fbx.pxmesh"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[13098044351570]/Entities/Entity_[64964141873603]/Components/Component_[16258631589039510913]/ShapeConfiguration/PhysicsAsset/Configuration/PhysicsAsset/assetHint",
+                    "value": "assets/neighborhood/housetwo.fbx.pxmesh"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[13098044351570]/Entities/Entity_[64964141873603]/Components/Component_[7152035287462130957]/Controller/Configuration/ModelAsset/assetHint",
+                    "value": "assets/neighborhood/housetwo_dark.fbx.azmodel"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[13098044351570]/Entities/Entity_[4774397731922]/Components/Component_[11910089888175445162]/Controller/Configuration/ModelAsset/assetHint",
+                    "value": "assets/neighborhood/housetwo.fbx.azmodel"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[13098044351570]/Entities/Entity_[4774397731922]/Components/Component_[4053479541161709826]/ShapeConfiguration/PhysicsAsset/Asset/assetHint",
+                    "value": "assets/neighborhood/housetwo.fbx.pxmesh"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[13098044351570]/Entities/Entity_[4774397731922]/Components/Component_[4053479541161709826]/ShapeConfiguration/PhysicsAsset/Configuration/PhysicsAsset/assetHint",
+                    "value": "assets/neighborhood/housetwo.fbx.pxmesh"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[12956310430802]/Entities/Entity_[65823135332803]/Components/Component_[2925782240960850520]/ShapeConfiguration/PhysicsAsset/Asset/assetHint",
+                    "value": "assets/neighborhood/housethree.fbx.pxmesh"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[12956310430802]/Entities/Entity_[65823135332803]/Components/Component_[2925782240960850520]/ShapeConfiguration/PhysicsAsset/Configuration/PhysicsAsset/assetHint",
+                    "value": "assets/neighborhood/housethree.fbx.pxmesh"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[12956310430802]/Entities/Entity_[65823135332803]/Components/Component_[8571449534317710586]/Controller/Configuration/ModelAsset/assetHint",
+                    "value": "assets/neighborhood/housethree_dark.fbx.azmodel"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[12956310430802]/Entities/Entity_[4662728582226]/Components/Component_[3315794935884876414]/Controller/Configuration/ModelAsset/assetHint",
+                    "value": "assets/neighborhood/housethree.fbx.azmodel"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[12956310430802]/Entities/Entity_[4662728582226]/Components/Component_[8537454777747208414]/ShapeConfiguration/PhysicsAsset/Asset/assetHint",
+                    "value": "assets/neighborhood/housethree.fbx.pxmesh"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[12956310430802]/Entities/Entity_[4662728582226]/Components/Component_[8537454777747208414]/ShapeConfiguration/PhysicsAsset/Configuration/PhysicsAsset/assetHint",
+                    "value": "assets/neighborhood/housethree.fbx.pxmesh"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[4542469497938]/Entities/Entity_[64113738348995]/Components/Component_[13217889949763174505]/ShapeConfiguration/PhysicsAsset/Asset/assetHint",
+                    "value": "assets/neighborhood/houseone.fbx.pxmesh"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[4542469497938]/Entities/Entity_[64113738348995]/Components/Component_[13217889949763174505]/ShapeConfiguration/PhysicsAsset/Configuration/PhysicsAsset/assetHint",
+                    "value": "assets/neighborhood/houseone.fbx.pxmesh"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[4542469497938]/Entities/Entity_[64113738348995]/Components/Component_[2008965779386579673]/Controller/Configuration/ModelAsset/assetHint",
+                    "value": "assets/neighborhood/houseone_dark.fbx.azmodel"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[4542469497938]/Entities/Entity_[4551059432530]/Components/Component_[7276057032838070705]/ShapeConfiguration/PhysicsAsset/Asset/assetHint",
+                    "value": "assets/neighborhood/houseone.fbx.pxmesh"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[4542469497938]/Entities/Entity_[4551059432530]/Components/Component_[7276057032838070705]/ShapeConfiguration/PhysicsAsset/Configuration/PhysicsAsset/assetHint",
+                    "value": "assets/neighborhood/houseone.fbx.pxmesh"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[4542469497938]/Entities/Entity_[4551059432530]/Components/Component_[7644915086096819377]/Controller/Configuration/ModelAsset/assetHint",
+                    "value": "assets/neighborhood/houseone.fbx.azmodel"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[12904770823250]/Entities/Entity_[64964141873603]/Components/Component_[16258631589039510913]/ShapeConfiguration/PhysicsAsset/Asset/assetHint",
+                    "value": "assets/neighborhood/housetwo.fbx.pxmesh"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[12904770823250]/Entities/Entity_[64964141873603]/Components/Component_[16258631589039510913]/ShapeConfiguration/PhysicsAsset/Configuration/PhysicsAsset/assetHint",
+                    "value": "assets/neighborhood/housetwo.fbx.pxmesh"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[12904770823250]/Entities/Entity_[64964141873603]/Components/Component_[7152035287462130957]/Controller/Configuration/ModelAsset/assetHint",
+                    "value": "assets/neighborhood/housetwo_dark.fbx.azmodel"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[12904770823250]/Entities/Entity_[4774397731922]/Components/Component_[11910089888175445162]/Controller/Configuration/ModelAsset/assetHint",
+                    "value": "assets/neighborhood/housetwo.fbx.azmodel"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[12904770823250]/Entities/Entity_[4774397731922]/Components/Component_[4053479541161709826]/ShapeConfiguration/PhysicsAsset/Asset/assetHint",
+                    "value": "assets/neighborhood/housetwo.fbx.pxmesh"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[12904770823250]/Entities/Entity_[4774397731922]/Components/Component_[4053479541161709826]/ShapeConfiguration/PhysicsAsset/Configuration/PhysicsAsset/assetHint",
+                    "value": "assets/neighborhood/housetwo.fbx.pxmesh"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[4765807797330]/Entities/Entity_[64964141873603]/Components/Component_[16258631589039510913]/ShapeConfiguration/PhysicsAsset/Asset/assetHint",
+                    "value": "assets/neighborhood/housetwo.fbx.pxmesh"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[4765807797330]/Entities/Entity_[64964141873603]/Components/Component_[16258631589039510913]/ShapeConfiguration/PhysicsAsset/Configuration/PhysicsAsset/assetHint",
+                    "value": "assets/neighborhood/housetwo.fbx.pxmesh"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[4765807797330]/Entities/Entity_[64964141873603]/Components/Component_[7152035287462130957]/Controller/Configuration/ModelAsset/assetHint",
+                    "value": "assets/neighborhood/housetwo_dark.fbx.azmodel"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[4765807797330]/Entities/Entity_[4774397731922]/Components/Component_[11910089888175445162]/Controller/Configuration/ModelAsset/assetHint",
+                    "value": "assets/neighborhood/housetwo.fbx.azmodel"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[4765807797330]/Entities/Entity_[4774397731922]/Components/Component_[4053479541161709826]/ShapeConfiguration/PhysicsAsset/Asset/assetHint",
+                    "value": "assets/neighborhood/housetwo.fbx.pxmesh"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[4765807797330]/Entities/Entity_[4774397731922]/Components/Component_[4053479541161709826]/ShapeConfiguration/PhysicsAsset/Configuration/PhysicsAsset/assetHint",
+                    "value": "assets/neighborhood/housetwo.fbx.pxmesh"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[13033619842130]/Entities/Entity_[16366586919363]/Components/Component_[18266077304503443422]/Controller/Configuration/ModelAsset/assetHint",
+                    "value": "assets/neighborhood/housefour_dark.fbx.azmodel"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[13033619842130]/Entities/Entity_[16366586919363]/Components/Component_[7902755800221254700]/ShapeConfiguration/PhysicsAsset/Asset/assetHint",
+                    "value": "assets/neighborhood/housefour.fbx.pxmesh"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[13033619842130]/Entities/Entity_[16366586919363]/Components/Component_[7902755800221254700]/ShapeConfiguration/PhysicsAsset/Configuration/PhysicsAsset/assetHint",
+                    "value": "assets/neighborhood/housefour.fbx.pxmesh"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[13033619842130]/Entities/Entity_[11431597040722]/Components/Component_[1666971396640748166]/ShapeConfiguration/PhysicsAsset/Asset/assetHint",
+                    "value": "assets/neighborhood/housefour.fbx.pxmesh"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[13033619842130]/Entities/Entity_[11431597040722]/Components/Component_[1666971396640748166]/ShapeConfiguration/PhysicsAsset/Configuration/PhysicsAsset/assetHint",
+                    "value": "assets/neighborhood/housefour.fbx.pxmesh"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[13033619842130]/Entities/Entity_[11431597040722]/Components/Component_[533821160882847813]/Controller/Configuration/ModelAsset/assetHint",
+                    "value": "assets/neighborhood/housefour.fbx.azmodel"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[12930540627026]/Entities/Entity_[16366586919363]/Components/Component_[18266077304503443422]/Controller/Configuration/ModelAsset/assetHint",
+                    "value": "assets/neighborhood/housefour_dark.fbx.azmodel"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[12930540627026]/Entities/Entity_[16366586919363]/Components/Component_[7902755800221254700]/ShapeConfiguration/PhysicsAsset/Asset/assetHint",
+                    "value": "assets/neighborhood/housefour.fbx.pxmesh"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[12930540627026]/Entities/Entity_[16366586919363]/Components/Component_[7902755800221254700]/ShapeConfiguration/PhysicsAsset/Configuration/PhysicsAsset/assetHint",
+                    "value": "assets/neighborhood/housefour.fbx.pxmesh"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[12930540627026]/Entities/Entity_[11431597040722]/Components/Component_[1666971396640748166]/ShapeConfiguration/PhysicsAsset/Asset/assetHint",
+                    "value": "assets/neighborhood/housefour.fbx.pxmesh"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[12930540627026]/Entities/Entity_[11431597040722]/Components/Component_[1666971396640748166]/ShapeConfiguration/PhysicsAsset/Configuration/PhysicsAsset/assetHint",
+                    "value": "assets/neighborhood/housefour.fbx.pxmesh"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[12930540627026]/Entities/Entity_[11431597040722]/Components/Component_[533821160882847813]/Controller/Configuration/ModelAsset/assetHint",
+                    "value": "assets/neighborhood/housefour.fbx.azmodel"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[13085159449682]/Entities/Entity_[64964141873603]/Components/Component_[16258631589039510913]/ShapeConfiguration/PhysicsAsset/Asset/assetHint",
+                    "value": "assets/neighborhood/housetwo.fbx.pxmesh"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[13085159449682]/Entities/Entity_[64964141873603]/Components/Component_[16258631589039510913]/ShapeConfiguration/PhysicsAsset/Configuration/PhysicsAsset/assetHint",
+                    "value": "assets/neighborhood/housetwo.fbx.pxmesh"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[13085159449682]/Entities/Entity_[64964141873603]/Components/Component_[7152035287462130957]/Controller/Configuration/ModelAsset/assetHint",
+                    "value": "assets/neighborhood/housetwo_dark.fbx.azmodel"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[13085159449682]/Entities/Entity_[4774397731922]/Components/Component_[11910089888175445162]/Controller/Configuration/ModelAsset/assetHint",
+                    "value": "assets/neighborhood/housetwo.fbx.azmodel"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[13085159449682]/Entities/Entity_[4774397731922]/Components/Component_[4053479541161709826]/ShapeConfiguration/PhysicsAsset/Asset/assetHint",
+                    "value": "assets/neighborhood/housetwo.fbx.pxmesh"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[13085159449682]/Entities/Entity_[4774397731922]/Components/Component_[4053479541161709826]/ShapeConfiguration/PhysicsAsset/Configuration/PhysicsAsset/assetHint",
+                    "value": "assets/neighborhood/housetwo.fbx.pxmesh"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[11423007106130]/Entities/Entity_[16366586919363]/Components/Component_[18266077304503443422]/Controller/Configuration/ModelAsset/assetHint",
+                    "value": "assets/neighborhood/housefour_dark.fbx.azmodel"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[11423007106130]/Entities/Entity_[16366586919363]/Components/Component_[7902755800221254700]/ShapeConfiguration/PhysicsAsset/Asset/assetHint",
+                    "value": "assets/neighborhood/housefour.fbx.pxmesh"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[11423007106130]/Entities/Entity_[16366586919363]/Components/Component_[7902755800221254700]/ShapeConfiguration/PhysicsAsset/Configuration/PhysicsAsset/assetHint",
+                    "value": "assets/neighborhood/housefour.fbx.pxmesh"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[11423007106130]/Entities/Entity_[11431597040722]/Components/Component_[1666971396640748166]/ShapeConfiguration/PhysicsAsset/Asset/assetHint",
+                    "value": "assets/neighborhood/housefour.fbx.pxmesh"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[11423007106130]/Entities/Entity_[11431597040722]/Components/Component_[1666971396640748166]/ShapeConfiguration/PhysicsAsset/Configuration/PhysicsAsset/assetHint",
+                    "value": "assets/neighborhood/housefour.fbx.pxmesh"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[11423007106130]/Entities/Entity_[11431597040722]/Components/Component_[533821160882847813]/Controller/Configuration/ModelAsset/assetHint",
+                    "value": "assets/neighborhood/housefour.fbx.azmodel"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[4654138647634]/Entities/Entity_[65823135332803]/Components/Component_[2925782240960850520]/ShapeConfiguration/PhysicsAsset/Asset/assetHint",
+                    "value": "assets/neighborhood/housethree.fbx.pxmesh"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[4654138647634]/Entities/Entity_[65823135332803]/Components/Component_[2925782240960850520]/ShapeConfiguration/PhysicsAsset/Configuration/PhysicsAsset/assetHint",
+                    "value": "assets/neighborhood/housethree.fbx.pxmesh"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[4654138647634]/Entities/Entity_[65823135332803]/Components/Component_[8571449534317710586]/Controller/Configuration/ModelAsset/assetHint",
+                    "value": "assets/neighborhood/housethree_dark.fbx.azmodel"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[4654138647634]/Entities/Entity_[4662728582226]/Components/Component_[3315794935884876414]/Controller/Configuration/ModelAsset/assetHint",
+                    "value": "assets/neighborhood/housethree.fbx.azmodel"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[4654138647634]/Entities/Entity_[4662728582226]/Components/Component_[8537454777747208414]/ShapeConfiguration/PhysicsAsset/Asset/assetHint",
+                    "value": "assets/neighborhood/housethree.fbx.pxmesh"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Instances/Instance_[4654138647634]/Entities/Entity_[4662728582226]/Components/Component_[8537454777747208414]/ShapeConfiguration/PhysicsAsset/Configuration/PhysicsAsset/assetHint",
+                    "value": "assets/neighborhood/housethree.fbx.pxmesh"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[1769979202242]/Components/Component_[12892409599045525463]/ShapeConfiguration/PhysicsAsset/Asset/assetHint",
+                    "value": "assets/neighborhood/street.fbx.pxmesh"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[1769979202242]/Components/Component_[12892409599045525463]/ShapeConfiguration/PhysicsAsset/Configuration/PhysicsAsset/assetHint",
+                    "value": "assets/neighborhood/street.fbx.pxmesh"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[1769979202242]/Components/Component_[8303608808316520104]/Controller/Configuration/ModelAsset/assetHint",
+                    "value": "assets/neighborhood/street.fbx.azmodel"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[1765684234946]/Components/Component_[3474837776162240276]/Controller/Configuration/ModelAsset/assetHint",
+                    "value": "assets/neighborhood/sidewalks.fbx.azmodel"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[1765684234946]/Components/Component_[6460084305053662076]/ShapeConfiguration/PhysicsAsset/Asset/assetHint",
+                    "value": "assets/neighborhood/sidewalks.fbx.pxmesh"
+                },
+                {
+                    "op": "replace",
+                    "path": "/Entities/Entity_[1765684234946]/Components/Component_[6460084305053662076]/ShapeConfiguration/PhysicsAsset/Configuration/PhysicsAsset/assetHint",
+                    "value": "assets/neighborhood/sidewalks.fbx.pxmesh"
                 }
             ]
         },
