@@ -17,5 +17,6 @@
     "engine": "o3de",
     "external_subdirectories": [
         "Gem"
-    ]
+    ],
+    "engine_version": "2.2.2"
 }
