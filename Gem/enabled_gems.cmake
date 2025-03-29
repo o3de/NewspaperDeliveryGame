@@ -10,7 +10,6 @@ set(ENABLED_GEMS
     Paper_Kid
     Atom
     AudioSystem
-    AWSCore
     CameraFramework
     DebugDraw
     EditorPythonBindings
