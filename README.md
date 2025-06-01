@@ -1,4 +1,4 @@
-<u>Supported o3de versions</u> : **23.10**
+<u>Supported o3de versions</u> : **24.09.2**
 
 # Newspaper Delivery Game
 
@@ -20,8 +20,7 @@ You need to [install git with lfs support](https://git-scm.com/downloads), and [
 
 ![project](Media/project.png?raw=true)
 
-4. Click on the **Build Project** button, located on the **Newspaper_Delivery_Game** image.
-5. Once the project has been built successfully, use the **Open Editor** button.
+4. Click on the **Open Editor** button.
 6. The asset pre-processor will run for a bit. Once it is over you will be welcomed with the **Open a Level** window. Pick the **Neighborhood**.
 
 ## Controls

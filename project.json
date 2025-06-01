@@ -1,12 +1,13 @@
 {
     "project_name": "Paper_Kid",
-    "product_name": "Paper_Kid",
-    "project_id": "{4A7C157B-A820-441E-A9BA-5D51113BD9E5}",
+    "version": "1.0.0",
+    "project_id": "{DC2A7860-D1CE-49A9-8F01-7B8F5F67458B}",
     "origin": "https://github.com/o3de/o3de-NewspaperDeliveryGame",
     "origin_uri": "https://github.com/o3de/NewspaperDeliveryGame.git",
     "license": "For terms please see the LICENSE*.TXT file at the root of this distribution.",
     "display_name": "Newspaper_Delivery_Game",
-    "summary": "A short description of Newspaper_Delivery_Game.",
+    "summary": "A short description of Paper_Kid.",
+    "script_only": true,
     "canonical_tags": [
         "Project"
     ],
@@ -15,8 +16,30 @@
     ],
     "icon_path": "preview.png",
     "engine": "o3de",
-    "external_subdirectories": [
-        "Gem"
+    "restricted": "Paper_Kid",
+    "gem_names": [
+        "Atom",
+        "AudioSystem",
+        "CameraFramework",
+        "Compression",
+        "DebugDraw",
+        "DiffuseProbeGrid",
+        "EditorPythonBindings",
+        "EMotionFX",
+        "GameState",
+        "ImGui",
+        "LandscapeCanvas",
+        "LyShine",
+        "PhysX",
+        "PrimitiveAssets",
+        "PrefabBuilder",
+        "SaveData",
+        "ScriptCanvasPhysics",
+        "ScriptEvents",
+        "StartingPointInput",
+        "TextureAtlas",
+        "WhiteBox",
+        "RemoteTools"
     ],
-    "engine_version": "2.2.2"
+    "engine_version": "4.2.0"
 }
