@@ -21,7 +21,7 @@ You need to [install git with lfs support](https://git-scm.com/downloads), and [
 ![project](Media/project.png?raw=true)
 
 4. Click on the **Open Editor** button.
-6. The asset pre-processor will run for a bit. Once it is over you will be welcomed with the **Open a Level** window. Pick the **Neighborhood**.
+5. The asset pre-processor will run for a bit. Once it is over you will be welcomed with the **Open a Level** window. Pick the **Neighborhood**.
 
 ## Controls
 
