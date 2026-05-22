@@ -1,4 +1,4 @@
-<u>Supported o3de versions</u> : **24.09.2**
+<u>Supported o3de versions</u> : **24.09.2, 26.05.0+**
 
 # Newspaper Delivery Game
 
